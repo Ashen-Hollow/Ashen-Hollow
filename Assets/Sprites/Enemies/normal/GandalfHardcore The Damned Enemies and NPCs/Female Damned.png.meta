@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: f7b38abd982999342a63a8e72f77297c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6437604380420112670
+    second: Female Damned_0
+  - first:
+      213: -6612377206869233989
+    second: Female Damned_1
+  - first:
+      213: 3652553118492174854
+    second: Female Damned_2
+  - first:
+      213: 2147154368981318127
+    second: Female Damned_3
+  - first:
+      213: 6025465980306086045
+    second: Female Damned_4
+  - first:
+      213: -933701503274887634
+    second: Female Damned_5
+  - first:
+      213: 8574188629506033621
+    second: Female Damned_6
+  - first:
+      213: 2613024561134367308
+    second: Female Damned_7
+  - first:
+      213: -2231672157951936953
+    second: Female Damned_8
+  - first:
+      213: -2778312570124847055
+    second: Female Damned_9
+  - first:
+      213: -6821001350066655635
+    second: Female Damned_10
+  - first:
+      213: -3933563924549933984
+    second: Female Damned_11
+  - first:
+      213: -6812401083786344375
+    second: Female Damned_12
+  - first:
+      213: 8683040173564122073
+    second: Female Damned_13
+  - first:
+      213: -5147043938242951275
+    second: Female Damned_14
+  - first:
+      213: -664234036447237549
+    second: Female Damned_15
+  - first:
+      213: 3918415661285453636
+    second: Female Damned_16
+  - first:
+      213: 4851244408567112647
+    second: Female Damned_17
+  - first:
+      213: -760392997915551223
+    second: Female Damned_18
+  - first:
+      213: 6502912097618949480
+    second: Female Damned_19
+  - first:
+      213: 7253339500258850987
+    second: Female Damned_20
+  - first:
+      213: -5194931318161988566
+    second: Female Damned_21
+  - first:
+      213: 7942767784329085428
+    second: Female Damned_22
+  - first:
+      213: -8977901302921588155
+    second: Female Damned_23
+  - first:
+      213: 324971639008156036
+    second: Female Damned_24
+  - first:
+      213: 1474741041533925025
+    second: Female Damned_25
+  - first:
+      213: -2735245184472727371
+    second: Female Damned_26
+  - first:
+      213: -1557438709553392220
+    second: Female Damned_27
+  - first:
+      213: -8102360912383339368
+    second: Female Damned_28
+  - first:
+      213: -2337306639182661953
+    second: Female Damned_29
+  - first:
+      213: 5558564706780042585
+    second: Female Damned_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Female Damned_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 191
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11807b7317f65950800000000000000
+      internalID: 6437604380420112670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 191
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe6ba7d6fd1c34a0800000000000000
+      internalID: -6612377206869233989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 191
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60aa8fe85b970b230800000000000000
+      internalID: 3652553118492174854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 191
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe93f01c5893ccd10800000000000000
+      internalID: 2147154368981318127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 191
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9858528261ce9350800000000000000
+      internalID: 6025465980306086045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 127
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e265d030e63da03f0800000000000000
+      internalID: -933701503274887634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 127
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d786ea6123adf670800000000000000
+      internalID: 8574188629506033621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_7
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 127
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42f8c37ef3534420800000000000000
+      internalID: 2613024561134367308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_8
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 127
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746352a0ff18701e0800000000000000
+      internalID: -2231672157951936953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_9
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 127
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138b4b600737179d0800000000000000
+      internalID: -2778312570124847055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_10
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 127
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e21dc496fe651a0800000000000000
+      internalID: -6821001350066655635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_11
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 127
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064e8e7937c2969c0800000000000000
+      internalID: -3933563924549933984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_12
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 127
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948cd65de4d7571a0800000000000000
+      internalID: -6812401083786344375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_13
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d35cbb780b508870800000000000000
+      internalID: 8683040173564122073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_14
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 63
+        width: 21
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59783b1fec60298b0800000000000000
+      internalID: -5147043938242951275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_15
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 63
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35aa6d1c9aa28c6f0800000000000000
+      internalID: -664234036447237549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_16
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 17
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f2f358842016630800000000000000
+      internalID: 3918415661285453636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_17
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c32e3b2615135340800000000000000
+      internalID: 4851244408567112647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 63
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a9c8dd89a8275f0800000000000000
+      internalID: -760392997915551223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_19
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 19
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865fa20591cfe3a50800000000000000
+      internalID: 6502912097618949480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_20
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 15
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8fc3c78d909a460800000000000000
+      internalID: 7253339500258850987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_21
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2427647d75e7e7b0800000000000000
+      internalID: -5194931318161988566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_22
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 27
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f10a5e97316a3e60800000000000000
+      internalID: 7942767784329085428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_23
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54297daf456186380800000000000000
+      internalID: -8977901302921588155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_24
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 14
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4895821ebf7828400800000000000000
+      internalID: 324971639008156036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_25
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 63
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6b15ce925577410800000000000000
+      internalID: 1474741041533925025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_26
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 17
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0c7e52ff47a0ad0800000000000000
+      internalID: -2735245184472727371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_27
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a590adcebdd26ae0800000000000000
+      internalID: -1557438709553392220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_28
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 13
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8949167ada1ae8f80800000000000000
+      internalID: -8102360912383339368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_29
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 0
+        width: 27
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6fa58cef7309fd0800000000000000
+      internalID: -2337306639182661953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Damned_30
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2
+        width: 89
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955d5a8762df32d40800000000000000
+      internalID: 5558564706780042585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Female Damned_0: 6437604380420112670
+      Female Damned_1: -6612377206869233989
+      Female Damned_10: -6821001350066655635
+      Female Damned_11: -3933563924549933984
+      Female Damned_12: -6812401083786344375
+      Female Damned_13: 8683040173564122073
+      Female Damned_14: -5147043938242951275
+      Female Damned_15: -664234036447237549
+      Female Damned_16: 3918415661285453636
+      Female Damned_17: 4851244408567112647
+      Female Damned_18: -760392997915551223
+      Female Damned_19: 6502912097618949480
+      Female Damned_2: 3652553118492174854
+      Female Damned_20: 7253339500258850987
+      Female Damned_21: -5194931318161988566
+      Female Damned_22: 7942767784329085428
+      Female Damned_23: -8977901302921588155
+      Female Damned_24: 324971639008156036
+      Female Damned_25: 1474741041533925025
+      Female Damned_26: -2735245184472727371
+      Female Damned_27: -1557438709553392220
+      Female Damned_28: -8102360912383339368
+      Female Damned_29: -2337306639182661953
+      Female Damned_3: 2147154368981318127
+      Female Damned_30: 5558564706780042585
+      Female Damned_4: 6025465980306086045
+      Female Damned_5: -933701503274887634
+      Female Damned_6: 8574188629506033621
+      Female Damned_7: 2613024561134367308
+      Female Damned_8: -2231672157951936953
+      Female Damned_9: -2778312570124847055
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: e9f0ffc9495d67844a50e33e47b5b10e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1712585730117842881
+    second: Female Hair2_0
+  - first:
+      213: -14088524900574956
+    second: Female Hair2_1
+  - first:
+      213: -1038139689204034622
+    second: Female Hair2_2
+  - first:
+      213: -1941512014938291585
+    second: Female Hair2_3
+  - first:
+      213: -2169044749770683681
+    second: Female Hair2_4
+  - first:
+      213: 8474509249978299062
+    second: Female Hair2_5
+  - first:
+      213: 93779249517730841
+    second: Female Hair2_6
+  - first:
+      213: -8514062714940880032
+    second: Female Hair2_7
+  - first:
+      213: -7489718713120304512
+    second: Female Hair2_8
+  - first:
+      213: 5883841438740276829
+    second: Female Hair2_9
+  - first:
+      213: -4551058830365960071
+    second: Female Hair2_10
+  - first:
+      213: -980967003095442105
+    second: Female Hair2_11
+  - first:
+      213: -2869374172417945932
+    second: Female Hair2_12
+  - first:
+      213: -5153665399448665311
+    second: Female Hair2_13
+  - first:
+      213: 3805516347918803746
+    second: Female Hair2_14
+  - first:
+      213: -3585374687479997883
+    second: Female Hair2_15
+  - first:
+      213: -3731686757827548042
+    second: Female Hair2_16
+  - first:
+      213: -2056856301355356127
+    second: Female Hair2_17
+  - first:
+      213: 881136473130386631
+    second: Female Hair2_18
+  - first:
+      213: -5716669959234651315
+    second: Female Hair2_19
+  - first:
+      213: -8642210793486005799
+    second: Female Hair2_20
+  - first:
+      213: -5772424539555134097
+    second: Female Hair2_21
+  - first:
+      213: -8902861858773730597
+    second: Female Hair2_22
+  - first:
+      213: 963170049224404874
+    second: Female Hair2_23
+  - first:
+      213: -7241350819910150716
+    second: Female Hair2_24
+  - first:
+      213: -4547067782745810962
+    second: Female Hair2_25
+  - first:
+      213: -375401735047156271
+    second: Female Hair2_26
+  - first:
+      213: -2416046037121136828
+    second: Female Hair2_27
+  - first:
+      213: -8694366726588759931
+    second: Female Hair2_28
+  - first:
+      213: 6133201219222334757
+    second: Female Hair2_29
+  - first:
+      213: -9005957815188086052
+    second: Female Hair2_30
+  - first:
+      213: 7696146568597957796
+    second: Female Hair2_31
+  - first:
+      213: -8245885020706960707
+    second: Female Hair2_32
+  - first:
+      213: 1906811874036117845
+    second: Female Hair2_33
+  - first:
+      213: -695989815046338942
+    second: Female Hair2_34
+  - first:
+      213: -5513928845780394118
+    second: Female Hair2_35
+  - first:
+      213: -2083092042037258093
+    second: Female Hair2_36
+  - first:
+      213: -5503145702833884683
+    second: Female Hair2_37
+  - first:
+      213: 852575782180957614
+    second: Female Hair2_38
+  - first:
+      213: -4857794356594384650
+    second: Female Hair2_39
+  - first:
+      213: -959755208801064617
+    second: Female Hair2_40
+  - first:
+      213: -4173331735533565389
+    second: Female Hair2_41
+  - first:
+      213: -74830321342860886
+    second: Female Hair2_42
+  - first:
+      213: 4613098718949022921
+    second: Female Hair2_43
+  - first:
+      213: 3708420609678867867
+    second: Female Hair2_44
+  - first:
+      213: -4452823487206318358
+    second: Female Hair2_45
+  - first:
+      213: -8870384883782010249
+    second: Female Hair2_46
+  - first:
+      213: -8829742738283706694
+    second: Female Hair2_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Female Hair2_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 408
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f384ce42a5cab38e0800000000000000
+      internalID: -1712585730117842881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 408
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41954edaf82fdcff0800000000000000
+      internalID: -14088524900574956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 409
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c352c5f379c791f0800000000000000
+      internalID: -1038139689204034622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_3
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 409
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f724376eb1d5e05e0800000000000000
+      internalID: -1941512014938291585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_4
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 409
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda0efbca4106e1e0800000000000000
+      internalID: -2169044749770683681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 343
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2f7b253418b9570800000000000000
+      internalID: 8474509249978299062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 343
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c9ec60bbb2d4100800000000000000
+      internalID: 93779249517730841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 345
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b0d88f119f7d980800000000000000
+      internalID: -8514062714940880032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_8
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 345
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0825edc338c2f0890800000000000000
+      internalID: -7489718713120304512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_9
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 344
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5666d65d9a97a150800000000000000
+      internalID: 5883841438740276829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_10
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 344
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978d1283b1467d0c0800000000000000
+      internalID: -4551058830365960071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_11
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 345
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ddd1445b7e262f0800000000000000
+      internalID: -980967003095442105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_12
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 345
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be095d846fed28d0800000000000000
+      internalID: -2869374172417945932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_13
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 279
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12304aedf908a78b0800000000000000
+      internalID: -5153665399448665311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_14
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 279
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22364a8b4f8efc430800000000000000
+      internalID: 3805516347918803746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_15
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 279
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ad316c7b03e3ec0800000000000000
+      internalID: -3585374687479997883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_16
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 280
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ce8a24aa2663cc0800000000000000
+      internalID: -3731686757827548042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_17
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 279
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120b0b377149473e0800000000000000
+      internalID: -2056856301355356127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_18
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 278
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4c39f24fc6a3c00800000000000000
+      internalID: 881136473130386631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_19
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 279
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bfba5d5fe4aa0b0800000000000000
+      internalID: -5716669959234651315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_20
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 279
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9483c5213b01880800000000000000
+      internalID: -8642210793486005799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 220
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f658113077a34efa0800000000000000
+      internalID: -5772424539555134097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 220
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdafa6f0f4ea27480800000000000000
+      internalID: -8902861858773730597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 220
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fe0528e0edd5d00800000000000000
+      internalID: 963170049224404874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_24
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 220
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5954dabcd818b90800000000000000
+      internalID: -7241350819910150716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee710d761f195e0c0800000000000000
+      internalID: -4547067782745810962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dde2766c1e4acaf0800000000000000
+      internalID: -375401735047156271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44787641eea787ed0800000000000000
+      internalID: -2416046037121136828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58083b2e687675780800000000000000
+      internalID: -8694366726588759931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_29
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 88
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d6db783028d1550800000000000000
+      internalID: 6133201219222334757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_30
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 94
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2af8b2519640380800000000000000
+      internalID: -9005957815188086052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_31
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 95
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac6f9837843eca60800000000000000
+      internalID: 7696146568597957796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_32
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 85
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba0c02234bb09d80800000000000000
+      internalID: -8245885020706960707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_33
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 95
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5517b65fb4b567a10800000000000000
+      internalID: 1906811874036117845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_34
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 84
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2868fd263f85756f0800000000000000
+      internalID: -695989815046338942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_35
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 83
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fda76cde69a73b0800000000000000
+      internalID: -5513928845780394118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_36
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 82
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3981def03de5713e0800000000000000
+      internalID: -2083092042037258093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_37
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 84
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f17e53e326e0a3b0800000000000000
+      internalID: -5503145702833884683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_38
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 24
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead2ff02825f4db00800000000000000
+      internalID: 852575782180957614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_39
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 20
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f06b4735c5a59cb0800000000000000
+      internalID: -4857794356594384650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_40
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 13
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759e41cf8b34ea2f0800000000000000
+      internalID: -959755208801064617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_41
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 10
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a48a5d5e85516c0800000000000000
+      internalID: -4173331735533565389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_42
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 11
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa13eed183626fef0800000000000000
+      internalID: -74830321342860886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_43
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 10
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc14c8f7d4050040800000000000000
+      internalID: 4613098718949022921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_44
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 10
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d75ad75e4f67330800000000000000
+      internalID: 3708420609678867867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_45
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 0
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee1d8561a46432c0800000000000000
+      internalID: -4452823487206318358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_46
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 0
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77abd2d02ff06e480800000000000000
+      internalID: -8870384883782010249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female Hair2_47
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 0
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6c382f2c3767580800000000000000
+      internalID: -8829742738283706694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Female Hair2_0: -1712585730117842881
+      Female Hair2_1: -14088524900574956
+      Female Hair2_10: -4551058830365960071
+      Female Hair2_11: -980967003095442105
+      Female Hair2_12: -2869374172417945932
+      Female Hair2_13: -5153665399448665311
+      Female Hair2_14: 3805516347918803746
+      Female Hair2_15: -3585374687479997883
+      Female Hair2_16: -3731686757827548042
+      Female Hair2_17: -2056856301355356127
+      Female Hair2_18: 881136473130386631
+      Female Hair2_19: -5716669959234651315
+      Female Hair2_2: -1038139689204034622
+      Female Hair2_20: -8642210793486005799
+      Female Hair2_21: -5772424539555134097
+      Female Hair2_22: -8902861858773730597
+      Female Hair2_23: 963170049224404874
+      Female Hair2_24: -7241350819910150716
+      Female Hair2_25: -4547067782745810962
+      Female Hair2_26: -375401735047156271
+      Female Hair2_27: -2416046037121136828
+      Female Hair2_28: -8694366726588759931
+      Female Hair2_29: 6133201219222334757
+      Female Hair2_3: -1941512014938291585
+      Female Hair2_30: -9005957815188086052
+      Female Hair2_31: 7696146568597957796
+      Female Hair2_32: -8245885020706960707
+      Female Hair2_33: 1906811874036117845
+      Female Hair2_34: -695989815046338942
+      Female Hair2_35: -5513928845780394118
+      Female Hair2_36: -2083092042037258093
+      Female Hair2_37: -5503145702833884683
+      Female Hair2_38: 852575782180957614
+      Female Hair2_39: -4857794356594384650
+      Female Hair2_4: -2169044749770683681
+      Female Hair2_40: -959755208801064617
+      Female Hair2_41: -4173331735533565389
+      Female Hair2_42: -74830321342860886
+      Female Hair2_43: 4613098718949022921
+      Female Hair2_44: 3708420609678867867
+      Female Hair2_45: -4452823487206318358
+      Female Hair2_46: -8870384883782010249
+      Female Hair2_47: -8829742738283706694
+      Female Hair2_5: 8474509249978299062
+      Female Hair2_6: 93779249517730841
+      Female Hair2_7: -8514062714940880032
+      Female Hair2_8: -7489718713120304512
+      Female Hair2_9: 5883841438740276829
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

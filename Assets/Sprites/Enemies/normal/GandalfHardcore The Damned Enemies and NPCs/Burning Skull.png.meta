@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 745cf009089229549a7c25303b250324
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7453458663283100034
+    second: Burning Skull_0
+  - first:
+      213: -7517222968024891513
+    second: Burning Skull_1
+  - first:
+      213: 3360012958862718636
+    second: Burning Skull_2
+  - first:
+      213: -6422708016084365960
+    second: Burning Skull_3
+  - first:
+      213: -6074623516084528425
+    second: Burning Skull_4
+  - first:
+      213: 9138520604721225789
+    second: Burning Skull_5
+  - first:
+      213: -4571219598165561034
+    second: Burning Skull_6
+  - first:
+      213: 2562711265159752048
+    second: Burning Skull_7
+  - first:
+      213: -4675692458682844
+    second: Burning Skull_8
+  - first:
+      213: -8148186303595694310
+    second: Burning Skull_9
+  - first:
+      213: 2294355736572721863
+    second: Burning Skull_10
+  - first:
+      213: -3652187357331877647
+    second: Burning Skull_11
+  - first:
+      213: -3036559957189632167
+    second: Burning Skull_12
+  - first:
+      213: -8783464472508970475
+    second: Burning Skull_13
+  - first:
+      213: 6594250206038268777
+    second: Burning Skull_14
+  - first:
+      213: 4392074982906143781
+    second: Burning Skull_15
+  - first:
+      213: -1251416720693046121
+    second: Burning Skull_16
+  - first:
+      213: -1494492609740856235
+    second: Burning Skull_17
+  - first:
+      213: 1490398005100691520
+    second: Burning Skull_18
+  - first:
+      213: -6928720208705388228
+    second: Burning Skull_19
+  - first:
+      213: 7520707715075373728
+    second: Burning Skull_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Burning Skull_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 79
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76f3faf5deff8890800000000000000
+      internalID: -7453458663283100034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 80
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ff77dd9857da790800000000000000
+      internalID: -7517222968024891513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 79
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6b8b5ebf921ae20800000000000000
+      internalID: 3360012958862718636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 116
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87dcc3d9615fdd6a0800000000000000
+      internalID: -6422708016084365960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 78
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da1c8bc81a92bba0800000000000000
+      internalID: -6074623516084528425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_5
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 118
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d302ff0721c82de70800000000000000
+      internalID: 9138520604721225789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 6
+        width: 155
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631b90daef3cf80c0800000000000000
+      internalID: -4571219598165561034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 11
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0792dbd5154909320800000000000000
+      internalID: 2562711265159752048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 9
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426dbe38b736feff0800000000000000
+      internalID: -4675692458682844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 45
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17b9725ab3dbee80800000000000000
+      internalID: -8148186303595694310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_10
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 5
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cafbcae26037df10800000000000000
+      internalID: 2294355736572721863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_11
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 27
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f09f09d2f2d05dc0800000000000000
+      internalID: -3652187357331877647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_12
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 27
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f598caec8fbd5d0800000000000000
+      internalID: -3036559957189632167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_13
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 3
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ac6da599dda1680800000000000000
+      internalID: -8783464472508970475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 31
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b15f2ef9b738b50800000000000000
+      internalID: 6594250206038268777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_15
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 8
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524200f3de8c3fc30800000000000000
+      internalID: 4392074982906143781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_16
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 27
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7945b117f1312aee0800000000000000
+      internalID: -1251416720693046121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_17
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 11
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55423fcb3ee724be0800000000000000
+      internalID: -1494492609740856235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_18
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 14
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0404af3d615fea410800000000000000
+      internalID: 1490398005100691520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 15
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c318b0c1ead38df90800000000000000
+      internalID: -6928720208705388228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull_20
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 14
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa7b9802dbee5860800000000000000
+      internalID: 7520707715075373728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Burning Skull_0: -7453458663283100034
+      Burning Skull_1: -7517222968024891513
+      Burning Skull_10: 2294355736572721863
+      Burning Skull_11: -3652187357331877647
+      Burning Skull_12: -3036559957189632167
+      Burning Skull_13: -8783464472508970475
+      Burning Skull_14: 6594250206038268777
+      Burning Skull_15: 4392074982906143781
+      Burning Skull_16: -1251416720693046121
+      Burning Skull_17: -1494492609740856235
+      Burning Skull_18: 1490398005100691520
+      Burning Skull_19: -6928720208705388228
+      Burning Skull_2: 3360012958862718636
+      Burning Skull_20: 7520707715075373728
+      Burning Skull_3: -6422708016084365960
+      Burning Skull_4: -6074623516084528425
+      Burning Skull_5: 9138520604721225789
+      Burning Skull_6: -4571219598165561034
+      Burning Skull_7: 2562711265159752048
+      Burning Skull_8: -4675692458682844
+      Burning Skull_9: -8148186303595694310
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: edc1eae238b16394da3e4771aaf60643
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2502723721064757130
+    second: SwordOfJustice_spritesheet_0
+  - first:
+      213: -2922801812627120986
+    second: SwordOfJustice_spritesheet_1
+  - first:
+      213: -3552096995356628059
+    second: SwordOfJustice_spritesheet_2
+  - first:
+      213: 25948749782510119
+    second: SwordOfJustice_spritesheet_3
+  - first:
+      213: 1112508986131826870
+    second: SwordOfJustice_spritesheet_4
+  - first:
+      213: -6394346171038423839
+    second: SwordOfJustice_spritesheet_5
+  - first:
+      213: -5562737578303947286
+    second: SwordOfJustice_spritesheet_6
+  - first:
+      213: 6242516150216197101
+    second: SwordOfJustice_spritesheet_7
+  - first:
+      213: 6947418500739150731
+    second: SwordOfJustice_spritesheet_8
+  - first:
+      213: 6720418441638253183
+    second: SwordOfJustice_spritesheet_9
+  - first:
+      213: -5164356202460714033
+    second: SwordOfJustice_spritesheet_10
+  - first:
+      213: -8214845428628590251
+    second: SwordOfJustice_spritesheet_11
+  - first:
+      213: 6714180406007000563
+    second: SwordOfJustice_spritesheet_12
+  - first:
+      213: -1399008808501439103
+    second: SwordOfJustice_spritesheet_13
+  - first:
+      213: -622133319112415778
+    second: SwordOfJustice_spritesheet_14
+  - first:
+      213: 1741023738215469524
+    second: SwordOfJustice_spritesheet_15
+  - first:
+      213: 3515907862362122699
+    second: SwordOfJustice_spritesheet_16
+  - first:
+      213: 3897427933620014143
+    second: SwordOfJustice_spritesheet_17
+  - first:
+      213: 6898109027841464208
+    second: SwordOfJustice_spritesheet_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SwordOfJustice_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 9
+        width: 22
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678cdf2290a844dd0800000000000000
+      internalID: -2502723721064757130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordOfJustice_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 20
+        width: 21
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac1e71bc3f1077d0800000000000000
+      internalID: -2922801812627120986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordOfJustice_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 23
+        width: 38
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab29004a9a64bec0800000000000000
+      internalID: -3552096995356628059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordOfJustice_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 23
+        width: 54
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ae62d10403c5000800000000000000
+      internalID: 25948749782510119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordOfJustice_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 27
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b841df470d607f00800000000000000
+      internalID: 1112508986131826870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordOfJustice_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 39
+        width: 32
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e420604908b247a0800000000000000
+      internalID: -6394346171038423839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordOfJustice_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 97
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedf97a25af2dc2b0800000000000000
+      internalID: -5562737578303947286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordOfJustice_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 73
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de386464d5fd1a650800000000000000
+      internalID: 6242516150216197101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordOfJustice_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 53
+        width: 10
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83b88241503a6060800000000000000
+      internalID: 6947418500739150731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordOfJustice_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 42
+        width: 87
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7215d367f8b34d50800000000000000
+      internalID: 6720418441638253183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordOfJustice_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 4
+        width: 22
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb6eb255658458b0800000000000000
+      internalID: -5164356202460714033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordOfJustice_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 49
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551f9d55b910ffd80800000000000000
+      internalID: -8214845428628590251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordOfJustice_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 40
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd6fe9818f8d2d50800000000000000
+      internalID: 6714180406007000563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordOfJustice_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 48
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18511a3a6e8b59ce0800000000000000
+      internalID: -1399008808501439103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordOfJustice_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 51
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5ae5fda0dbd57f0800000000000000
+      internalID: -622133319112415778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordOfJustice_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 54
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d11bd59ddb592810800000000000000
+      internalID: 1741023738215469524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordOfJustice_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 2
+        width: 17
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9e81f92930bc030800000000000000
+      internalID: 3515907862362122699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordOfJustice_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 41
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c0b116e02761630800000000000000
+      internalID: 3897427933620014143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordOfJustice_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097d762fc910bbf50800000000000000
+      internalID: 6898109027841464208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SwordOfJustice_spritesheet_0: -2502723721064757130
+      SwordOfJustice_spritesheet_1: -2922801812627120986
+      SwordOfJustice_spritesheet_10: -5164356202460714033
+      SwordOfJustice_spritesheet_11: -8214845428628590251
+      SwordOfJustice_spritesheet_12: 6714180406007000563
+      SwordOfJustice_spritesheet_13: -1399008808501439103
+      SwordOfJustice_spritesheet_14: -622133319112415778
+      SwordOfJustice_spritesheet_15: 1741023738215469524
+      SwordOfJustice_spritesheet_16: 3515907862362122699
+      SwordOfJustice_spritesheet_17: 3897427933620014143
+      SwordOfJustice_spritesheet_18: 6898109027841464208
+      SwordOfJustice_spritesheet_2: -3552096995356628059
+      SwordOfJustice_spritesheet_3: 25948749782510119
+      SwordOfJustice_spritesheet_4: 1112508986131826870
+      SwordOfJustice_spritesheet_5: -6394346171038423839
+      SwordOfJustice_spritesheet_6: -5562737578303947286
+      SwordOfJustice_spritesheet_7: 6242516150216197101
+      SwordOfJustice_spritesheet_8: 6947418500739150731
+      SwordOfJustice_spritesheet_9: 6720418441638253183
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

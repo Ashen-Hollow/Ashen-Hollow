@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: ef36f28998b1e5f45aa3bd2c3d628752
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 785666579429524048
+    second: Burning Damned_0
+  - first:
+      213: 7824383267374672857
+    second: Burning Damned_1
+  - first:
+      213: -1167791122959184
+    second: Burning Damned_2
+  - first:
+      213: 1317249234737735933
+    second: Burning Damned_3
+  - first:
+      213: -4962381738113048986
+    second: Burning Damned_4
+  - first:
+      213: -6660888888159135947
+    second: Burning Damned_5
+  - first:
+      213: -1169891004820326508
+    second: Burning Damned_6
+  - first:
+      213: -844942310835981862
+    second: Burning Damned_7
+  - first:
+      213: -8303012072137993198
+    second: Burning Damned_8
+  - first:
+      213: -814445060199632487
+    second: Burning Damned_9
+  - first:
+      213: 7035514982114071329
+    second: Burning Damned_10
+  - first:
+      213: 3293900508782354346
+    second: Burning Damned_11
+  - first:
+      213: -6771123897937438400
+    second: Burning Damned_12
+  - first:
+      213: -8729835103603687053
+    second: Burning Damned_13
+  - first:
+      213: -6010730443846095488
+    second: Burning Damned_14
+  - first:
+      213: -6562399128734029645
+    second: Burning Damned_15
+  - first:
+      213: 8163901660935252528
+    second: Burning Damned_16
+  - first:
+      213: 5656059233053170978
+    second: Burning Damned_17
+  - first:
+      213: -6061184290978361751
+    second: Burning Damned_18
+  - first:
+      213: -1933005668096768573
+    second: Burning Damned_19
+  - first:
+      213: -4885064858120251976
+    second: Burning Damned_20
+  - first:
+      213: -4543589145859071382
+    second: Burning Damned_21
+  - first:
+      213: 7755687154607543055
+    second: Burning Damned_22
+  - first:
+      213: 2119989206302716090
+    second: Burning Damned_23
+  - first:
+      213: 5405802920127392207
+    second: Burning Damned_24
+  - first:
+      213: -4682222185262963605
+    second: Burning Damned_25
+  - first:
+      213: -2252187521374176485
+    second: Burning Damned_26
+  - first:
+      213: -8860643775047176429
+    second: Burning Damned_27
+  - first:
+      213: 4219175315830268674
+    second: Burning Damned_28
+  - first:
+      213: 8240497248126522941
+    second: Burning Damned_29
+  - first:
+      213: 1398203595736035140
+    second: Burning Damned_30
+  - first:
+      213: -2887604745957281998
+    second: Burning Damned_31
+  - first:
+      213: -3256889982215361091
+    second: Burning Damned_32
+  - first:
+      213: 3849563707765917525
+    second: Burning Damned_33
+  - first:
+      213: -8406680731813987581
+    second: Burning Damned_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Burning Damned_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 191
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0520bc2679f37ea00800000000000000
+      internalID: 785666579429524048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 191
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dba066502bc59c60800000000000000
+      internalID: 7824383267374672857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 191
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4b1f076e9dbfff0800000000000000
+      internalID: -1167791122959184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 191
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8a23d233fc74210800000000000000
+      internalID: 1317249234737735933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 191
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ed2ebd914122bb0800000000000000
+      internalID: -4962381738113048986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_5
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 127
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5379decd8d4cf83a0800000000000000
+      internalID: -6660888888159135947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 127
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49772c75456b3cfe0800000000000000
+      internalID: -1169891004820326508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_7
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 127
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad17ceae1792644f0800000000000000
+      internalID: -844942310835981862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_8
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 127
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2145f6af286c5cc80800000000000000
+      internalID: -8303012072137993198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_9
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 127
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991bab9688282b4f0800000000000000
+      internalID: -814445060199632487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_10
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 127
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12319d8b99b23a160800000000000000
+      internalID: 7035514982114071329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_11
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 127
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf53779f0946bd20800000000000000
+      internalID: 3293900508782354346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_12
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 127
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049d74590b22802a0800000000000000
+      internalID: -6771123897937438400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 63
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37187f5d93569d680800000000000000
+      internalID: -8729835103603687053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_14
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 63
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d6dede188959ca0800000000000000
+      internalID: -6010730443846095488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_15
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 90
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8a971f2ccade4a0800000000000000
+      internalID: -6562399128734029645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_16
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 63
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a64417e410c4170800000000000000
+      internalID: 8163901660935252528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_17
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 63
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22dd3b6c7eb5e7e40800000000000000
+      internalID: 5656059233053170978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_18
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 63
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e8e0a300952eba0800000000000000
+      internalID: -6061184290978361751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_19
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 63
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5864c16959c25e0800000000000000
+      internalID: -1933005668096768573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_20
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b59ffac463c43cb0800000000000000
+      internalID: -4885064858120251976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_21
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62efbbaebde1f0c0800000000000000
+      internalID: -4543589145859071382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_22
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 0
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03517f206cb1ab60800000000000000
+      internalID: 7755687154607543055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_23
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 11
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0f55173f6bb6d10800000000000000
+      internalID: 2119989206302716090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_24
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 29
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc966fb5d15450b40800000000000000
+      internalID: 5405802920127392207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_25
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 17
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64a2ffdab7650fb0800000000000000
+      internalID: -4682222185262963605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_26
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 24
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1bbce4c16f9eb0e0800000000000000
+      internalID: -2252187521374176485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_27
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 0
+        width: 78
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f690bae6ba80580800000000000000
+      internalID: -8860643775047176429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_28
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 8
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203e82978958d8a30800000000000000
+      internalID: 4219175315830268674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_29
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d365a2f46902c5270800000000000000
+      internalID: 8240497248126522941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_30
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 6
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f258723ca676310800000000000000
+      internalID: 1398203595736035140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_31
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23feb7168ca2de7d0800000000000000
+      internalID: -2887604745957281998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_32
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd668121d33dc2d0800000000000000
+      internalID: -3256889982215361091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_33
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 0
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5578f9ddbc56c6530800000000000000
+      internalID: 3849563707765917525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Damned_34
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 0
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b3b183a68755b80800000000000000
+      internalID: -8406680731813987581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Burning Damned_0: 785666579429524048
+      Burning Damned_1: 7824383267374672857
+      Burning Damned_10: 7035514982114071329
+      Burning Damned_11: 3293900508782354346
+      Burning Damned_12: -6771123897937438400
+      Burning Damned_13: -8729835103603687053
+      Burning Damned_14: -6010730443846095488
+      Burning Damned_15: -6562399128734029645
+      Burning Damned_16: 8163901660935252528
+      Burning Damned_17: 5656059233053170978
+      Burning Damned_18: -6061184290978361751
+      Burning Damned_19: -1933005668096768573
+      Burning Damned_2: -1167791122959184
+      Burning Damned_20: -4885064858120251976
+      Burning Damned_21: -4543589145859071382
+      Burning Damned_22: 7755687154607543055
+      Burning Damned_23: 2119989206302716090
+      Burning Damned_24: 5405802920127392207
+      Burning Damned_25: -4682222185262963605
+      Burning Damned_26: -2252187521374176485
+      Burning Damned_27: -8860643775047176429
+      Burning Damned_28: 4219175315830268674
+      Burning Damned_29: 8240497248126522941
+      Burning Damned_3: 1317249234737735933
+      Burning Damned_30: 1398203595736035140
+      Burning Damned_31: -2887604745957281998
+      Burning Damned_32: -3256889982215361091
+      Burning Damned_33: 3849563707765917525
+      Burning Damned_34: -8406680731813987581
+      Burning Damned_4: -4962381738113048986
+      Burning Damned_5: -6660888888159135947
+      Burning Damned_6: -1169891004820326508
+      Burning Damned_7: -844942310835981862
+      Burning Damned_8: -8303012072137993198
+      Burning Damned_9: -814445060199632487
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

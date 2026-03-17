@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: 64aec1e0bf3dec34cb8ddfc917050127
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -293437914244106510
+    second: HolyNova_spritesheet_0
+  - first:
+      213: -1380563034501967443
+    second: HolyNova_spritesheet_1
+  - first:
+      213: -7177793497215625297
+    second: HolyNova_spritesheet_2
+  - first:
+      213: -2548826826855212479
+    second: HolyNova_spritesheet_3
+  - first:
+      213: -5897785685371909056
+    second: HolyNova_spritesheet_4
+  - first:
+      213: -7190274406409247221
+    second: HolyNova_spritesheet_5
+  - first:
+      213: -1472120218851227769
+    second: HolyNova_spritesheet_6
+  - first:
+      213: -2450066866362299050
+    second: HolyNova_spritesheet_7
+  - first:
+      213: 9210844391137857161
+    second: HolyNova_spritesheet_8
+  - first:
+      213: -7672301598043554314
+    second: HolyNova_spritesheet_9
+  - first:
+      213: 3924568898360378220
+    second: HolyNova_spritesheet_10
+  - first:
+      213: -2969133551346471893
+    second: HolyNova_spritesheet_11
+  - first:
+      213: 3819722747460171760
+    second: HolyNova_spritesheet_12
+  - first:
+      213: 5855677295399415561
+    second: HolyNova_spritesheet_13
+  - first:
+      213: 8850037488068930199
+    second: HolyNova_spritesheet_14
+  - first:
+      213: -2522084294041232007
+    second: HolyNova_spritesheet_15
+  - first:
+      213: -1294583123130191869
+    second: HolyNova_spritesheet_16
+  - first:
+      213: -6018490138133638928
+    second: HolyNova_spritesheet_17
+  - first:
+      213: 2556969906032136792
+    second: HolyNova_spritesheet_18
+  - first:
+      213: 3253447893758634575
+    second: HolyNova_spritesheet_19
+  - first:
+      213: 3115457848106609338
+    second: HolyNova_spritesheet_20
+  - first:
+      213: -280281129668174810
+    second: HolyNova_spritesheet_21
+  - first:
+      213: -6817068770896330779
+    second: HolyNova_spritesheet_22
+  - first:
+      213: -6532000995148746346
+    second: HolyNova_spritesheet_23
+  - first:
+      213: 7035434111303767402
+    second: HolyNova_spritesheet_24
+  - first:
+      213: 1621472979704489336
+    second: HolyNova_spritesheet_25
+  - first:
+      213: -7383179765822561601
+    second: HolyNova_spritesheet_26
+  - first:
+      213: 5102234894647243808
+    second: HolyNova_spritesheet_27
+  - first:
+      213: 1467957129709120973
+    second: HolyNova_spritesheet_28
+  - first:
+      213: 5973052302550931331
+    second: HolyNova_spritesheet_29
+  - first:
+      213: 4742173493838993288
+    second: HolyNova_spritesheet_30
+  - first:
+      213: -1710683450700598429
+    second: HolyNova_spritesheet_31
+  - first:
+      213: 5303461492687980841
+    second: HolyNova_spritesheet_32
+  - first:
+      213: 7550653522242211419
+    second: HolyNova_spritesheet_33
+  - first:
+      213: -6814677278932014459
+    second: HolyNova_spritesheet_34
+  - first:
+      213: -4354503172198653240
+    second: HolyNova_spritesheet_35
+  - first:
+      213: 1614668543146271520
+    second: HolyNova_spritesheet_36
+  - first:
+      213: -9161922603541573665
+    second: HolyNova_spritesheet_37
+  - first:
+      213: -1895933474559571245
+    second: HolyNova_spritesheet_38
+  - first:
+      213: -5321387541604945560
+    second: HolyNova_spritesheet_39
+  - first:
+      213: 2265181315488920272
+    second: HolyNova_spritesheet_40
+  - first:
+      213: -1639510409768602057
+    second: HolyNova_spritesheet_41
+  - first:
+      213: 6023466964134905017
+    second: HolyNova_spritesheet_42
+  - first:
+      213: -9106095523295344559
+    second: HolyNova_spritesheet_43
+  - first:
+      213: -7053487915203297708
+    second: HolyNova_spritesheet_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 16
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f639dd85cf7debf0800000000000000
+      internalID: -293437914244106510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 17
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da199721c3147dce0800000000000000
+      internalID: -1380563034501967443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 15
+        width: 54
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa79a5708da536c90800000000000000
+      internalID: -7177793497215625297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 9
+        width: 82
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a1f47518fb0acd0800000000000000
+      internalID: -2548826826855212479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 16
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c060eba2bd62ea0800000000000000
+      internalID: -5897785685371909056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 22
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06e468e583073c90800000000000000
+      internalID: -7190274406409247221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 23
+        width: 53
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787c3b8e57af19be0800000000000000
+      internalID: -1472120218851227769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 27
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d45828a2d9ffdd0800000000000000
+      internalID: -2450066866362299050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 10
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ecb2f2c2e73df70800000000000000
+      internalID: 9210844391137857161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 22
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fdb3fe9852868590800000000000000
+      internalID: -7672301598043554314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 24
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63015bae9ed67630800000000000000
+      internalID: 3924568898360378220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 27
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2cac4524c48bc6d0800000000000000
+      internalID: -2969133551346471893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 12
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7b7ded991620530800000000000000
+      internalID: 3819722747460171760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 22
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f2a97b97b834150800000000000000
+      internalID: 5855677295399415561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 24
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a2d35b436a1da70800000000000000
+      internalID: 8850037488068930199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 27
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d941872b1cffcd0800000000000000
+      internalID: -2522084294041232007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 18
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300fb9d2287b80ee0800000000000000
+      internalID: -1294583123130191869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 22
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f05a505b170a7ca0800000000000000
+      internalID: -6018490138133638928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 26
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852d866059e2c7320800000000000000
+      internalID: 2556969906032136792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 27
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ae9b23f91962d20800000000000000
+      internalID: 3253447893758634575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 18
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abae81d08645c3b20800000000000000
+      internalID: 3115457848106609338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 8
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c12ec2ccd3c1cf0800000000000000
+      internalID: -280281129668174810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 10
+        width: 157
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efb05d3218e461a0800000000000000
+      internalID: -6817068770896330779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 7
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69139a3f3bba955a0800000000000000
+      internalID: -6532000995148746346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 9
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a655de48c02e2a160800000000000000
+      internalID: 7035434111303767402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 6
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8752e288511a08610800000000000000
+      internalID: 1621472979704489336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 15
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb26b49ee1da98990800000000000000
+      internalID: -7383179765822561601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 11
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0243d089a97cec640800000000000000
+      internalID: 5102234894647243808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 8
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd60dd5b3b3f5410800000000000000
+      internalID: 1467957129709120973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 4
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387906e2c6b84e250800000000000000
+      internalID: 5973052302550931331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 10
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887db83eaa59fc140800000000000000
+      internalID: 4742173493838993288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 11
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363f9d5177e6248e0800000000000000
+      internalID: -1710683450700598429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 16
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92941afe02ea99940800000000000000
+      internalID: 5303461492687980841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 11
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e8c479f5f49c860800000000000000
+      internalID: 7550653522242211419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 8
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ae45ade176d61a0800000000000000
+      internalID: -6814677278932014459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 9
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2a9cf9f62b193c0800000000000000
+      internalID: -4354503172198653240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 10
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0232b303c74786610800000000000000
+      internalID: 1614668543146271520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 12
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf484c1fef4ad080800000000000000
+      internalID: -9161922603541573665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 16
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3daca1bcc8a40b5e0800000000000000
+      internalID: -1895933474559571245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 8
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861b27e8932a626b0800000000000000
+      internalID: -5321387541604945560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 9
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2b19da76a8f6f10800000000000000
+      internalID: 2265181315488920272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 10
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736ff2408f94f39e0800000000000000
+      internalID: -1639510409768602057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 12
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4cf894a47a79350800000000000000
+      internalID: 6023466964134905017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 11
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158c4332e56a0a180800000000000000
+      internalID: -9106095523295344559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HolyNova_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 12
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45efbc2bc1afc1e90800000000000000
+      internalID: -7053487915203297708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HolyNova_spritesheet_0: -293437914244106510
+      HolyNova_spritesheet_1: -1380563034501967443
+      HolyNova_spritesheet_10: 3924568898360378220
+      HolyNova_spritesheet_11: -2969133551346471893
+      HolyNova_spritesheet_12: 3819722747460171760
+      HolyNova_spritesheet_13: 5855677295399415561
+      HolyNova_spritesheet_14: 8850037488068930199
+      HolyNova_spritesheet_15: -2522084294041232007
+      HolyNova_spritesheet_16: -1294583123130191869
+      HolyNova_spritesheet_17: -6018490138133638928
+      HolyNova_spritesheet_18: 2556969906032136792
+      HolyNova_spritesheet_19: 3253447893758634575
+      HolyNova_spritesheet_2: -7177793497215625297
+      HolyNova_spritesheet_20: 3115457848106609338
+      HolyNova_spritesheet_21: -280281129668174810
+      HolyNova_spritesheet_22: -6817068770896330779
+      HolyNova_spritesheet_23: -6532000995148746346
+      HolyNova_spritesheet_24: 7035434111303767402
+      HolyNova_spritesheet_25: 1621472979704489336
+      HolyNova_spritesheet_26: -7383179765822561601
+      HolyNova_spritesheet_27: 5102234894647243808
+      HolyNova_spritesheet_28: 1467957129709120973
+      HolyNova_spritesheet_29: 5973052302550931331
+      HolyNova_spritesheet_3: -2548826826855212479
+      HolyNova_spritesheet_30: 4742173493838993288
+      HolyNova_spritesheet_31: -1710683450700598429
+      HolyNova_spritesheet_32: 5303461492687980841
+      HolyNova_spritesheet_33: 7550653522242211419
+      HolyNova_spritesheet_34: -6814677278932014459
+      HolyNova_spritesheet_35: -4354503172198653240
+      HolyNova_spritesheet_36: 1614668543146271520
+      HolyNova_spritesheet_37: -9161922603541573665
+      HolyNova_spritesheet_38: -1895933474559571245
+      HolyNova_spritesheet_39: -5321387541604945560
+      HolyNova_spritesheet_4: -5897785685371909056
+      HolyNova_spritesheet_40: 2265181315488920272
+      HolyNova_spritesheet_41: -1639510409768602057
+      HolyNova_spritesheet_42: 6023466964134905017
+      HolyNova_spritesheet_43: -9106095523295344559
+      HolyNova_spritesheet_44: -7053487915203297708
+      HolyNova_spritesheet_5: -7190274406409247221
+      HolyNova_spritesheet_6: -1472120218851227769
+      HolyNova_spritesheet_7: -2450066866362299050
+      HolyNova_spritesheet_8: 9210844391137857161
+      HolyNova_spritesheet_9: -7672301598043554314
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

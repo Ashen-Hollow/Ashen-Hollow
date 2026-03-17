@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 5d1e6bb451f05854bb0f9b5892b0b57d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6960222016058660794
+    second: Burning Skull blue_0
+  - first:
+      213: -498805760648108620
+    second: Burning Skull blue_1
+  - first:
+      213: -654955674682542403
+    second: Burning Skull blue_2
+  - first:
+      213: -4045773947771470933
+    second: Burning Skull blue_3
+  - first:
+      213: -5415218574681997495
+    second: Burning Skull blue_4
+  - first:
+      213: -538188584754956700
+    second: Burning Skull blue_5
+  - first:
+      213: -117005746666166104
+    second: Burning Skull blue_6
+  - first:
+      213: 3983304639041120817
+    second: Burning Skull blue_7
+  - first:
+      213: -8152133378605841976
+    second: Burning Skull blue_8
+  - first:
+      213: -4000610912854970073
+    second: Burning Skull blue_9
+  - first:
+      213: 5573244154522539428
+    second: Burning Skull blue_10
+  - first:
+      213: -6334075132916646319
+    second: Burning Skull blue_11
+  - first:
+      213: 2273368861041969322
+    second: Burning Skull blue_12
+  - first:
+      213: -3467365707533607664
+    second: Burning Skull blue_13
+  - first:
+      213: 503365479995055787
+    second: Burning Skull blue_14
+  - first:
+      213: 854362708106852935
+    second: Burning Skull blue_15
+  - first:
+      213: 7985255926957294369
+    second: Burning Skull blue_16
+  - first:
+      213: 3944034435723830611
+    second: Burning Skull blue_17
+  - first:
+      213: 8927665359131325201
+    second: Burning Skull blue_18
+  - first:
+      213: -612913569287616169
+    second: Burning Skull blue_19
+  - first:
+      213: 1839404819062885453
+    second: Burning Skull blue_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Burning Skull blue_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 79
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64868f604f2586f90800000000000000
+      internalID: -6960222016058660794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 80
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5a6a0bdc2e319f0800000000000000
+      internalID: -498805760648108620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 79
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6bbe2b84129e6f0800000000000000
+      internalID: -654955674682542403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 116
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab3d89a7068ad7c0800000000000000
+      internalID: -4045773947771470933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 78
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f7bfab56749d4b0800000000000000
+      internalID: -5415218574681997495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_5
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 118
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466b2876558f788f0800000000000000
+      internalID: -538188584754956700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 6
+        width: 155
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8a841b4ef406ef0800000000000000
+      internalID: -117005746666166104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 11
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a263af67a874730800000000000000
+      internalID: 3983304639041120817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 9
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1089e42edcdde80800000000000000
+      internalID: -8152133378605841976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 45
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7217ab62299fa78c0800000000000000
+      internalID: -4000610912854970073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_10
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 5
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a596dcb704285d40800000000000000
+      internalID: 5573244154522539428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_11
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 27
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e3ed9d938d818a0800000000000000
+      internalID: -6334075132916646319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_12
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 27
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa847dd2fe0ac8f10800000000000000
+      internalID: 2273368861041969322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_13
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 3
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d9618824171efc0800000000000000
+      internalID: -3467365707533607664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 31
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae9c43bc305cf600800000000000000
+      internalID: 503365479995055787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_15
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 8
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74abc0e3b5e4bdb00800000000000000
+      internalID: 854362708106852935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_16
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 27
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1234fd635f351de60800000000000000
+      internalID: 7985255926957294369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_17
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 11
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3552a334c660cb630800000000000000
+      internalID: 3944034435723830611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_18
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 14
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1133594e75075eb70800000000000000
+      internalID: 8927665359131325201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 15
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75948982b5e7e77f0800000000000000
+      internalID: -612913569287616169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning Skull blue_20
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 14
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c8266ffe0e68910800000000000000
+      internalID: 1839404819062885453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Burning Skull blue_0: -6960222016058660794
+      Burning Skull blue_1: -498805760648108620
+      Burning Skull blue_10: 5573244154522539428
+      Burning Skull blue_11: -6334075132916646319
+      Burning Skull blue_12: 2273368861041969322
+      Burning Skull blue_13: -3467365707533607664
+      Burning Skull blue_14: 503365479995055787
+      Burning Skull blue_15: 854362708106852935
+      Burning Skull blue_16: 7985255926957294369
+      Burning Skull blue_17: 3944034435723830611
+      Burning Skull blue_18: 8927665359131325201
+      Burning Skull blue_19: -612913569287616169
+      Burning Skull blue_2: -654955674682542403
+      Burning Skull blue_20: 1839404819062885453
+      Burning Skull blue_3: -4045773947771470933
+      Burning Skull blue_4: -5415218574681997495
+      Burning Skull blue_5: -538188584754956700
+      Burning Skull blue_6: -117005746666166104
+      Burning Skull blue_7: 3983304639041120817
+      Burning Skull blue_8: -8152133378605841976
+      Burning Skull blue_9: -4000610912854970073
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
