@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -92,7 +92,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 2
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -119,7 +119,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -149,9 +149,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 254
+        y: 256
         width: 32
-        height: 34
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,9 +171,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 254
-        width: 36
-        height: 34
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,10 +192,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_2
       rect:
         serializedVersion: 2
-        x: 68
-        y: 254
-        width: 27
-        height: 34
+        x: 64
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +214,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_3
       rect:
         serializedVersion: 2
-        x: 102
-        y: 254
-        width: 34
-        height: 34
+        x: 96
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +236,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_4
       rect:
         serializedVersion: 2
-        x: 136
-        y: 254
-        width: 34
-        height: 34
+        x: 128
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +258,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_5
       rect:
         serializedVersion: 2
-        x: 170
-        y: 254
-        width: 34
-        height: 34
+        x: 160
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,10 +280,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_6
       rect:
         serializedVersion: 2
-        x: 204
-        y: 254
-        width: 34
-        height: 34
+        x: 192
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_7
       rect:
         serializedVersion: 2
-        x: 238
-        y: 254
-        width: 34
-        height: 34
+        x: 224
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,10 +324,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_8
       rect:
         serializedVersion: 2
-        x: 272
-        y: 254
-        width: 34
-        height: 34
+        x: 256
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,10 +346,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_9
       rect:
         serializedVersion: 2
-        x: 306
-        y: 254
-        width: 34
-        height: 34
+        x: 320
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,10 +368,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_10
       rect:
         serializedVersion: 2
-        x: 340
-        y: 254
-        width: 34
-        height: 34
+        x: 384
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,10 +390,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_11
       rect:
         serializedVersion: 2
-        x: 374
-        y: 254
-        width: 34
-        height: 34
+        x: 416
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,10 +412,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_12
       rect:
         serializedVersion: 2
-        x: 408
-        y: 254
-        width: 34
-        height: 34
+        x: 448
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,10 +434,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_13
       rect:
         serializedVersion: 2
-        x: 442
-        y: 254
-        width: 34
-        height: 34
+        x: 480
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,10 +456,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_14
       rect:
         serializedVersion: 2
-        x: 476
-        y: 254
-        width: 34
-        height: 34
+        x: 512
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,10 +478,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_15
       rect:
         serializedVersion: 2
-        x: 510
-        y: 254
-        width: 34
-        height: 34
+        x: 0
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,10 +500,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 220
+        x: 64
+        y: 224
         width: 32
-        height: 34
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -522,10 +522,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_18
       rect:
         serializedVersion: 2
-        x: 64
-        y: 220
+        x: 160
+        y: 224
         width: 32
-        height: 34
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -544,10 +544,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_19
       rect:
         serializedVersion: 2
-        x: 102
-        y: 220
-        width: 34
-        height: 34
+        x: 192
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -566,10 +566,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_20
       rect:
         serializedVersion: 2
-        x: 136
-        y: 220
-        width: 34
-        height: 34
+        x: 256
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -588,10 +588,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_21
       rect:
         serializedVersion: 2
-        x: 170
-        y: 220
-        width: 34
-        height: 34
+        x: 288
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -610,10 +610,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_22
       rect:
         serializedVersion: 2
-        x: 204
-        y: 220
-        width: 34
-        height: 34
+        x: 320
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -632,10 +632,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_23
       rect:
         serializedVersion: 2
-        x: 238
-        y: 220
-        width: 34
-        height: 34
+        x: 352
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -654,10 +654,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_24
       rect:
         serializedVersion: 2
-        x: 272
-        y: 220
-        width: 34
-        height: 34
+        x: 384
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -676,10 +676,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_25
       rect:
         serializedVersion: 2
-        x: 306
-        y: 220
-        width: 34
-        height: 34
+        x: 416
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -698,10 +698,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_26
       rect:
         serializedVersion: 2
-        x: 340
-        y: 220
-        width: 34
-        height: 34
+        x: 448
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -720,10 +720,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_27
       rect:
         serializedVersion: 2
-        x: 374
-        y: 220
-        width: 34
-        height: 34
+        x: 480
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -742,10 +742,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_28
       rect:
         serializedVersion: 2
-        x: 408
-        y: 220
-        width: 34
-        height: 34
+        x: 512
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -764,10 +764,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_29
       rect:
         serializedVersion: 2
-        x: 442
-        y: 220
-        width: 34
-        height: 34
+        x: 0
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -786,10 +786,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_30
       rect:
         serializedVersion: 2
-        x: 476
-        y: 220
-        width: 34
-        height: 34
+        x: 32
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -808,10 +808,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_31
       rect:
         serializedVersion: 2
-        x: 510
-        y: 220
-        width: 34
-        height: 34
+        x: 64
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -830,10 +830,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_32
       rect:
         serializedVersion: 2
-        x: 0
-        y: 193
-        width: 34
-        height: 27
+        x: 96
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -852,10 +852,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_33
       rect:
         serializedVersion: 2
-        x: 34
-        y: 193
-        width: 34
-        height: 27
+        x: 128
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -874,10 +874,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_34
       rect:
         serializedVersion: 2
-        x: 68
-        y: 193
-        width: 28
-        height: 27
+        x: 160
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -896,10 +896,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_35
       rect:
         serializedVersion: 2
-        x: 102
-        y: 186
-        width: 34
-        height: 34
+        x: 192
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -918,10 +918,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_36
       rect:
         serializedVersion: 2
-        x: 136
-        y: 186
-        width: 34
-        height: 34
+        x: 224
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -940,10 +940,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_37
       rect:
         serializedVersion: 2
-        x: 170
-        y: 186
-        width: 34
-        height: 34
+        x: 256
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -962,10 +962,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_38
       rect:
         serializedVersion: 2
-        x: 204
-        y: 186
-        width: 34
-        height: 34
+        x: 320
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -984,10 +984,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_39
       rect:
         serializedVersion: 2
-        x: 238
-        y: 186
-        width: 34
-        height: 34
+        x: 384
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1006,10 +1006,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_40
       rect:
         serializedVersion: 2
-        x: 272
-        y: 186
-        width: 34
-        height: 34
+        x: 416
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1028,10 +1028,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_41
       rect:
         serializedVersion: 2
-        x: 306
-        y: 186
-        width: 34
-        height: 34
+        x: 448
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1050,10 +1050,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_42
       rect:
         serializedVersion: 2
-        x: 340
-        y: 186
-        width: 34
-        height: 34
+        x: 480
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1072,10 +1072,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_43
       rect:
         serializedVersion: 2
-        x: 374
-        y: 186
-        width: 34
-        height: 34
+        x: 512
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1094,10 +1094,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_44
       rect:
         serializedVersion: 2
-        x: 408
-        y: 186
-        width: 34
-        height: 34
+        x: 0
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1116,10 +1116,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_45
       rect:
         serializedVersion: 2
-        x: 442
-        y: 186
-        width: 34
-        height: 34
+        x: 32
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1138,10 +1138,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_46
       rect:
         serializedVersion: 2
-        x: 476
-        y: 186
-        width: 34
-        height: 34
+        x: 64
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1160,10 +1160,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_47
       rect:
         serializedVersion: 2
-        x: 510
-        y: 186
-        width: 34
-        height: 34
+        x: 96
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1182,10 +1182,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_48
       rect:
         serializedVersion: 2
-        x: 0
-        y: 152
-        width: 34
-        height: 34
+        x: 128
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1204,10 +1204,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_49
       rect:
         serializedVersion: 2
-        x: 34
-        y: 152
-        width: 34
-        height: 34
+        x: 160
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1226,10 +1226,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_50
       rect:
         serializedVersion: 2
-        x: 68
-        y: 152
-        width: 34
-        height: 34
+        x: 192
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1248,10 +1248,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_51
       rect:
         serializedVersion: 2
-        x: 102
-        y: 152
-        width: 34
-        height: 34
+        x: 224
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1270,10 +1270,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_52
       rect:
         serializedVersion: 2
-        x: 136
-        y: 152
-        width: 34
-        height: 34
+        x: 256
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1292,10 +1292,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_53
       rect:
         serializedVersion: 2
-        x: 170
-        y: 152
-        width: 34
-        height: 34
+        x: 320
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1314,10 +1314,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_54
       rect:
         serializedVersion: 2
-        x: 204
-        y: 152
-        width: 34
-        height: 34
+        x: 384
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1336,10 +1336,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_55
       rect:
         serializedVersion: 2
-        x: 238
-        y: 152
-        width: 34
-        height: 34
+        x: 416
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1358,10 +1358,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_56
       rect:
         serializedVersion: 2
-        x: 272
-        y: 152
-        width: 34
-        height: 34
+        x: 448
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1380,10 +1380,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_57
       rect:
         serializedVersion: 2
-        x: 306
-        y: 152
-        width: 34
-        height: 34
+        x: 480
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1402,10 +1402,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_58
       rect:
         serializedVersion: 2
-        x: 340
-        y: 152
-        width: 34
-        height: 34
+        x: 512
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1424,10 +1424,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_59
       rect:
         serializedVersion: 2
-        x: 374
-        y: 152
-        width: 34
-        height: 34
+        x: 0
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1446,10 +1446,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_60
       rect:
         serializedVersion: 2
-        x: 408
-        y: 152
-        width: 34
-        height: 34
+        x: 64
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1468,10 +1468,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_61
       rect:
         serializedVersion: 2
-        x: 442
-        y: 152
-        width: 34
-        height: 34
+        x: 96
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1490,10 +1490,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_62
       rect:
         serializedVersion: 2
-        x: 476
-        y: 152
-        width: 34
-        height: 34
+        x: 160
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1512,10 +1512,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_63
       rect:
         serializedVersion: 2
-        x: 510
-        y: 152
-        width: 34
-        height: 34
+        x: 192
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1534,10 +1534,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_64
       rect:
         serializedVersion: 2
-        x: 0
-        y: 118
-        width: 34
-        height: 34
+        x: 256
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1556,10 +1556,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_65
       rect:
         serializedVersion: 2
-        x: 34
-        y: 118
-        width: 34
-        height: 34
+        x: 288
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1578,10 +1578,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_66
       rect:
         serializedVersion: 2
-        x: 68
-        y: 118
-        width: 34
-        height: 34
+        x: 320
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1600,10 +1600,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_67
       rect:
         serializedVersion: 2
-        x: 102
-        y: 118
-        width: 34
-        height: 34
+        x: 352
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1622,10 +1622,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_68
       rect:
         serializedVersion: 2
-        x: 136
-        y: 118
-        width: 34
-        height: 34
+        x: 384
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1644,10 +1644,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_69
       rect:
         serializedVersion: 2
-        x: 170
-        y: 118
-        width: 34
-        height: 34
+        x: 416
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1666,10 +1666,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_70
       rect:
         serializedVersion: 2
-        x: 204
-        y: 118
-        width: 34
-        height: 34
+        x: 448
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1688,10 +1688,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_71
       rect:
         serializedVersion: 2
-        x: 238
-        y: 118
-        width: 34
-        height: 34
+        x: 480
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1710,10 +1710,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_72
       rect:
         serializedVersion: 2
-        x: 272
-        y: 118
-        width: 34
-        height: 34
+        x: 512
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1732,10 +1732,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_73
       rect:
         serializedVersion: 2
-        x: 306
-        y: 118
-        width: 34
-        height: 34
+        x: 0
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1754,10 +1754,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_74
       rect:
         serializedVersion: 2
-        x: 340
-        y: 118
-        width: 34
-        height: 34
+        x: 32
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1776,10 +1776,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_75
       rect:
         serializedVersion: 2
-        x: 374
-        y: 118
-        width: 34
-        height: 34
+        x: 64
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1798,10 +1798,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_76
       rect:
         serializedVersion: 2
-        x: 408
-        y: 118
-        width: 34
-        height: 34
+        x: 96
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1820,10 +1820,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_77
       rect:
         serializedVersion: 2
-        x: 442
-        y: 118
-        width: 34
-        height: 34
+        x: 128
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1842,10 +1842,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_78
       rect:
         serializedVersion: 2
-        x: 476
-        y: 118
-        width: 34
-        height: 34
+        x: 160
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1864,10 +1864,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_79
       rect:
         serializedVersion: 2
-        x: 510
-        y: 118
-        width: 34
-        height: 34
+        x: 192
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1886,10 +1886,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_80
       rect:
         serializedVersion: 2
-        x: 0
-        y: 84
-        width: 34
-        height: 34
+        x: 224
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1908,10 +1908,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_81
       rect:
         serializedVersion: 2
-        x: 34
-        y: 84
-        width: 34
-        height: 34
+        x: 256
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1930,10 +1930,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_82
       rect:
         serializedVersion: 2
-        x: 68
-        y: 84
-        width: 34
-        height: 34
+        x: 320
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1952,10 +1952,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_83
       rect:
         serializedVersion: 2
-        x: 102
-        y: 84
-        width: 34
-        height: 34
+        x: 384
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1974,10 +1974,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_84
       rect:
         serializedVersion: 2
-        x: 136
-        y: 84
-        width: 34
-        height: 34
+        x: 416
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1996,10 +1996,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_85
       rect:
         serializedVersion: 2
-        x: 170
-        y: 84
-        width: 34
-        height: 34
+        x: 448
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2018,10 +2018,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_86
       rect:
         serializedVersion: 2
-        x: 204
-        y: 84
-        width: 34
-        height: 34
+        x: 480
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2040,10 +2040,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_87
       rect:
         serializedVersion: 2
-        x: 238
-        y: 84
-        width: 34
-        height: 34
+        x: 512
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2062,10 +2062,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_88
       rect:
         serializedVersion: 2
-        x: 272
-        y: 84
-        width: 34
-        height: 34
+        x: 0
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2084,10 +2084,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_89
       rect:
         serializedVersion: 2
-        x: 306
-        y: 84
-        width: 34
-        height: 34
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2106,10 +2106,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_90
       rect:
         serializedVersion: 2
-        x: 340
-        y: 84
-        width: 34
-        height: 34
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2128,10 +2128,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_91
       rect:
         serializedVersion: 2
-        x: 374
-        y: 84
-        width: 34
-        height: 34
+        x: 96
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2150,10 +2150,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_92
       rect:
         serializedVersion: 2
-        x: 408
-        y: 84
-        width: 34
-        height: 34
+        x: 128
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2172,10 +2172,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_93
       rect:
         serializedVersion: 2
-        x: 442
-        y: 84
-        width: 34
-        height: 34
+        x: 160
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2194,10 +2194,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_94
       rect:
         serializedVersion: 2
-        x: 476
-        y: 84
-        width: 34
-        height: 34
+        x: 192
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2216,10 +2216,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_95
       rect:
         serializedVersion: 2
-        x: 510
-        y: 84
-        width: 34
-        height: 34
+        x: 224
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2238,10 +2238,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_96
       rect:
         serializedVersion: 2
-        x: 0
-        y: 50
-        width: 34
-        height: 34
+        x: 256
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2260,10 +2260,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_97
       rect:
         serializedVersion: 2
-        x: 34
-        y: 50
-        width: 34
-        height: 34
+        x: 288
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2282,10 +2282,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_98
       rect:
         serializedVersion: 2
-        x: 68
-        y: 50
-        width: 34
-        height: 34
+        x: 320
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2304,10 +2304,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_99
       rect:
         serializedVersion: 2
-        x: 102
-        y: 50
-        width: 34
-        height: 34
+        x: 352
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2326,10 +2326,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_100
       rect:
         serializedVersion: 2
-        x: 136
-        y: 50
-        width: 34
-        height: 34
+        x: 384
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2348,10 +2348,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_101
       rect:
         serializedVersion: 2
-        x: 170
-        y: 50
-        width: 34
-        height: 34
+        x: 416
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2370,10 +2370,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_102
       rect:
         serializedVersion: 2
-        x: 204
-        y: 50
-        width: 34
-        height: 34
+        x: 448
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2392,10 +2392,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_103
       rect:
         serializedVersion: 2
-        x: 238
-        y: 50
-        width: 34
-        height: 34
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2414,10 +2414,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_104
       rect:
         serializedVersion: 2
-        x: 272
-        y: 50
-        width: 34
-        height: 34
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2436,10 +2436,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_105
       rect:
         serializedVersion: 2
-        x: 306
-        y: 50
-        width: 34
-        height: 34
+        x: 128
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2458,10 +2458,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_106
       rect:
         serializedVersion: 2
-        x: 340
-        y: 50
-        width: 34
-        height: 34
+        x: 160
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2480,10 +2480,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_107
       rect:
         serializedVersion: 2
-        x: 374
-        y: 50
-        width: 34
-        height: 34
+        x: 192
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2502,10 +2502,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_108
       rect:
         serializedVersion: 2
-        x: 408
-        y: 50
-        width: 34
-        height: 34
+        x: 224
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2524,10 +2524,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_109
       rect:
         serializedVersion: 2
-        x: 442
-        y: 50
-        width: 34
-        height: 34
+        x: 256
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2546,10 +2546,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_110
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 34
-        height: 34
+        x: 288
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2568,10 +2568,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_111
       rect:
         serializedVersion: 2
-        x: 34
-        y: 16
-        width: 34
-        height: 34
+        x: 320
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2590,10 +2590,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_112
       rect:
         serializedVersion: 2
-        x: 68
-        y: 16
-        width: 34
-        height: 34
+        x: 352
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2612,10 +2612,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_113
       rect:
         serializedVersion: 2
-        x: 102
-        y: 16
-        width: 34
-        height: 34
+        x: 384
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2634,10 +2634,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_114
       rect:
         serializedVersion: 2
-        x: 136
-        y: 16
-        width: 34
-        height: 34
+        x: 416
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2656,10 +2656,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_115
       rect:
         serializedVersion: 2
-        x: 170
-        y: 16
-        width: 34
-        height: 34
+        x: 448
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2678,10 +2678,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_116
       rect:
         serializedVersion: 2
-        x: 204
-        y: 16
-        width: 34
-        height: 34
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2700,10 +2700,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_117
       rect:
         serializedVersion: 2
-        x: 238
-        y: 16
-        width: 34
-        height: 34
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2722,10 +2722,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_118
       rect:
         serializedVersion: 2
-        x: 272
-        y: 16
-        width: 34
-        height: 34
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2744,10 +2744,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_119
       rect:
         serializedVersion: 2
-        x: 306
-        y: 16
-        width: 34
-        height: 34
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2766,10 +2766,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_120
       rect:
         serializedVersion: 2
-        x: 340
-        y: 16
-        width: 34
-        height: 34
+        x: 128
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2788,10 +2788,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_121
       rect:
         serializedVersion: 2
-        x: 374
-        y: 16
-        width: 34
-        height: 34
+        x: 160
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2810,10 +2810,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_122
       rect:
         serializedVersion: 2
-        x: 408
-        y: 16
-        width: 34
-        height: 34
+        x: 192
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2832,10 +2832,10 @@ TextureImporter:
       name: GandalfHardcore Hell Tiles 32x32_123
       rect:
         serializedVersion: 2
-        x: 442
-        y: 16
-        width: 34
-        height: 34
+        x: 224
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2846,6 +2846,182 @@ TextureImporter:
       bones: []
       spriteID: b0362b1e11cea5244909ecb146f230c4
       internalID: -1569219954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore Hell Tiles 32x32_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179074f057384214fad4f770fc68eb8f
+      internalID: -1047811487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore Hell Tiles 32x32_124
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51336a6d1cf1e7d4983befa66748ae60
+      internalID: -778060749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore Hell Tiles 32x32_125
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f380dfbb2a93b478b77de9a196e139
+      internalID: -1579432763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore Hell Tiles 32x32_126
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d9fc926dd06ef4f9ab9301528bc594
+      internalID: 1094847242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore Hell Tiles 32x32_127
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c89ec70f658fd439107398fdbd1a15
+      internalID: 783264456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore Hell Tiles 32x32_128
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8def2096ff5d3b74381c21e47be8ac21
+      internalID: 1314310351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore Hell Tiles 32x32_129
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc117260b4cdc7c4195860d5f3db736e
+      internalID: -1551951856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GandalfHardcore Hell Tiles 32x32_130
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ff6e28ab9c11f46b9afd01ed71e5ca
+      internalID: 265713050
       vertices: []
       indices: 
       edges: []
@@ -2866,7 +3042,7 @@ TextureImporter:
       - key: SpriteEditor.SliceOnImport
         value: False
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":34.0,"y":34.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       GandalfHardcore Hell Tiles 32x32_0: -8004479691346891330
       GandalfHardcore Hell Tiles 32x32_1: 1058263587159787581
@@ -2897,7 +3073,14 @@ TextureImporter:
       GandalfHardcore Hell Tiles 32x32_121: -1858562712
       GandalfHardcore Hell Tiles 32x32_122: -38208082
       GandalfHardcore Hell Tiles 32x32_123: -1569219954
+      GandalfHardcore Hell Tiles 32x32_124: -778060749
+      GandalfHardcore Hell Tiles 32x32_125: -1579432763
+      GandalfHardcore Hell Tiles 32x32_126: 1094847242
+      GandalfHardcore Hell Tiles 32x32_127: 783264456
+      GandalfHardcore Hell Tiles 32x32_128: 1314310351
+      GandalfHardcore Hell Tiles 32x32_129: -1551951856
       GandalfHardcore Hell Tiles 32x32_13: -8180031057304973604
+      GandalfHardcore Hell Tiles 32x32_130: 265713050
       GandalfHardcore Hell Tiles 32x32_14: -6527090020808768885
       GandalfHardcore Hell Tiles 32x32_15: -2734356704296680393
       GandalfHardcore Hell Tiles 32x32_16: 1045593472
