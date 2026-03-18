@@ -122,7 +122,7 @@ public class player_moviment : MonoBehaviour
             anim.SetBool("moving",false);
             isMoving = false;
             isJumping = true;
-            jumpForce = 11;
+            jumpForce = 11.5f;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x* 0.7f,jumpForce);
             
         }
