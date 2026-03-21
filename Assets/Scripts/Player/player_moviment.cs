@@ -1,5 +1,6 @@
+using System;
 using UnityEngine;
-using UnityEngine.InputSystem;
+using UnityEngine.InputSystem; //import que permite usar o nome input system da unity
 
 
 public class player_moviment : MonoBehaviour
@@ -14,73 +15,120 @@ public class player_moviment : MonoBehaviour
     [Header("Movement Variable")]
     public float velocity;
     public float jumpForce;
+    public float jumpCutMultiplier = .9f;
+    public float normalGravity;
+    public float fallGravity;
+    public float jumpGravity;
     private bool isAttacking = false;
-    private bool isJumping = false;
-    private bool isMoving = false;
     private int facingDirection = 1;
+
+
+
+
+    [Header("Ground Check")]
+    public Transform groundCheck;
+    public float groundCheckRadius;
+    public LayerMask groundLayer;
+    public bool isGrounded;
+
+
+    [Header("Slide Settings")]
+    public float slideDuration = .6f;
+    private bool sliding;
+    private float slideTimer;
     public Vector2 moveInput;
+    private bool jumpPressed;
+    private bool jumpReleased;
+
+
+
 
     void Start()
 {
-    
+    rb.gravityScale = normalGravity;
 }
-    void FixedUpdate()
-    {   
-        //Caso o jogador comece a atacar e estiver se movendo ele deve parar de se mover e usar o ataque
-        if(isAttacking == true && isMoving == true)
-        {
-            rb.linearVelocity = new Vector2(moveInput.x,0) * 0;
-            anim.SetBool("moving",false);
-        }
-        // caso o jogador não tenha clicado para pular mas por algum motivo esteja em queda
-        else if(isJumping == false && Mathf.Abs(rb.linearVelocity.y) > 3.2f && Mathf.Abs(rb.linearVelocity.y)  < 3.4f)
-        {
-            isJumping = true;
-            anim.SetBool("jumping",true);
-            anim.SetBool("isIdle",false);
-            anim.SetBool("moving",false);
-            rb.linearVelocity = new Vector2(moveInput.x * velocity * 0.6f,jumpForce);
-        }
-        // caso o jogador esteja pulando mas já tenha tocado o chão
-        else if(isJumping == true && Mathf.Abs(rb.linearVelocity.y) < 0.2f)
-        {
-            isJumping = false;
-            anim.SetBool("jumping", false);
-            anim.SetBool("isIdle",true);
-        }
-        //caso o usuário ainda esteja no meio do salto a gente reduz a força e impulso dele para iniciar a desaceleração
-        else if(isJumping == true || jumpForce != 0)
-        {
-            rb.linearVelocity = new Vector2(moveInput.x * velocity * 0.8f,jumpForce);
-            if(jumpForce > 0){
-                jumpForce -= 0.5f;
-            }
-            anim.SetBool("moving",false);
-            anim.SetBool("isIdle",false);
-        }
-        //caso contrário o jogador estará em movimento ou parado
-        else
-        {
-            rb.linearVelocity = new Vector2(moveInput.x * velocity,jumpForce) ;
-             if(moveInput.x != 0)
-            {
-                anim.SetBool("moving",true);
-                isMoving = true;
-                anim.SetBool("isIdle",false);
-             }
-            else
-            {
-                if(isAttacking == false)
-                {
-                     anim.SetBool("moving",false);
-                     isMoving = false;
-                     anim.SetBool("isIdle",true);
-                }
-        }
-        }
-           
+
+    void Update()
+    {
+        Flip();
     }
 
+    void FixedUpdate()
+    {   
+        ApplyVariableGravity();
+        CheckGrounded();
+        HandleMoviment();
+        HandleJump();     
+    }
+
+     void ApplyVariableGravity()
+    {
+        if(rb.linearVelocity.y < -0.3f){
+            rb.gravityScale = fallGravity;
+        }
+        else if(rb.linearVelocity.y > 0.3f)
+        {
+            rb.gravityScale = jumpGravity;
+        }
+        else
+        {
+            rb.gravityScale = normalGravity;
+        }
+    }
+
+    void CheckGrounded()
+    {
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position,groundCheckRadius,groundLayer);
+    }
+    private void HandleMoviment()
+    {
+        {
+            float targetSpeed = moveInput.x * velocity;
+            rb.linearVelocity = new Vector2(targetSpeed,rb.linearVelocity.y);
+            if(rb.linearVelocity.x != 0 && isGrounded == true )
+            {
+                if (isAttacking)
+                {
+                    rb.linearVelocity = new Vector2(targetSpeed,rb.linearVelocity.y) * 0;
+                }
+                else
+                {
+                    anim.SetBool("moving",true);
+                    anim.SetBool("isIdle",false);
+                    anim.SetBool("jumping",false);
+                }
+                    
+            }
+            else if(isGrounded)
+            {
+                anim.SetBool("isIdle",true);
+                anim.SetBool("moving",false);
+                anim.SetBool("jumping",false);
+            }
+        }
+        
+    }
+
+    private void HandleJump()
+    {
+        if(jumpPressed && isGrounded)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x,jumpForce);
+            jumpPressed = false;
+            jumpReleased = false;
+            anim.SetBool("isIdle",false);
+            anim.SetBool("moving",false);
+            anim.SetBool("jumping",true);
+        }
+        if (jumpReleased)
+        {
+            if (rb.linearVelocity.y > 0)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x,rb.linearVelocity.y * jumpCutMultiplier);
+            }
+            jumpReleased = false;
+        }
+    }
     public void SpawnSlash()
 {
      slashEffect.SetActive(true);
@@ -93,7 +141,6 @@ public class player_moviment : MonoBehaviour
     if (value.isPressed)
     {
                 isAttacking = true;
-                isMoving = false;
                 anim.SetBool("isAttacking", true);
                 anim.SetBool("isIdle", false);
                 anim.SetBool("jumping",false);
@@ -105,8 +152,6 @@ public class player_moviment : MonoBehaviour
     public void finishAttack()
     {
         isAttacking = false;
-        isJumping = false;
-        isMoving = false;
         anim.SetBool("isAttacking",false);
         attackAnim.SetBool("firstAttack",false);
         slashEffect.SetActive(false);
@@ -115,25 +160,27 @@ public class player_moviment : MonoBehaviour
 
     public void OnJump (InputValue value)
     {
-         if(isJumping != true && Mathf.Abs(rb.linearVelocity.y) < 0.01f)
+         if(value.isPressed)
         {
-            anim.SetBool("jumping", true);
-            anim.SetBool("isIdle",false);
-            anim.SetBool("moving",false);
-            isMoving = false;
-            isJumping = true;
-            jumpForce = 11.5f;
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x* 0.7f,jumpForce);
-            
+         jumpPressed = true;
+         jumpReleased = false;
         }
+        else
+        {
+            jumpReleased = true;
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color= Color.red;
+        Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
     }
 
 
     public void OnMove(InputValue value)
     {
-        anim.SetBool("isIdle",false);
         moveInput = value.Get<Vector2>();
-        Flip();
     }
 
     
