@@ -14,6 +14,7 @@ public class player_moviment : MonoBehaviour
     public PlayerInput playerInput;
     public Rigidbody2D rb;
     public Animator anim;
+    public CapsuleCollider2D playerCollider;
 
     
     [Header("Movement Variable")]
@@ -28,6 +29,9 @@ public class player_moviment : MonoBehaviour
     public float fallGravity;
     public float jumpGravity;
     private int facingDirection = 1;
+    public Vector2 moveInput;
+    private bool jumpPressed;
+    private bool jumpReleased;
 
 
     [Header("Ground Check")]
@@ -39,11 +43,19 @@ public class player_moviment : MonoBehaviour
 
     [Header("Slide Settings")]
     public float slideDuration = .6f;
+    public float slideSpeed = 5;
+    public float slideStopDuration = .15f;
+
+    public float slideHeight;
+    public Vector2 slideOffset; // allows us to offset the collider so it stays aligned with the bottom of the player
+    public float normalHeight;
+    public Vector2 normalOffset;
+
     private bool isSliding;
+    private bool slideInputLocked;
     private float slideTimer;
-    public Vector2 moveInput;
-    private bool jumpPressed;
-    private bool jumpReleased;
+    private float slideStopTimer;
+    
 
 
 
@@ -55,7 +67,10 @@ public class player_moviment : MonoBehaviour
 
     void Update()
     {
-        Flip();
+        if (!isSliding)
+        {
+            Flip();
+        }
         HandleAnimations();
         HandleSlide();
     }
@@ -106,10 +121,24 @@ public class player_moviment : MonoBehaviour
             if (isSliding)
             {
                 slideTimer -= Time.deltaTime;
+                rb.linearVelocity = new Vector2(slideSpeed * facingDirection,rb.linearVelocity.y);
+
+                // If we are done the slide
                 if(slideTimer <= 0)
                 {
                     isSliding = false;
+                    slideStopTimer = slideStopDuration;
+                    SetColliderNormal();
                 }   
+                if(slideStopTimer > 0)
+                {
+                    slideStopTimer -= Time.deltaTime;
+                    rb.linearVelocity = new Vector2(0,rb.linearVelocity.y);
+                }
+                if(slideStopTimer <= 0 )
+                {
+                    slideInputLocked = false;
+                }
             }
     }
 
@@ -183,11 +212,26 @@ public class player_moviment : MonoBehaviour
 
     public void OnSlide(InputValue value)
     {
-        if (isGrounded && value.isPressed && !isSliding)
+        //start the slide
+        if (isGrounded && value.isPressed && !isSliding && !slideInputLocked)
         {
             isSliding = true;
+            slideInputLocked = true;
             slideTimer = slideDuration;
+            SetColliderSlide();
         }
+    }
+
+    void SetColliderNormal()
+    {
+        playerCollider.size = new Vector2(playerCollider.size.x,normalHeight);
+        playerCollider.offset = normalOffset;
+    }
+
+     void SetColliderSlide()
+    {
+        playerCollider.size = new Vector2(playerCollider.size.x,slideHeight);
+        playerCollider.offset = slideOffset;
     }
 
     private void OnDrawGizmosSelected()

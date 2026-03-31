@@ -175,8 +175,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.031715818, y: 0.25087613}
-  m_Size: {x: 0.21258219, y: 0.48276132}
+  m_Offset: {x: 0.043199763, y: 0.2632024}
+  m_Size: {x: 0.20000002, y: 0.5}
   m_Direction: 0
 --- !u!50 &214703431
 Rigidbody2D:
@@ -273,7 +273,7 @@ Transform:
   m_GameObject: {fileID: 214703429}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.51989996, y: -0.42042005, z: 0}
+  m_LocalPosition: {x: 2.426, y: -1.378, z: 0}
   m_LocalScale: {x: 1.6, y: 1.6, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -293,18 +293,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45e90527de2b61441878ae335a8d561d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  playerInput: {fileID: 214703436}
+  slashEffect: {fileID: 737580186}
+  attackAnim: {fileID: 737580187}
   teste: 1
+  playerInput: {fileID: 214703436}
   rb: {fileID: 214703431}
   anim: {fileID: 214703435}
-  attackAnim: {fileID: 737580187}
-  slashEffect: {fileID: 737580186}
+  playerCollider: {fileID: 214703430}
   velocity: 3.6
   jumpForce: 10
   jumpCutMultiplier: 0.7
   normalGravity: 6
   fallGravity: 1.5
   jumpGravity: 3
+  moveInput: {x: 0, y: 0}
   groundCheck: {fileID: 712340872}
   groundCheckRadius: 0.05
   groundLayer:
@@ -312,7 +314,12 @@ MonoBehaviour:
     m_Bits: 64
   isGrounded: 1
   slideDuration: 0.6
-  moveInput: {x: 0, y: 0}
+  slideSpeed: 5
+  slideStopDuration: 0.15
+  slideHeight: 0.2184798
+  slideOffset: {x: 0.04319976, y: 0.1224423}
+  normalHeight: 0.5
+  normalOffset: {x: 0.04319976, y: 0.2632024}
 --- !u!95 &214703435
 Animator:
   serializedVersion: 7
@@ -497,7 +504,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.8104496, y: 0.021737516, z: -10}
+  m_LocalPosition: {x: 6.7167373, y: -0.51716, z: -10}
   m_LocalScale: {x: 1.2247398, y: 1.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1666,7 +1673,7 @@ Transform:
   m_GameObject: {fileID: 1089279592}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.8104496, y: 0.021737516, z: -10}
+  m_LocalPosition: {x: 6.7165494, y: -0.93584245, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
