@@ -8,6 +8,7 @@ public class Damage : MonoBehaviour
    [Header("KnockBack Settings")]
    public float knockbackForce = 5;
    public float knockbackDuration = .2f;
+   public GameObject uiController;
 
    
     private void OnEnable()
@@ -31,6 +32,7 @@ public class Damage : MonoBehaviour
 
         player.damagedState.SetParameters(knockbackDir);
         player.ChangeState(player.damagedState);
+        uiController.GetComponent<HeartControl>().UpdateHearts(health.health);
     }
 
     void HandleDeath()

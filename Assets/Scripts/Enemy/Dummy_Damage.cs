@@ -10,6 +10,7 @@ public class DummyDamage : MonoBehaviour
     [SerializeField] private float spawnForce = 5;
     [SerializeField] private float torque = 5;
     [SerializeField] private float lifeTime = 2;
+    
 
 
     private void OnEnable()
@@ -47,5 +48,6 @@ public class DummyDamage : MonoBehaviour
 
         }
         Destroy(gameObject);
+
     }
 }

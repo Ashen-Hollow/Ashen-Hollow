@@ -32,9 +32,24 @@ public class Combat : MonoBehaviour
         if(enemy != null)
         {
             hitFX.Play("HitFX");
-            enemy.gameObject.GetComponent<Health>()?.ChangeHealth(-damage,transform.position);
-            enemy.gameObject.GetComponent<HealthDummy>()?.ChangeHealth(-damage);
+            if(enemy.gameObject.GetComponent<Health>()?.health <= damage)
+            {
+                player.playerHealth.health += 1;
+                player.damage.uiController.GetComponent<HeartControl>().UpdateHearts(player.playerHealth.health);
+            }
+
+            if(player.playerHealth.health == 1)
+            {
+                enemy.gameObject.GetComponent<Health>()?.ChangeHealth(-damage * 2,transform.position);
+            }
+            else
+            {
+                enemy.gameObject.GetComponent<Health>()?.ChangeHealth(-damage,transform.position);
+                enemy.gameObject.GetComponent<HealthDummy>()?.ChangeHealth(-damage);
+            }
             
+            
+
         }
     }
 }
