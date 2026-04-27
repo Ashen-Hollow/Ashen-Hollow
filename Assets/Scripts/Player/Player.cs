@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     public PlayerSlideState slideState;
     public PlayerAttackState attackState;
     public PlayerDamagedState damagedState;
+    public GameObject pausePanel;
 
 
     public GameObject slashEffect;
@@ -83,19 +84,6 @@ public class Player : MonoBehaviour
 
     public bool isSliding;
     
-
-
-private void OnEnable()
-    {
-        playerHealth.OnDeath += HandleDeath;
-    }
-
-
-
-    private void OnDisable()
-    {
-        playerHealth.OnDeath -= HandleDeath;
-    }
 
     private void Awake()
     {
@@ -253,11 +241,12 @@ private void OnEnable()
         transform.localScale = new Vector3(facingDirection * 1.6f,1.6f,1);
     }
 
-    private void HandleDeath()
+    public void OnPause()
     {
-        Console.WriteLine("Olá, mundo!");
-        transform.position = pontoDeSpawn.position;
-        playerHealth.health = playerHealth.maxHealth;
-
+        bool isPaused = !pausePanel.activeSelf;
+        pausePanel.SetActive(isPaused);
+        Time.timeScale = isPaused ? 0f : 1f;
     }
+
+    
 }

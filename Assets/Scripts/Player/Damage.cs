@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Damage : MonoBehaviour
 {
   [SerializeField] private Player player;
@@ -35,6 +35,6 @@ public class Damage : MonoBehaviour
 
     void HandleDeath()
     {
-
+        SceneManager.LoadScene("GameOver");
     }
 }

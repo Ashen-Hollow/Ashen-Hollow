@@ -6,7 +6,7 @@ public class Health : MonoBehaviour
    public event Action<Vector2> OnDamage;
    public event Action OnDeath;
    public int health;
-   public int maxHealth;
+   public int maxHealth;    
 
 
 
