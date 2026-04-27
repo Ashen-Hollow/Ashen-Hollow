@@ -1,0 +1,40 @@
+using UnityEngine;
+
+public class Damage : MonoBehaviour
+{
+  [SerializeField] private Player player;
+   public Health health;
+
+   [Header("KnockBack Settings")]
+   public float knockbackForce = 5;
+   public float knockbackDuration = .2f;
+
+   
+    private void OnEnable()
+    {
+        health.OnDamage += HandleDamage;
+        health.OnDeath += HandleDeath;
+
+    }
+
+    private void OnDisable()
+    {
+        health.OnDamage -= HandleDamage;
+        health.OnDeath -= HandleDeath;
+    }
+
+    void HandleDamage(Vector2 sourcePosition)
+    {
+        int knockbackDir = 0;
+        knockbackDir = transform.position.x > sourcePosition.x ? 1 : -1;
+
+
+        player.damagedState.SetParameters(knockbackDir);
+        player.ChangeState(player.damagedState);
+    }
+
+    void HandleDeath()
+    {
+
+    }
+}

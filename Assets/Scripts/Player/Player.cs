@@ -3,11 +3,24 @@ using UnityEngine;
 using UnityEngine.InputSystem; //import que permite usar o nome input system da unity
 
 
-public class player_moviment : MonoBehaviour
+public class Player : MonoBehaviour
 {
+
+    public PlayerState currentState;
+    public PlayerIdleState idleState;
+    public PlayerJumpState jumpState;
+    public PlayerMoveState moveState;
+    public PlayerSlideState slideState;
+    public PlayerAttackState attackState;
+    public PlayerDamagedState damagedState;
+
+
     public GameObject slashEffect;
     public Animator attackAnim;
     public bool teste = true;
+    public Transform pontoDeSpawn;
+
+    
 
 
     [Header("Components")]
@@ -16,7 +29,12 @@ public class player_moviment : MonoBehaviour
     public Animator anim;
     public CapsuleCollider2D playerCollider;
 
-    
+
+
+    public bool attackPressed;
+
+
+
     [Header("Movement Variable")]
     private bool moving = false;
     private bool idle = false;
@@ -28,10 +46,21 @@ public class player_moviment : MonoBehaviour
     public float normalGravity;
     public float fallGravity;
     public float jumpGravity;
-    private int facingDirection = 1;
+    public int facingDirection = 1;
+
+
     public Vector2 moveInput;
-    private bool jumpPressed;
-    private bool jumpReleased;
+    public bool jumpPressed;
+    public bool jumpReleased;
+
+
+    [Header("Core Componentes")]
+    public Combat combat;
+    public Damage damage;
+    public Health playerHealth;
+
+
+
 
 
     [Header("Ground Check")]
@@ -39,6 +68,7 @@ public class player_moviment : MonoBehaviour
     public float groundCheckRadius;
     public LayerMask groundLayer;
     public bool isGrounded;
+
 
 
     [Header("Slide Settings")]
@@ -51,43 +81,65 @@ public class player_moviment : MonoBehaviour
     public float normalHeight;
     public Vector2 normalOffset;
 
-    private bool isSliding;
-    private bool slideInputLocked;
-    private float slideTimer;
-    private float slideStopTimer;
+    public bool isSliding;
     
 
 
+private void OnEnable()
+    {
+        playerHealth.OnDeath += HandleDeath;
+    }
 
+
+
+    private void OnDisable()
+    {
+        playerHealth.OnDeath -= HandleDeath;
+    }
+
+    private void Awake()
+    {
+        idleState = new PlayerIdleState(this);
+        jumpState = new PlayerJumpState(this);
+        moveState = new PlayerMoveState(this);
+        slideState = new PlayerSlideState(this);
+        attackState = new PlayerAttackState(this);
+        damagedState = new PlayerDamagedState(this);
+    }
 
     void Start()
 {
     rb.gravityScale = normalGravity;
+    ChangeState(idleState);
 }
+
+    public void ChangeState(PlayerState newState)
+    {
+        if(currentState != null)
+        {
+            currentState.Exit();
+        }
+        currentState = newState;
+        currentState.Enter();
+    }
 
     void Update()
     {
+        currentState.Update();
         if (!isSliding)
         {
             Flip();
         }
         HandleAnimations();
-        HandleSlide();
     }
 
     void FixedUpdate()
     {   
-        ApplyVariableGravity();
+        currentState.FixedUpdate();
         CheckGrounded();
-
-        if (!isSliding)
-        {
-            HandleMoviment();
-        }
-        HandleJump();     
     }
 
-     void ApplyVariableGravity()
+    public void ApplyVariableGravity()
     {
         if(rb.linearVelocity.y < -0.3f){
             rb.gravityScale = fallGravity;
@@ -109,72 +161,9 @@ public class player_moviment : MonoBehaviour
 
     void HandleAnimations()
     {
-        anim.SetBool("sliding",isSliding && isGrounded);
         anim.SetBool("isAttacking",isAttacking && !isSliding);
-        anim.SetBool("isIdle", Math.Abs(moveInput.x) < .1f && isGrounded && !isAttacking && !isSliding);
-        anim.SetBool("moving", Math.Abs(moveInput.x) > .1f && isGrounded && !isAttacking && !isSliding);
-        anim.SetBool("jumping", isGrounded == false && !isAttacking);
     }
-
-    private void HandleSlide()
-        {
-            if (isSliding)
-            {
-                slideTimer -= Time.deltaTime;
-                rb.linearVelocity = new Vector2(slideSpeed * facingDirection,rb.linearVelocity.y);
-
-                // If we are done the slide
-                if(slideTimer <= 0)
-                {
-                    isSliding = false;
-                    slideStopTimer = slideStopDuration;
-                    SetColliderNormal();
-                }   
-                if(slideStopTimer > 0)
-                {
-                    slideStopTimer -= Time.deltaTime;
-                    rb.linearVelocity = new Vector2(0,rb.linearVelocity.y);
-                }
-                if(slideStopTimer <= 0 )
-                {
-                    slideInputLocked = false;
-                }
-            }
-    }
-
-    private void HandleMoviment()
-    {
-        {
-            float targetSpeed = moveInput.x * velocity;
-            rb.linearVelocity = new Vector2(targetSpeed,rb.linearVelocity.y);
-            if(rb.linearVelocity.x != 0 && isGrounded == true )
-            {
-                if (isAttacking)
-                {
-                    rb.linearVelocity = new Vector2(targetSpeed,rb.linearVelocity.y) * 0;
-                } 
-            }
-        }
-        
-    }
-
-    private void HandleJump()
-    {
-        if(jumpPressed && isGrounded)
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x,jumpForce);
-            jumpPressed = false;
-            jumpReleased = false;
-        }
-        if (jumpReleased)
-        {
-            if (rb.linearVelocity.y > 0)
-            {
-                rb.linearVelocity = new Vector2(rb.linearVelocity.x,rb.linearVelocity.y * jumpCutMultiplier);
-            }
-            jumpReleased = false;
-        }
-    }
+   
     public void SpawnSlash()
 {
      slashEffect.SetActive(true);
@@ -186,15 +175,19 @@ public class player_moviment : MonoBehaviour
     if (value.isPressed)
     {
                 isAttacking = true;
-        
+                attackPressed = true;
+            
     }
 }
+    
 
-    public void finishAttack()
+    public void AttackAnimationFinished()
     {
         isAttacking = false;
+        attackPressed = false;
         attackAnim.SetBool("firstAttack",false);
         slashEffect.SetActive(false);
+        currentState.AttackAnimationFinished();
     }
 
     public void OnJump (InputValue value)
@@ -213,22 +206,20 @@ public class player_moviment : MonoBehaviour
     public void OnSlide(InputValue value)
     {
         //start the slide
-        if (isGrounded && value.isPressed && !isSliding && !slideInputLocked)
+        if (isGrounded && value.isPressed && !isSliding)
         {
             isSliding = true;
-            slideInputLocked = true;
-            slideTimer = slideDuration;
             SetColliderSlide();
         }
     }
 
-    void SetColliderNormal()
+    public void SetColliderNormal()
     {
         playerCollider.size = new Vector2(playerCollider.size.x,normalHeight);
         playerCollider.offset = normalOffset;
     }
 
-     void SetColliderSlide()
+     public void SetColliderSlide()
     {
         playerCollider.size = new Vector2(playerCollider.size.x,slideHeight);
         playerCollider.offset = slideOffset;
@@ -260,5 +251,13 @@ public class player_moviment : MonoBehaviour
         }
 
         transform.localScale = new Vector3(facingDirection * 1.6f,1.6f,1);
+    }
+
+    private void HandleDeath()
+    {
+        Console.WriteLine("Olá, mundo!");
+        transform.position = pontoDeSpawn.position;
+        playerHealth.health = playerHealth.maxHealth;
+
     }
 }
