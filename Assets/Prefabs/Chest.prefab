@@ -107,6 +107,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Chest
   anim: {fileID: 3871253246709757530}
+  collectibleSO: {fileID: 11400000, guid: 8bbe4fae3cf1d9444a9b4a6d771a8769, type: 2}
+  lootPrefab: {fileID: 8362048278443764816, guid: 82e3f52a2ae150e469da91264947d7a7, type: 3}
+  spawnDelay: 0.2
 --- !u!61 &3376537095335517678
 BoxCollider2D:
   m_ObjectHideFlags: 0
