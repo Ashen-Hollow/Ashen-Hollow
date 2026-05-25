@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 2258288061959250589}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.383, y: 0.011, z: 0}
+  m_LocalPosition: {x: 0.291, y: -0.004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -152,7 +152,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: 4723107735738678597, guid: 1227f0c2bb6137a44a250f8efd28caad, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -179,7 +179,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   health: 0
-  maxHealth: 3
+  maxHealth: 6
 --- !u!61 &864224683029576359
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -274,7 +274,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.020092726, y: -0.057766706}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -284,7 +284,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.53, y: 0.43}
+  m_Size: {x: 0.4697218, y: 0.3144666}
   m_EdgeRadius: 0
 --- !u!114 &5470704157260450986
 MonoBehaviour:
@@ -340,7 +340,7 @@ MonoBehaviour:
   explosionVFXPrefab: {fileID: 0}
   playerLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   flashCount: 5
   flashInterval: 0.15
   warningColor: {r: 1, g: 0, b: 0, a: 1}
