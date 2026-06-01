@@ -544,7 +544,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 112522836}
+      - m_Target: {fileID: 734681488}
         m_TargetAssemblyTypeName: CloseScene, Assembly-CSharp
         m_MethodName: FecharMinhaCena
         m_Mode: 1
@@ -732,6 +732,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571530013}
   m_CullTransparentMesh: 1
+--- !u!1 &734681487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 734681489}
+  - component: {fileID: 734681488}
+  m_Layer: 0
+  m_Name: CloseUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &734681488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734681487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c769ab4f6d52d30478cc24c4ea23fff3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CloseScene
+  nomeDaCenaUI: Scenes/UI
+--- !u!4 &734681489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734681487}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 919.0606, y: 559.3367, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &771299068
 GameObject:
   m_ObjectHideFlags: 0
@@ -2863,3 +2908,4 @@ SceneRoots:
   - {fileID: 321515638}
   - {fileID: 2145224245}
   - {fileID: 112522835}
+  - {fileID: 734681489}
