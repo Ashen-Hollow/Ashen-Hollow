@@ -11,10 +11,11 @@ public class MeleeAttackState : State
     {
         base.Enter();
         rb.linearVelocity = Vector2.zero;
+        combat.PerformMeleeAttack();
     }
 
  public override void OnAnimationFinished()
     {
-        stateMachine.ChangeState(new IdleState(enemy));
+        stateMachine.ChangeState(new ChaseState(enemy));
     }
 }
