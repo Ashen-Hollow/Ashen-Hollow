@@ -8,10 +8,19 @@ public class Enemy_Combat : MonoBehaviour
     private Enemy enemy;
     private float lastAttackTime;
 
+    private Player player;
+    private int playerDefense;
+
     private void Start()
     {
         enemy = GetComponent<Enemy>();
         config = enemy.Config; 
+        if (player == null)
+    {
+        player = FindFirstObjectByType<Player>(); // Na Unity antiga use FindObjectOfType<Player>()
+        playerDefense = player.GetDamageDefense();
+        print(playerDefense);
+    }
     }
 
     public bool CanMeleeAttack() => Time.time >= lastAttackTime + config.meleeCoolDown;
@@ -31,14 +40,9 @@ public class Enemy_Combat : MonoBehaviour
         {
             Health health = hit.GetComponent<Health>();
             
-            // 4. Aplica o dano se o componente Health existir
             if (health != null)
             {
-                health.ChangeHealth(-config.meleeDamage, transform.position);
-                
-                // Se você quiser que o inimigo pare de atacar após acertar o player 
-                // (mesmo que haja outros objetos), use 'break'.
-                // Se quiser dar dano em tudo que for player no raio, não use break.
+                health.ChangeHealth(-config.meleeDamage + playerDefense, transform.position);
                 break; 
             }
         }
