@@ -432,6 +432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45e90527de2b61441878ae335a8d561d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  blockPressed: 0
   pausePanel: {fileID: 901802765}
   slashEffect: {fileID: 737580186}
   attackAnim: {fileID: 737580187}
@@ -784,7 +785,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.020321, y: 0.04986, z: -10}
+  m_LocalPosition: {x: 1.655262, y: 0.049490035, z: -10}
   m_LocalScale: {x: 1.2247398, y: 1.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5088,7 +5089,7 @@ Transform:
   m_GameObject: {fileID: 1089279592}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.397831, y: 0.04915756, z: -10}
+  m_LocalPosition: {x: 1.3955493, y: 0.04915756, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6777,14 +6778,6 @@ PrefabInstance:
     - target: {fileID: 4678015200075072670, guid: 3dcf1ed53f5d1a749b722b8101699b62, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8514952392421827404, guid: 3dcf1ed53f5d1a749b722b8101699b62, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8514952392421827404, guid: 3dcf1ed53f5d1a749b722b8101699b62, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.08
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

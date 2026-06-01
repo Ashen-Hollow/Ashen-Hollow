@@ -13,6 +13,8 @@ public class Player : MonoBehaviour
     public PlayerSlideState slideState;
     public PlayerAttackState attackState;
     public PlayerDamagedState damagedState;
+    public PlayerBlockState blockState;
+    public bool blockPressed;
     public GameObject pausePanel;
 
 
@@ -93,6 +95,7 @@ public class Player : MonoBehaviour
         slideState = new PlayerSlideState(this);
         attackState = new PlayerAttackState(this);
         damagedState = new PlayerDamagedState(this);
+        blockState = new PlayerBlockState(this);
     }
 
     void Start()
@@ -199,6 +202,13 @@ public class Player : MonoBehaviour
             isSliding = true;
             SetColliderSlide();
         }
+    }
+
+    public void OnBlock(InputValue value)
+    {
+        blockPressed = value.isPressed;
+        if (blockPressed && isGrounded)
+            ChangeState(blockState);
     }
 
     public void SetColliderNormal()
