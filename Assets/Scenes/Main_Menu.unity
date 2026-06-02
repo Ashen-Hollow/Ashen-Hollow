@@ -286,7 +286,7 @@ MonoBehaviour:
     m_NormalColor: {r: 0.7509433, g: 0.7509433, b: 0.7509433, a: 1}
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
     m_PressedColor: {r: 0.5411765, g: 0.41568628, b: 0.27058825, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0.6627451, g: 0.6627451, b: 0.6627451, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.05
@@ -731,7 +731,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.7529412, g: 0.7529412, b: 0.7529412, a: 1}
+    m_NormalColor: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
     m_PressedColor: {r: 0.5411765, g: 0.41568628, b: 0.27058825, a: 1}
     m_SelectedColor: {r: 0.6627451, g: 0.6627451, b: 0.6627451, a: 1}
@@ -1042,7 +1042,7 @@ GameObject:
   - component: {fileID: 1743805241}
   - component: {fileID: 1743805240}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Novo jogo(TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
