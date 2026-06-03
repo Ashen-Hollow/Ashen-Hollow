@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     public PlayerAttackState attackState;
     public PlayerDamagedState damagedState;
     public GameObject pausePanel;
-
+    public GameObject pauseOverlay;
 
     public GameObject slashEffect;
     public Animator attackAnim;
@@ -244,14 +244,17 @@ public class Player : MonoBehaviour
     public void OnPause()
     {
         bool isPaused = !pausePanel.activeSelf;
+
         pausePanel.SetActive(isPaused);
+        pauseOverlay.SetActive(isPaused);
+        
         Time.timeScale = isPaused ? 0f : 1f;
     }
     private void OnDestroy()
     {
         Time.timeScale = 1f; 
         // Adicionado porque o método OnPause 
-        // estava travando a cena do menu (Ester)
+        // estava travando a cena do menu 
     }
 
     
