@@ -434,6 +434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   pausePanel: {fileID: 901802765}
+  pauseOverlay: {fileID: 1050827257}
   slashEffect: {fileID: 737580186}
   attackAnim: {fileID: 737580187}
   teste: 1
@@ -559,9 +560,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb4c2afaca418c489f9a4b6e99bffb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  health: 0
-  maxHealth: 50
-  player: {fileID: 0}
+  health: 30
+  maxHealth: 30
+  player: {fileID: 214703434}
+  heartControl: {fileID: 888559904}
 --- !u!114 &214703440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1730,9 +1732,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 784919929}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92b3db77e2542144f93055f3f3688d2d, type: 3}
+  m_Script: {fileID: 11500000, guid: 378fbde263d0aff40b1c7622fa5b8d42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  Config: {fileID: 11400000, guid: a6226912654c31043acbb7b9722f3099, type: 2}
 --- !u!1 &824146669
 GameObject:
   m_ObjectHideFlags: 0
@@ -7430,16 +7433,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 31630175026064171, guid: d3efaac7f6a8d694bb517f59c4baa9f3, type: 3}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
+      - m_Target: {fileID: 214703434}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: OnPause
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: SampleScene
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1925041474

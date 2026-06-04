@@ -32,7 +32,9 @@ public class Damage : MonoBehaviour
 
         player.damagedState.SetParameters(knockbackDir);
         player.ChangeState(player.damagedState);
-        uiController.GetComponent<HeartControl>().UpdateHearts(health.health);
+
+        int hearts = Mathf.CeilToInt((float)health.health / health.maxHealth * 3);
+        uiController.GetComponent<HeartControl>().UpdateHearts(hearts);
     }
 
     void HandleDeath()
