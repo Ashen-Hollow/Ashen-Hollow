@@ -7,32 +7,41 @@ public class ProgressionManager : MonoBehaviour
   [Header ("UI References")]
   public TMP_Text pointsText;
   //Slot Reference
-
   public AttributesSlot[] attributesSlots;
   public StatsSlot[] statsSlot;
 
   [Header ("Settings")]
-  public int availablePoints = 5;
-  private int startingPoints; //Tracks the starting value in case we cancel and need to reset
+  [HideInInspector] public int availablePoints;
+  private int startingPoints; 
 
-  public Attributes baseAttributes; //The "Real" stats
-  public Attributes previewAttributes; //The "Drafts" stats
+  [HideInInspector] public Attributes baseAttributes; 
+  [HideInInspector] public Attributes previewAttributes; 
+
+  private Player playerScript;
 
   private void Start()
     {
-        //Initialize
+        
+        playerScript = FindFirstObjectByType<Player>(); 
+
+        if (playerScript != null)
+        {
+            baseAttributes = playerScript.baseAttributes;
+            availablePoints = playerScript.availablePoints;
+        }
+        else
+        {
+            Debug.LogError("ProgressionManager: Não foi possível encontrar o script do Player na cena!");
+        }
+
         startingPoints = availablePoints;
         previewAttributes = baseAttributes.Clone();
 
-        //Setup our slots
         foreach(AttributesSlot slot in attributesSlots)
         {
             slot.Setup(this);
-                
-            
         }
 
-        //Setup our slots
         RefreshUI();
     }
 
@@ -65,9 +74,16 @@ public class ProgressionManager : MonoBehaviour
 
     public void ConfirmChanges()
     {
-        //Overwrite our base attributes with preview values
         baseAttributes = previewAttributes.Clone();
         startingPoints = availablePoints;
+
+        if (playerScript != null)
+        {
+            playerScript.baseAttributes = baseAttributes.Clone();
+            playerScript.availablePoints = availablePoints;
+
+        }
+
         RefreshUI();
     }
 

@@ -6,18 +6,26 @@ public class Health : MonoBehaviour
    public event Action<Vector2> OnDamage;
    public event Action OnDeath;
    public int health;
-   public int maxHealth;    
+   public int maxHealth;   
+
+   public Player player;
+    
 
 
 
    public void Start()
     {
-        health = maxHealth;
+        if(player != null)
+        {
+            maxHealth = player.GetVidaMaximaAtual();
+        }
+            health = maxHealth;
     }
 
    public void ChangeHealth(int amount,Vector2 sourcePosition)
     {
         health += amount;
+        print(amount);
 
         if(health > maxHealth)
         {

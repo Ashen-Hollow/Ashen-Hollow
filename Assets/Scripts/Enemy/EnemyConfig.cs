@@ -22,7 +22,7 @@ public class EnemyConfig : ScriptableObject
 
  [Header("Attack")]
  public float meleeRange = .8f;
- public int meleeDamage = 1;
+ public int meleeDamage = 30;
  public float meleeCoolDown = 1;
 
 

@@ -30,6 +30,10 @@ public class Player : MonoBehaviour
     public Animator anim;
     public CapsuleCollider2D playerCollider;
 
+    [Header("Progression Data")]
+    public Attributes baseAttributes;
+    public int availablePoints;
+
 
 
     public bool attackPressed;
@@ -242,13 +246,30 @@ public class Player : MonoBehaviour
     }
 
     public void OnPause()
-    {
-        bool isPaused = !pausePanel.activeSelf;
+{
+    if (UnityEngine.SceneManagement.SceneManager.GetSceneByName("Scenes/UI").isLoaded)
+        return;
 
-        pausePanel.SetActive(isPaused);
-        pauseOverlay.SetActive(isPaused);
+    bool isPaused = !pausePanel.activeSelf;
+    pausePanel.SetActive(isPaused);
+    pauseOverlay.SetActive(isPaused);
         
-        Time.timeScale = isPaused ? 0f : 1f;
+    Time.timeScale = isPaused ? 0f : 1f;
+}
+
+    public int GetAtaqueAtual()
+    {
+        return Stats.AttackDamage(baseAttributes);
+    }
+    
+    public int GetVidaMaximaAtual()
+    {
+        return Stats.MaxHealth(baseAttributes);
+    }
+
+    public int GetDamageDefense()
+    {
+        return Stats.DamageDefense(baseAttributes);
     }
     private void OnDestroy()
     {

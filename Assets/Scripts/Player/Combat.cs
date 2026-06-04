@@ -4,7 +4,6 @@ public class Combat : MonoBehaviour
 {
 
     [Header("Attack Settings")]
-    public int damage;
     public float attackRadius = .5f;
     public float attackCooldown = .01f;
     public Transform attackPoint;
@@ -27,6 +26,7 @@ public class Combat : MonoBehaviour
         if(!CanAttack)
             return;
 
+        int damage = Stats.AttackDamage(player.baseAttributes);
         nextAttackTime = Time.time + attackCooldown;
         Collider2D enemy = Physics2D.OverlapCircle(attackPoint.position,attackRadius,enemyLayer);
         if(enemy != null)

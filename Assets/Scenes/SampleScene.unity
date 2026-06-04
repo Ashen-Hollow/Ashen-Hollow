@@ -442,6 +442,11 @@ MonoBehaviour:
   rb: {fileID: 214703431}
   anim: {fileID: 214703435}
   playerCollider: {fileID: 214703430}
+  baseAttributes:
+    strength: 10
+    defense: 10
+    vitality: 10
+  availablePoints: 5
   attackPressed: 0
   velocity: 3.6
   jumpForce: 10
@@ -534,7 +539,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6260bdc8705e6a49b80a5c79680e99a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Combat
-  damage: 2
   attackRadius: 0.5
   attackCooldown: 0.01
   attackPoint: {fileID: 1766455390}
@@ -556,7 +560,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   health: 0
-  maxHealth: 3
+  maxHealth: 50
+  player: {fileID: 0}
 --- !u!114 &214703440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5693,6 +5698,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8074230247248004257, guid: 3dcf1ed53f5d1a749b722b8101699b62, type: 3}
+      propertyPath: maxHealth
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7871,6 +7880,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8074230247248004257, guid: 3dcf1ed53f5d1a749b722b8101699b62, type: 3}
+      propertyPath: maxHealth
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7998,15 +8011,15 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 622776230}
   - {fileID: 1156838190}
-  - {fileID: 100041521391465884}
   - {fileID: 784919933}
-  - {fileID: 1309882392071836178}
   - {fileID: 63760320}
   - {fileID: 623029473}
   - {fileID: 193603548}
   - {fileID: 497357555}
-  - {fileID: 1091928704}
+  - {fileID: 1309882392071836178}
   - {fileID: 1446149884}
+  - {fileID: 100041521391465884}
+  - {fileID: 1091928704}
   - {fileID: 7262002480037950169}
   - {fileID: 1183776800}
   - {fileID: 1292091807}
