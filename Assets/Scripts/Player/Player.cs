@@ -2,7 +2,6 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem; //import que permite usar o nome input system da unity
 
-
 public class Player : MonoBehaviour
 {
 
@@ -271,7 +270,21 @@ public class Player : MonoBehaviour
     {
         return Stats.DamageDefense(baseAttributes);
     }
-    private void OnDestroy()
+    public void ResumeGame()
+    {
+    pausePanel.SetActive(false);
+    pauseOverlay.SetActive(false);
+    Time.timeScale = 1f;
+    
+    }    
+    public void RestartScene()
+{
+    Time.timeScale = 1f;
+    UnityEngine.SceneManagement.SceneManager.LoadScene(
+    UnityEngine.SceneManagement.SceneManager.GetActiveScene().name
+    );
+}
+private void OnDestroy()
     {
         Time.timeScale = 1f; 
         // Adicionado porque o método OnPause 
