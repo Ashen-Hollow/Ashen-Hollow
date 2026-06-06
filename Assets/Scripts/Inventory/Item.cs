@@ -11,6 +11,9 @@ public class Item : MonoBehaviour
     [SerializeField]
     private Sprite sprite;
 
+    [TextArea]
+    [SerializeField] private string itemDescription;
+
     private InventoryManager inventoryManager;
 
     void Start()
@@ -26,7 +29,7 @@ public class Item : MonoBehaviour
             // Confirmação extra de segurança para evitar erros
             if (inventoryManager != null)
             {
-                inventoryManager.AddItem(itemName, quantity, sprite);
+                inventoryManager.AddItem(itemName, quantity, sprite, itemDescription);
                 Destroy(gameObject);
             }
             else
