@@ -4637,7 +4637,7 @@ GameObject:
   - component: {fileID: 1062133974}
   - component: {fileID: 1062133976}
   - component: {fileID: 1062133975}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Decor_49
   m_TagString: Untagged
   m_Icon: {fileID: 0}
