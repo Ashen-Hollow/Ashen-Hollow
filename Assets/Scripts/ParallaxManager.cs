@@ -31,7 +31,7 @@ public class ParallaxManager : MonoBehaviour
             float moveX = cameraDelta.x * layer.parallaxFactor;
             float moveY = cameraDelta.y * layer.parallaxFactor;
 
-            layer.layer.position = new Vector3(moveX,moveY,0);
+            layer.layer.position += new Vector3(moveX,moveY,0);
         }
         lastCameraPosition = camTransform.position;
     }

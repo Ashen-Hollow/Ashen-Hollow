@@ -3,44 +3,49 @@ using System;
 
 public class Health : MonoBehaviour
 {
-   public event Action<Vector2> OnDamage;
-   public event Action OnDeath;
-   public int health;
-   public int maxHealth;   
+    public event Action<Vector2> OnDamage;
+    public event Action OnDeath;
 
-   public Player player;
-    
+    public int health;
+    public int maxHealth;
 
+    public Player player;
 
+    [SerializeField] private HeartControl heartControl;
 
-   public void Start()
+    public void Start()
     {
-        if(player != null)
+        if (player != null)
         {
             maxHealth = player.GetVidaMaximaAtual();
         }
-            health = maxHealth;
+
+        health = maxHealth;
+
+        if (heartControl != null)
+            heartControl.UpdateHearts(health);
     }
 
-   public void ChangeHealth(int amount,Vector2 sourcePosition)
+    public void ChangeHealth(int amount, Vector2 sourcePosition)
     {
         health += amount;
         print(amount);
 
-        if(health > maxHealth)
+        if (health > maxHealth)
         {
             health = maxHealth;
         }
-        else if(health <= 0)
+
+        if (heartControl != null)
+            heartControl.UpdateHearts(health);
+
+        if (health <= 0)
         {
             OnDeath?.Invoke();
-            
         }
-        else if(amount < 0)
+        else if (amount < 0)
         {
             OnDamage?.Invoke(sourcePosition);
-            
         }
     }
-   
 }
