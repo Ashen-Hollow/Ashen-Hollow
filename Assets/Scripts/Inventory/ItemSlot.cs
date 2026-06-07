@@ -33,7 +33,6 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
         inventoryManager = FindFirstObjectByType<InventoryManager>(FindObjectsInactive.Include);
     }
 
-    // Mantido o SEU código original que funciona perfeitamente para empilhar
     public int AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
     {
         if (isFull)
@@ -79,23 +78,9 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
 
     public void OnLeftClick()
     {
-        // O DUPLO CLIQUE: Se o slot já estava selecionado E tem item dentro, ele usa!
-        if (thisItemSelected && quantity > 0)
-        {
-            inventoryManager.UseItem(itemName);
+        // O DUPLO CLIQUE FOI REMOVIDO DAQUI.
+        // Agora o clique serve APENAS para selecionar e exibir a descrição.
 
-            quantity -= 1;
-            quantityText.text = quantity.ToString();
-
-            // Se o item acabou, limpa a tela e sai da função
-            if (quantity <= 0)
-            {
-                EmptySlot();
-                return;
-            }
-        }
-
-        // O PRIMEIRO CLIQUE (ou clique normal): Mantido o seu código original
         inventoryManager.DeselecteAllSlots();
         selectedShader.SetActive(true);
         thisItemSelected = true;
@@ -112,10 +97,13 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
 
     public void OnRightClick()
     {
-        // Lógica de usar ou dropar o item no futuro!
+        // --- ADICIONADO: Clique direito manda o item para o atalho ---
+        if (quantity > 0)
+        {
+            inventoryManager.EquipQuickItem(itemName, itemSprite);
+        }
     }
 
-    // Função que limpa os dados quando o item acaba
     private void EmptySlot()
     {
         quantity = 0;
@@ -132,5 +120,18 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
         itemDescriptionImage.sprite = emptySprite;
 
         inventoryManager.DeselecteAllSlots();
+    }
+
+    public void ConsumeOne()
+    {
+        if (quantity > 0)
+        {
+            quantity -= 1;
+            quantityText.text = quantity.ToString();
+            if (quantity <= 0)
+            {
+                EmptySlot();
+            }
+        }
     }
 }
