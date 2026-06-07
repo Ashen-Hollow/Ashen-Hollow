@@ -30,10 +30,10 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
 
     public void Start()
     {
-        // CORREÇÃO 1: Acha o Manager mesmo se o Canvas estiver desligado!
         inventoryManager = FindFirstObjectByType<InventoryManager>(FindObjectsInactive.Include);
     }
 
+    // Mantido o SEU código original que funciona perfeitamente para empilhar
     public int AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
     {
         if (isFull)
@@ -43,7 +43,6 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
         this.itemSprite = itemSprite;
         this.itemDescription = itemDescription;
 
-        // CORREÇÃO 2: A imagem recebe a foto e já é ativada AQUI em cima!
         itemImage.sprite = this.itemSprite;
         itemImage.enabled = true;
 
@@ -63,7 +62,6 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
         quantityText.text = this.quantity.ToString();
         quantityText.enabled = true;
 
-        // O return final fica por último, depois que tudo já foi feito
         return 0;
     }
 
@@ -81,6 +79,23 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
 
     public void OnLeftClick()
     {
+        // O DUPLO CLIQUE: Se o slot já estava selecionado E tem item dentro, ele usa!
+        if (thisItemSelected && quantity > 0)
+        {
+            inventoryManager.UseItem(itemName);
+
+            quantity -= 1;
+            quantityText.text = quantity.ToString();
+
+            // Se o item acabou, limpa a tela e sai da função
+            if (quantity <= 0)
+            {
+                EmptySlot();
+                return;
+            }
+        }
+
+        // O PRIMEIRO CLIQUE (ou clique normal): Mantido o seu código original
         inventoryManager.DeselecteAllSlots();
         selectedShader.SetActive(true);
         thisItemSelected = true;
@@ -98,5 +113,24 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
     public void OnRightClick()
     {
         // Lógica de usar ou dropar o item no futuro!
+    }
+
+    // Função que limpa os dados quando o item acaba
+    private void EmptySlot()
+    {
+        quantity = 0;
+        isFull = false;
+        itemName = "";
+        itemDescription = "";
+
+        itemImage.sprite = emptySprite;
+        itemImage.enabled = false;
+        quantityText.enabled = false;
+
+        ItemDescriptionNameText.text = "";
+        ItemDescriptionText.text = "";
+        itemDescriptionImage.sprite = emptySprite;
+
+        inventoryManager.DeselecteAllSlots();
     }
 }

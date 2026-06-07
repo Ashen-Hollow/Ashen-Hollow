@@ -7,6 +7,10 @@ public class InventoryManager : MonoBehaviour
     private bool menuActivated;
     public ItemSlot[] itemSlot;
 
+    // --- ADICIONADO: Variáveis para gerenciar o uso dos itens ---
+    public ItemSO[] itemSOs;
+    public GameObject player;
+
     void Start()
     {
         if (InventoryMenu != null)
@@ -33,6 +37,22 @@ public class InventoryManager : MonoBehaviour
                 Time.timeScale = 1f;
             }
         }
+    }
+
+    // --- ADICIONADO: Método que o ItemSlot chama para usar a poção ---
+    public void UseItem(string itemName)
+    {
+        for (int i = 0; i < itemSOs.Length; i++)
+        {
+            if (itemSOs[i].itemName == itemName)
+            {
+                // Acha o ScriptableObject com o nome certo e aplica no Player
+                itemSOs[i].UseItem(player);
+                return; // Sai da função para não gastar processamento à toa
+            }
+        }
+
+        Debug.LogWarning("O item " + itemName + " não foi encontrado no banco de dados do InventoryManager!");
     }
 
     public int AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
