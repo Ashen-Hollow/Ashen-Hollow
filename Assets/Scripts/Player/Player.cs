@@ -86,7 +86,10 @@ public class Player : MonoBehaviour
     public Vector2 normalOffset;
 
     public bool isSliding;
-    
+
+    [Header("Dialogue")]
+    DialogueSystem dialogueSystem;
+    public Transform npc;
 
     private void Awake()
     {
@@ -96,6 +99,7 @@ public class Player : MonoBehaviour
         slideState = new PlayerSlideState(this);
         attackState = new PlayerAttackState(this);
         damagedState = new PlayerDamagedState(this);
+        dialogueSystem = FindObjectOfType<DialogueSystem>();
     }
 
     void Start()
@@ -122,6 +126,14 @@ public class Player : MonoBehaviour
             Flip();
         }
         HandleAnimations();
+
+        if(Math.Abs(transform.position.x - npc.position.x) < 2.0f)
+        {
+            if (Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame)
+            {
+                dialogueSystem.Next();
+            }
+        }
     }
 
     void FixedUpdate()

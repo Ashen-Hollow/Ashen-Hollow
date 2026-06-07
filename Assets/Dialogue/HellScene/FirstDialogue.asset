@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de976f5abdb4cc54a9b5cf4fd0b45ee6, type: 3}
+  m_Name: FirstDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Cozinheiro do Submundo
+    text: "Hehehe! Olha s\xF3 o que o rio de lava trouxe... Carne fresca! O que faz
+      perto do meu caldeir\xE3o, mortal?"
+  - name: Player
+    text: "S\xF3 estou tentando encontrar uma sa\xEDda deste lugar."
+  - name: Cozinheiro do Submundo
+    text: "Sa\xEDda? N\xE3o h\xE1 sa\xEDda! Mas se voc\xEA me ajudar a terminar esta
+      sopa de almas, posso pensar em n\xE3o te cozinhar vivo. Falta um ingrediente
+      secreto."
+  - name: Player
+    text: "E qual seria esse ingrediente? Espero que n\xE3o seja eu."
+  - name: Cozinheiro do Submundo
+    text: "Ah, voc\xEA \xE9 magro demais, daria um caldo ralo! Eu preciso de pimenta-infernal
+      fresca. Aquela planta que cresce perto dos fossos de enxofre ali adiante."
+  - name: Player
+    text: E o que eu ganho se arriscar minha pele por essa pimenta?
+  - name: Cozinheiro do Submundo
+    text: "Ganha a sua vida, para come\xE7ar! E talvez... s\xF3 talvez... eu te mostre
+      o atalho que os guardas usam para ir ao pr\xF3ximo n\xEDvel. O que me diz?
+      Temos um acordo?"
+  - name: Player
+    text: "N\xE3o tenho muita escolha. Eu trago a pimenta, voc\xEA me d\xE1 o caminho."
+  - name: Cozinheiro do Submundo
+    text: "\xD3timo! V\xE1 logo antes que o caldo esfrie. E cuidado com os espinhos
+      no caminho, eles costumam morder!"
+  - name: Player
+    text: "Volto logo. Trate de manter esse caldeir\xE3o longe de mim."
+  - name: Cozinheiro do Submundo
+    text: Hehehe... Estarei esperando!
