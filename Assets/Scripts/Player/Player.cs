@@ -2,7 +2,6 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem; //import que permite usar o nome input system da unity
 
-
 public class Player : MonoBehaviour
 {
 
@@ -16,7 +15,7 @@ public class Player : MonoBehaviour
     public PlayerBlockState blockState;
     public bool blockPressed;
     public GameObject pausePanel;
-
+    public GameObject pauseOverlay;
 
     public GameObject slashEffect;
     public Animator attackAnim;
@@ -262,6 +261,8 @@ public class Player : MonoBehaviour
 
     bool isPaused = !pausePanel.activeSelf;
     pausePanel.SetActive(isPaused);
+    pauseOverlay.SetActive(isPaused);
+        
     Time.timeScale = isPaused ? 0f : 1f;
 }
 
@@ -278,6 +279,26 @@ public class Player : MonoBehaviour
     public int GetDamageDefense()
     {
         return Stats.DamageDefense(baseAttributes);
+    }
+    public void ResumeGame()
+    {
+    pausePanel.SetActive(false);
+    pauseOverlay.SetActive(false);
+    Time.timeScale = 1f;
+    
+    }    
+    public void RestartScene()
+{
+    Time.timeScale = 1f;
+    UnityEngine.SceneManagement.SceneManager.LoadScene(
+    UnityEngine.SceneManagement.SceneManager.GetActiveScene().name
+    );
+}
+private void OnDestroy()
+    {
+        Time.timeScale = 1f; 
+        // Adicionado porque o método OnPause 
+        // estava travando a cena do menu 
     }
 
     

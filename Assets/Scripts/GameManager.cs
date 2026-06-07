@@ -12,15 +12,8 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject); // Opcional: mantém o GameManager vivo entre as cenas
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+       Instance = this;
+       Time.timeScale = 1;
     }
 
     /// <summary>
@@ -28,6 +21,8 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void LoadScene(string sceneName)
     {
+        Debug.Log("Tentando carregar cena: " + sceneName);
+        Time.timeScale = 1f;
         SceneManager.LoadScene(sceneName);
     }
 
