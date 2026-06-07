@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 1163400637882221627}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.258, y: -0.485, z: 0}
+  m_LocalPosition: {x: 0.928, y: -1.896, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -56,7 +56,7 @@ Transform:
   m_GameObject: {fileID: 4663921296576923781}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.269, y: -0.055, z: 0}
+  m_LocalPosition: {x: 1.65, y: -0.69, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -98,7 +98,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.339, y: -0.974, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 1
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9097893149861281470}
   - {fileID: 133408276982459797}
@@ -270,6 +270,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Health
   health: 0
   maxHealth: 40
+  player: {fileID: 0}
+  heartControl: {fileID: 0}
 --- !u!114 &4885465357801304458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -323,17 +325,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.00862056, y: -0.16091958}
+  m_Offset: {x: -0.10880852, y: -0.6029254}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.82, y: 0.98}
+    oldSize: {x: 3.28, y: 3.92}
     newSize: {x: 0.28235295, y: 0.5647059}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.38896525, y: 0.65816087}
+  m_Size: {x: 2.239497, y: 2.6501348}
   m_EdgeRadius: 0
 --- !u!1 &8289699678560100331
 GameObject:
@@ -360,7 +362,7 @@ Transform:
   m_GameObject: {fileID: 8289699678560100331}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.2, y: 0.08, z: 0}
+  m_LocalPosition: {x: 1.66, y: -0.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
