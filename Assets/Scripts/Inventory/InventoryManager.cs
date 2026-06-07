@@ -35,17 +35,26 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    public void AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
+    public int AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
     {
         for (int i = 0; i < itemSlot.Length; i++)
-        { 
-            if(itemSlot[i].isFull == false)
+        {
+            // CORREÇÃO 1: Trocado 'name' por 'itemName' e adicionado parênteses na lógica.
+            // A lógica agora é: "Se o slot não está cheio E (é o mesmo item OU está vazio)"
+            if (itemSlot[i].isFull == false && (itemSlot[i].itemName == itemName || itemSlot[i].quantity == 0))
             {
-                itemSlot[i].AddItem(itemName, quantity, itemSprite, itemDescription);
-                return;
+                int leftOverItems = itemSlot[i].AddItem(itemName, quantity, itemSprite, itemDescription);
+
+                if (leftOverItems > 0)
+                {
+                    // CORREÇÃO 2 e 3: Trocado '==' por '=' e adicionado o ';' no final
+                    leftOverItems = AddItem(itemName, leftOverItems, itemSprite, itemDescription);
+                }
+
+                return leftOverItems;
             }
-        
         }
+        return quantity;
     }
 
     public void DeselecteAllSlots()
@@ -56,5 +65,4 @@ public class InventoryManager : MonoBehaviour
             itemSlot[i].thisItemSelected = false;
         }
     }
-
 }

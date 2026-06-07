@@ -29,8 +29,12 @@ public class Item : MonoBehaviour
             // Confirmação extra de segurança para evitar erros
             if (inventoryManager != null)
             {
-                inventoryManager.AddItem(itemName, quantity, sprite, itemDescription);
+
+                int leftOverItems = inventoryManager.AddItem(itemName, quantity, sprite, itemDescription);
+                if(leftOverItems <= 0) 
                 Destroy(gameObject);
+                else
+                    quantity = leftOverItems;
             }
             else
             {

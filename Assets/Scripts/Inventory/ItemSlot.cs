@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class ItemSlot : MonoBehaviour , IPointerClickHandler
+public class ItemSlot : MonoBehaviour, IPointerClickHandler
 {
     public string itemName;
     public int quantity;
@@ -14,11 +14,10 @@ public class ItemSlot : MonoBehaviour , IPointerClickHandler
     public string itemDescription;
     public Sprite emptySprite;
 
+    [SerializeField] private int maxNumberOfItems;
 
     [SerializeField] private TMP_Text quantityText;
     [SerializeField] private Image itemImage;
-
-
 
     public Image itemDescriptionImage;
     public TMP_Text ItemDescriptionNameText;
@@ -29,25 +28,43 @@ public class ItemSlot : MonoBehaviour , IPointerClickHandler
 
     private InventoryManager inventoryManager;
 
-
     public void Start()
     {
-       inventoryManager = GameObject.Find("InventoryCanvas").GetComponent<InventoryManager>(); 
+        // CORREÇÃO 1: Acha o Manager mesmo se o Canvas estiver desligado!
+        inventoryManager = FindFirstObjectByType<InventoryManager>(FindObjectsInactive.Include);
     }
-    public void AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription )
+
+    public int AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
     {
+        if (isFull)
+            return quantity;
+
         this.itemName = itemName;
-        this.quantity = quantity;
         this.itemSprite = itemSprite;
         this.itemDescription = itemDescription;
-        isFull = true;
 
-        quantityText.text = quantity.ToString();
-
-        quantityText.enabled = true;
-        itemImage.sprite = itemSprite;
-
+        // CORREÇÃO 2: A imagem recebe a foto e já é ativada AQUI em cima!
+        itemImage.sprite = this.itemSprite;
         itemImage.enabled = true;
+
+        this.quantity += quantity;
+
+        if (this.quantity >= maxNumberOfItems)
+        {
+            quantityText.text = maxNumberOfItems.ToString();
+            quantityText.enabled = true;
+            isFull = true;
+
+            int extraItems = this.quantity - maxNumberOfItems;
+            this.quantity = maxNumberOfItems;
+            return extraItems;
+        }
+
+        quantityText.text = this.quantity.ToString();
+        quantityText.enabled = true;
+
+        // O return final fica por último, depois que tudo já foi feito
+        return 0;
     }
 
     public void OnPointerClick(PointerEventData eventData)
@@ -60,25 +77,26 @@ public class ItemSlot : MonoBehaviour , IPointerClickHandler
         {
             OnRightClick();
         }
-
     }
-    public void OnLeftClick() 
-    { 
+
+    public void OnLeftClick()
+    {
         inventoryManager.DeselecteAllSlots();
-       selectedShader.SetActive(true);
+        selectedShader.SetActive(true);
         thisItemSelected = true;
+
         ItemDescriptionNameText.text = itemName;
         ItemDescriptionText.text = itemDescription;
         itemDescriptionImage.sprite = itemSprite;
+
         if (itemDescriptionImage.sprite == null)
         {
-            itemDescriptionImage.sprite =emptySprite;
+            itemDescriptionImage.sprite = emptySprite;
         }
-
     }
 
-    public void OnRightClick() 
+    public void OnRightClick()
     {
-
+        // Lógica de usar ou dropar o item no futuro!
     }
 }
