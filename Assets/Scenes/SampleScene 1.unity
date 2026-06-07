@@ -442,6 +442,11 @@ MonoBehaviour:
   rb: {fileID: 214703431}
   anim: {fileID: 214703435}
   playerCollider: {fileID: 214703430}
+  baseAttributes:
+    strength: 10
+    defense: 10
+    vitality: 10
+  availablePoints: 0
   attackPressed: 0
   velocity: 3.6
   jumpForce: 10
@@ -534,7 +539,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6260bdc8705e6a49b80a5c79680e99a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Combat
-  damage: 2
   attackRadius: 0.5
   attackCooldown: 0.01
   attackPoint: {fileID: 1766455390}
@@ -557,6 +561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Health
   health: 0
   maxHealth: 3
+  player: {fileID: 0}
 --- !u!114 &214703440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1090,11 +1095,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8484545793831678571, guid: e5dd40e286244684abc271ed333e0d48, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.71
+      value: 1.67
       objectReference: {fileID: 0}
     - target: {fileID: 8484545793831678571, guid: e5dd40e286244684abc271ed333e0d48, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.39
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8484545793831678571, guid: e5dd40e286244684abc271ed333e0d48, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5453,11 +5458,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8010084997732784267, guid: c4dcd30f7bf8d1c4d9747acedd020622, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.04
+      value: 25.034
       objectReference: {fileID: 0}
     - target: {fileID: 8010084997732784267, guid: c4dcd30f7bf8d1c4d9747acedd020622, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.42
+      value: 0.231
       objectReference: {fileID: 0}
     - target: {fileID: 8010084997732784267, guid: c4dcd30f7bf8d1c4d9747acedd020622, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7059,11 +7064,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8010084997732784267, guid: c4dcd30f7bf8d1c4d9747acedd020622, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.715
+      value: 5.813
       objectReference: {fileID: 0}
     - target: {fileID: 8010084997732784267, guid: c4dcd30f7bf8d1c4d9747acedd020622, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.784
+      value: -0.779
       objectReference: {fileID: 0}
     - target: {fileID: 8010084997732784267, guid: c4dcd30f7bf8d1c4d9747acedd020622, type: 3}
       propertyPath: m_LocalPosition.z
