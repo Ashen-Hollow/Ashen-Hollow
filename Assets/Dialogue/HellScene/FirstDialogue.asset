@@ -13,32 +13,32 @@ MonoBehaviour:
   m_Name: FirstDialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   talkScript:
-  - name: Cozinheiro do Submundo
+  - name: Cozinheiro
     text: "Hehehe! Olha s\xF3 o que o rio de lava trouxe... Carne fresca! O que faz
       perto do meu caldeir\xE3o, mortal?"
   - name: Player
     text: "S\xF3 estou tentando encontrar uma sa\xEDda deste lugar."
-  - name: Cozinheiro do Submundo
+  - name: Cozinheiro
     text: "Sa\xEDda? N\xE3o h\xE1 sa\xEDda! Mas se voc\xEA me ajudar a terminar esta
       sopa de almas, posso pensar em n\xE3o te cozinhar vivo. Falta um ingrediente
       secreto."
   - name: Player
     text: "E qual seria esse ingrediente? Espero que n\xE3o seja eu."
-  - name: Cozinheiro do Submundo
+  - name: Cozinheiro
     text: "Ah, voc\xEA \xE9 magro demais, daria um caldo ralo! Eu preciso de pimenta-infernal
       fresca. Aquela planta que cresce perto dos fossos de enxofre ali adiante."
   - name: Player
     text: E o que eu ganho se arriscar minha pele por essa pimenta?
-  - name: Cozinheiro do Submundo
+  - name: Cozinheiro
     text: "Ganha a sua vida, para come\xE7ar! E talvez... s\xF3 talvez... eu te mostre
       o atalho que os guardas usam para ir ao pr\xF3ximo n\xEDvel. O que me diz?
       Temos um acordo?"
   - name: Player
     text: "N\xE3o tenho muita escolha. Eu trago a pimenta, voc\xEA me d\xE1 o caminho."
-  - name: Cozinheiro do Submundo
+  - name: Cozinheiro
     text: "\xD3timo! V\xE1 logo antes que o caldo esfrie. E cuidado com os espinhos
       no caminho, eles costumam morder!"
   - name: Player
     text: "Volto logo. Trate de manter esse caldeir\xE3o longe de mim."
-  - name: Cozinheiro do Submundo
+  - name: 'Cozinheiro '
     text: Hehehe... Estarei esperando!
