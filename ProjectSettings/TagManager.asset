@@ -5,17 +5,19 @@ TagManager:
   serializedVersion: 3
   tags:
   - Chest
+  - npc
+  - enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - background
   - Water
   - UI
   - ground
   - Enemy
   - Player
-  - 
+  - npc
   - 
   - 
   - 
@@ -41,6 +43,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: enemy
+    uniqueID: 2521900679
     locked: 0
   m_RenderingLayers:
   - Default
