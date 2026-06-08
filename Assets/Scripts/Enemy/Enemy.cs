@@ -46,4 +46,10 @@ public class Enemy : MonoBehaviour
         scale.x = FacingDirection;
         transform.localScale = scale;
     }
+
+    public void OnAttackHitFrame()
+    {
+        if (StateMachine.CurrentState is MeleeAttackState attackState)
+            attackState.TriggerAttack();
+    }
 }

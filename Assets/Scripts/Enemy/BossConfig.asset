@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BossConfig
   m_EditorClassIdentifier: Assembly-CSharp::EnemyConfig
   turnThreshold: 0.2
-  patrolSpeed: 0
+  patrolSpeed: 0.1
   groundCheckDistance: 0.7
   wallCheckDistance: 0.5
   groundLayer:
@@ -23,12 +23,12 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   chaseSpeed: 3.5
-  chaseRange: 4
+  chaseRange: 5
   targetLayer:
     serializedVersion: 2
     m_Bits: 256
   meleeRange: 2
-  meleeDamage: 10
+  meleeDamage: 100
   meleeCoolDown: 1.5
   knockbackDuration: 0.2
   knockbackForce: 15

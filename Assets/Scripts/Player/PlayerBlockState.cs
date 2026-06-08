@@ -1,47 +1,29 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerBlockState : PlayerState
 {
-    private float blockDuration;
-    private float parryWindow = 0.2f; // janela de tempo para parry perfeito
-    private bool isParrying;
-
     public bool IsBlocking { get; private set; }
-    public bool IsParrying => isParrying;
 
     public PlayerBlockState(Player player) : base(player) { }
 
     public override void Enter()
     {
         base.Enter();
-
         IsBlocking = true;
-        isParrying = true;          // janela de parry ativa logo ao entrar
-        blockDuration = 0f;
-
-        rb.linearVelocity = new Vector2(0, rb.linearVelocity.y); // para o jogador
-
+        rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
         anim.SetBool("isBlocking", true);
     }
 
     public override void Update()
     {
-        blockDuration += Time.deltaTime;
-
-        // fecha a janela de parry ap�s parryWindow segundos
-        if (isParrying && blockDuration >= parryWindow)
-        {
-            isParrying = false;
-        }
-
-        // sai do block quando o jogador soltar a tecla (blockPressed vai a false em Player.cs)
+        // Solta o botão → sai do block
         if (!player.blockPressed)
         {
             ExitBlock();
             return;
         }
 
-        // permite andar lentamente enquanto bloqueia
+        // Permite andar lentamente enquanto bloqueia
         float slowedSpeed = player.velocity * 0.4f;
         rb.linearVelocity = new Vector2(MoveInput.x * slowedSpeed, rb.linearVelocity.y);
     }

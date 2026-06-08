@@ -26,25 +26,17 @@ public class Damage : MonoBehaviour
 
     void HandleDamage(Vector2 sourcePosition)
     {
-        if (player.currentState is PlayerBlockState blockState)
+        // Se estiver bloqueando, absorve o dano
+        if (player.currentState is PlayerBlockState)
         {
-            if (blockState.IsParrying)
-            {
-                Debug.Log("Parry! Nenhum dano recebido.");
-                return;
-            }
-            else
-            {
-                Debug.Log("Block! Dano absorvido.");
-                uiController.GetComponent<HeartControl>().UpdateHearts(health.health);
-                return;
-            }
+            Debug.Log("Block! Dano absorvido.");
+            uiController.GetComponent<HeartControl>().UpdateHearts(health.health);
+            return;
         }
 
         int knockbackDir = transform.position.x > sourcePosition.x ? 1 : -1;
         player.damagedState.SetParameters(knockbackDir);
         player.ChangeState(player.damagedState);
-
         int hearts = Mathf.CeilToInt((float)health.health / health.maxHealth * 3);
         uiController.GetComponent<HeartControl>().UpdateHearts(hearts);
     }
