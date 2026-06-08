@@ -24,6 +24,11 @@ public class IdleState : State
             return;
         }
 
+        if(enemy.Config.patrolSpeed == 0)
+        {
+            return;
+        }
+
         enemy.FaceTarget(target);
 
         if (senses.IsInMeleeRange(target) && combat.CanMeleeAttack())
