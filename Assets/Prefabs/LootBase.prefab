@@ -52,6 +52,10 @@ MonoBehaviour:
   sr: {fileID: 7162592770683338654}
   anim: {fileID: 0}
   itemMessage: {fileID: 0}
+  itemName: Potion HP
+  quantity: 1
+  itemSprite: {fileID: 21300000, guid: c08a74def4f8bee408c9a14de3fcaa5a, type: 3}
+  itemDescription: "Po\xE7\xE3o de cura"
   tempoParaColetar: 1
   rb: {fileID: -116808337391812742}
   dropForce: 4

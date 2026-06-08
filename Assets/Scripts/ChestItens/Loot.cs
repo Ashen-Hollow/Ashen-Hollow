@@ -4,11 +4,20 @@ using TMPro;
 
 public class Loot : MonoBehaviour
 {
-    private Player player;
+    // Mantive o CollectibleSO para não dar erro no seu script do Baú, 
+    // que provavelmente ainda usa isso no Instantiate.
     [SerializeField] private CollectibleSO collectibleSO;
+
     [SerializeField] private SpriteRenderer sr;
     public Animator anim;
     public TMP_Text itemMessage;
+
+    // --- ADICIONADO: As variáveis que o seu Inventário precisa ---
+    [Header("Configurações do Inventário")]
+    [SerializeField] private string itemName;
+    [SerializeField] private int quantity = 1;
+    [SerializeField] private Sprite itemSprite;
+    [TextArea][SerializeField] private string itemDescription;
 
     [Header("Configurações de Coleta")]
     [SerializeField] private float tempoParaColetar = 1f;
@@ -16,17 +25,30 @@ public class Loot : MonoBehaviour
 
     [Header("Configurações do Drop (Física)")]
     [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private float dropForce = 5f; // Força do pulo
+    [SerializeField] private float dropForce = 5f;
+
+    // O seu gerenciador
+    private InventoryManager inventoryManager;
+
+    void Start()
+    {
+        // O mesmo comando mágico do seu Item.cs
+        inventoryManager = FindFirstObjectByType<InventoryManager>(FindObjectsInactive.Include);
+    }
 
     public void Initialize(CollectibleSO collectibleSO)
     {
         this.collectibleSO = collectibleSO;
-        sr.sprite = collectibleSO.itemSprite;
 
-        // Começa a contar o tempo para poder pegar
+        // Puxa a imagem do SO caso você esqueça de colocar no Inspector
+        if (itemSprite == null && collectibleSO != null)
+        {
+            itemSprite = collectibleSO.itemSprite;
+        }
+
+        if (sr != null) sr.sprite = itemSprite;
+
         StartCoroutine(LiberarColetaRoutine());
-
-        // Faz o item pular da caixa
         PopItemOut();
     }
 
@@ -34,13 +56,8 @@ public class Loot : MonoBehaviour
     {
         if (rb != null)
         {
-            // Sorteia um valor para ele cair um pouco para a esquerda ou para a direita
             float randomX = Random.Range(-0.5f, 0.5f);
-
-            // Define a direção: o X é aleatório, e o Y (para cima) é 1.
             Vector2 jumpDirection = new Vector2(randomX, 1f).normalized;
-
-            // Empurra o item usando a física de Impulso
             rb.AddForce(jumpDirection * dropForce, ForceMode2D.Impulse);
         }
     }
@@ -65,17 +82,32 @@ public class Loot : MonoBehaviour
     {
         if (!podeColetar) return;
 
-        player = collision.GetComponent<Player>();
-
-        if (player == null)
-            return;
-
-        CollectItem();
+        // Trocado para usar o mesmo sistema de Tag do seu Item.cs (muito mais leve!)
+        if (collision.CompareTag("Player"))
+        {
+            CollectItem();
+        }
     }
 
     private void CollectItem()
     {
-        collectibleSO.Collect(player);
-        Destroy(gameObject);
+        if (inventoryManager != null)
+        {
+            // --- A NOVA LÓGICA DE INVENTÁRIO AQUI ---
+            int leftOverItems = inventoryManager.AddItem(itemName, quantity, itemSprite, itemDescription);
+
+            if (leftOverItems <= 0)
+            {
+                Destroy(gameObject); // Inventário sugou tudo, deleta o loot do chão
+            }
+            else
+            {
+                quantity = leftOverItems; // Inventário encheu, sobra o resto no chão
+            }
+        }
+        else
+        {
+            Debug.LogWarning("InventoryManager não encontrado na cena!");
+        }
     }
 }
