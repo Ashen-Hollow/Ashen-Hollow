@@ -3,6 +3,8 @@ using System;
 
 public class Health : MonoBehaviour
 {
+
+    public event Action<int, int> OnHealthChanged;
     public event Action<Vector2> OnDamage;
     public event Action OnDeath;
 
@@ -21,6 +23,8 @@ public class Health : MonoBehaviour
         }
 
         health = maxHealth;
+        OnHealthChanged?.Invoke(health, maxHealth);
+
 
         if (heartControl != null)
             heartControl.UpdateHearts(health);
@@ -35,6 +39,8 @@ public class Health : MonoBehaviour
         {
             health = maxHealth;
         }
+
+        OnHealthChanged?.Invoke(health,maxHealth);
 
         if (heartControl != null)
             heartControl.UpdateHearts(health);
