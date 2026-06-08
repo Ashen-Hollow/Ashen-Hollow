@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BossConfig
   m_EditorClassIdentifier: Assembly-CSharp::EnemyConfig
   turnThreshold: 0.2
-  patrolSpeed: 1.5
+  patrolSpeed: 0
   groundCheckDistance: 0.7
   wallCheckDistance: 0.5
   groundLayer:

@@ -17,7 +17,8 @@ public class IdleState : State
     public override void FixedUpdate()
     {
         target = senses.GetChaseTarget();
-        if (!target)
+        
+        if (!target && enemy.Config.patrolSpeed != 0)
         {
             stateMachine.ChangeState(new PatrolState(enemy));
             return;
