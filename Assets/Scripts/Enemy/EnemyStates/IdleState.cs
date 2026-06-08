@@ -24,7 +24,7 @@ public class IdleState : State
             return;
         }
 
-        if(enemy.Config.patrolSpeed == 0)
+        if(enemy.Config.patrolSpeed == 0 && target)
         {
             return;
         }

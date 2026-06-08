@@ -28,7 +28,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
 
     private InventoryManager inventoryManager;
 
-    public void Start()
+    public void Awake()
     {
         inventoryManager = FindFirstObjectByType<InventoryManager>(FindObjectsInactive.Include);
     }
@@ -79,7 +79,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
     public void OnLeftClick()
     {
         // O DUPLO CLIQUE FOI REMOVIDO DAQUI.
-        // Agora o clique serve APENAS para selecionar e exibir a descrição.
+        // Agora o clique serve APENAS para selecionar e exibir a descriï¿½ï¿½o.
 
         inventoryManager.DeselecteAllSlots();
         selectedShader.SetActive(true);
