@@ -17,6 +17,7 @@ public class IdleState : State
     public override void FixedUpdate()
     {
         target = senses.GetChaseTarget();
+        enemy.CurrentTarget = target;
         
         if (!target && enemy.Config.patrolSpeed != 0)
         {
@@ -34,6 +35,12 @@ public class IdleState : State
         if (senses.IsInMeleeRange(target) && combat.CanMeleeAttack())
         {
             stateMachine.ChangeState(new MeleeAttackState(enemy));
+            return;
+        }
+
+        if (senses.IsInShootingRange(target) && combat.CanRangedAttack())
+        {
+            stateMachine.ChangeState(new RangedAttackState(enemy));
             return;
         }
 
