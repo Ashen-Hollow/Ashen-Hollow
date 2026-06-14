@@ -903,7 +903,6 @@ MonoBehaviour:
   normalHeight: 0.5
   normalOffset: {x: 0.04319976, y: 0.2632024}
   isSliding: 0
-  npc: {fileID: 448332257}
 --- !u!95 &214703435
 Animator:
   serializedVersion: 7
@@ -8292,7 +8291,7 @@ Transform:
   m_GameObject: {fileID: 1635203421}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.4286, y: 0.57097, z: 0}
+  m_LocalPosition: {x: 7.59, y: -0.58, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9606,6 +9605,7 @@ GameObject:
   - component: {fileID: 2092504873}
   - component: {fileID: 2092504872}
   - component: {fileID: 2092504871}
+  - component: {fileID: 2092504874}
   m_Layer: 9
   m_Name: Elder
   m_TagString: npc
@@ -9709,6 +9709,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2092504874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092504870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90de9f4991a57db4eba7f405c2831ceb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPC
+  dialogueData: {fileID: 11400000, guid: 8a1a6765b40706647b0c8dff3a05f0d6, type: 2}
+  interactionRange: 2
+  player: {fileID: 214703433}
 --- !u!1 &2123933948
 GameObject:
   m_ObjectHideFlags: 0
