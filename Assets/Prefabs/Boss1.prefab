@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 378fbde263d0aff40b1c7622fa5b8d42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy1
-  Config: {fileID: 11400000, guid: a6226912654c31043acbb7b9722f3099, type: 2}
+  Config: {fileID: 11400000, guid: 00edf54ff2daa5240a3d95a1eeb48625, type: 2}
 --- !u!114 &5914875160712717545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,7 +325,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.10880852, y: -0.6029254}
+  m_Offset: {x: -0.10880852, y: -0.58910096}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -335,7 +335,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.239497, y: 2.6501348}
+  m_Size: {x: 2.239497, y: 2.6224859}
   m_EdgeRadius: 0
 --- !u!1 &8289699678560100331
 GameObject:

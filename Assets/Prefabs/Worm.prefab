@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 2258288061959250589}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.291, y: -0.004, z: 0}
+  m_LocalPosition: {x: 0.2745, y: -0.0054, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -201,7 +201,7 @@ Animator:
   m_GameObject: {fileID: 6966005004308939704}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1edc00e0d598d5a469a8ccda804e0146, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -240,6 +240,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Health
   health: 0
   maxHealth: 6
+  player: {fileID: 0}
+  heartControl: {fileID: 0}
 --- !u!61 &864224683029576359
 BoxCollider2D:
   m_ObjectHideFlags: 0
