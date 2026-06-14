@@ -336,7 +336,7 @@ MonoBehaviour:
   spawnForce: 5
   torque: 5
   lifeTime: 2
-  explosionChance: 0.4
+  explosionChance: 1
   explosionDamage: 2
   explosionRadius: 1.5
   explosionVFXPrefab: {fileID: 0}

@@ -9723,7 +9723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPC
   dialogueData: {fileID: 11400000, guid: 8a1a6765b40706647b0c8dff3a05f0d6, type: 2}
   interactionRange: 2
-  player: {fileID: 214703433}
+  player: {fileID: 1156838190}
 --- !u!1 &2123933948
 GameObject:
   m_ObjectHideFlags: 0

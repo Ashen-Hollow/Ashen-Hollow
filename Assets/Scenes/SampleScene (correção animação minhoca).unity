@@ -890,7 +890,6 @@ MonoBehaviour:
   normalHeight: 0.5
   normalOffset: {x: 0.04319976, y: 0.2632024}
   isSliding: 0
-  npc: {fileID: 314377360}
 --- !u!95 &214703435
 Animator:
   serializedVersion: 7
