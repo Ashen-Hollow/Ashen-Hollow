@@ -37,7 +37,7 @@ public class EnemyDamage : MonoBehaviour
     void HandleDeath()
     {
 
-        if(deathParts.Length == 0)
+        if(deathParts.Length == 0 && CompareTag("Flying_Demon"))
         {
             enemy.Anim.Play("Death");
             Destroy(gameObject, 1);
