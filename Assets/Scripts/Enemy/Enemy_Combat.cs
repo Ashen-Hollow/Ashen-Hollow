@@ -19,7 +19,6 @@ public class Enemy_Combat : MonoBehaviour
     {
         player = FindFirstObjectByType<Player>(); // Na Unity antiga use FindObjectOfType<Player>()
         playerDefense = player.GetDamageDefense();
-        print(playerDefense);
     }
     }
 

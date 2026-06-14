@@ -94,13 +94,14 @@ public class DialogueSystem : MonoBehaviour
 
     public void StartDialogue(DialogueData data)
     {
-        // Se já está em diálogo, ignora
-        if (state != STATE.DISABLE) return;
-
-        // Carrega os dados deste NPC e começa
+        if (state != STATE.DISABLE)
+        {
+            return;
+        } 
         dialogueData = data;
         currentText = 0;
         finished = false;
+        
         Next();
     }
 }
