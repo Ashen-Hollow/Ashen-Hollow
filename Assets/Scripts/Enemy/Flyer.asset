@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 061e84af9a00bdf439271cab8662c565, type: 3}
-  m_Name: Burned
+  m_Name: Flyer
   m_EditorClassIdentifier: Assembly-CSharp::EnemyConfig
   turnThreshold: 0.2
   patrolSpeed: 1
   groundCheckDistance: 0.7
-  wallCheckDistance: 0.5
+  wallCheckDistance: 1.5
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -23,19 +23,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   chaseSpeed: 2.5
-  chaseRange: 2.5
+  chaseRange: 3
   targetLayer:
     serializedVersion: 2
     m_Bits: 256
-  meleeRange: 0.8
-  meleeDamage: 30
-  meleeCoolDown: 1
-  rangedRange: 0
-  rangedDamage: 0
-  rangedCooldown: 0
-  projectilePrefab: {fileID: 0}
-  projectileSpeed: 0
-  projectileLifeTime: 0
-  aimHeightOffset: 0
+  meleeRange: 0
+  meleeDamage: 0
+  meleeCoolDown: 0
+  rangedRange: 5
+  rangedDamage: 1
+  rangedCooldown: 2
+  projectilePrefab: {fileID: 589464443237344141, guid: 53783c0a99014114696ab1d750574d8b, type: 3}
+  projectileSpeed: 6
+  projectileLifeTime: 6
   knockbackDuration: 0.2
   knockbackForce: 10

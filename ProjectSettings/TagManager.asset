@@ -7,6 +7,8 @@ TagManager:
   - Chest
   - npc
   - enemy
+  - burn_enemy
+  - Flying_Demon
   layers:
   - Default
   - TransparentFX
@@ -18,7 +20,7 @@ TagManager:
   - Enemy
   - Player
   - npc
-  - 
+  - Hover
   - 
   - 
   - 
