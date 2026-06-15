@@ -43,6 +43,12 @@ public class Damage : MonoBehaviour
 
     void HandleDeath()
     {
-        SceneManager.LoadScene("GameOver");
+    string currentScene = SceneManager.GetActiveScene().name;
+
+    Debug.Log("Salvando fase: " + currentScene);
+
+    PlayerPrefs.SetString("LastLevel", currentScene);
+
+    SceneManager.LoadScene("GameOver");
     }
 }
