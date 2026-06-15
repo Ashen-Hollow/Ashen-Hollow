@@ -1129,14 +1129,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss1
       objectReference: {fileID: 0}
-    - target: {fileID: 7964365827922243194, guid: e5dd40e286244684abc271ed333e0d48, type: 3}
-      propertyPath: m_Size.y
-      value: 2.6224859
-      objectReference: {fileID: 0}
-    - target: {fileID: 7964365827922243194, guid: e5dd40e286244684abc271ed333e0d48, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.58910096
-      objectReference: {fileID: 0}
     - target: {fileID: 8484545793831678571, guid: e5dd40e286244684abc271ed333e0d48, type: 3}
       propertyPath: m_LocalPosition.x
       value: 161.71
@@ -1177,10 +1169,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8678065766111942446, guid: e5dd40e286244684abc271ed333e0d48, type: 3}
-      propertyPath: Config
-      value: 
-      objectReference: {fileID: 11400000, guid: 00edf54ff2daa5240a3d95a1eeb48625, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

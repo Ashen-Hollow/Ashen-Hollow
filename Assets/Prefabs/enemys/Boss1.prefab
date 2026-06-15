@@ -241,7 +241,7 @@ MonoBehaviour:
   enemy: {fileID: 8678065766111942446}
   config: {fileID: 11400000, guid: 00edf54ff2daa5240a3d95a1eeb48625, type: 2}
   groundCheck: {fileID: 9097893149861281470}
-  wallCheck: {fileID: 133408276982459797}
+  wallChecks: []
   attackPoint: {fileID: 1520505372203250407}
 --- !u!114 &4613132531644166481
 MonoBehaviour:
@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   health: 0
-  maxHealth: 40
+  maxHealth: 100
   player: {fileID: 0}
   heartControl: {fileID: 0}
 --- !u!114 &4885465357801304458
