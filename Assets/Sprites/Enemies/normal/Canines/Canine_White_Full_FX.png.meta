@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: a787cb9ae3947f649bd3671f74bdbe07
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 643003537719501417
+    second: Canine_White_Full_FX_0
+  - first:
+      213: 25492918559972772
+    second: Canine_White_Full_FX_1
+  - first:
+      213: 4322545723235667912
+    second: Canine_White_Full_FX_2
+  - first:
+      213: -3555534715160978147
+    second: Canine_White_Full_FX_3
+  - first:
+      213: -8488444266231244389
+    second: Canine_White_Full_FX_4
+  - first:
+      213: -5262737672455927651
+    second: Canine_White_Full_FX_5
+  - first:
+      213: 6277277933090912191
+    second: Canine_White_Full_FX_6
+  - first:
+      213: 4691170186228286221
+    second: Canine_White_Full_FX_7
+  - first:
+      213: -4035959866896691506
+    second: Canine_White_Full_FX_8
+  - first:
+      213: -3344969400699997178
+    second: Canine_White_Full_FX_9
+  - first:
+      213: -4969035160623387971
+    second: Canine_White_Full_FX_10
+  - first:
+      213: -4561523685334289895
+    second: Canine_White_Full_FX_11
+  - first:
+      213: 6350859095973246490
+    second: Canine_White_Full_FX_12
+  - first:
+      213: -2930992256515189245
+    second: Canine_White_Full_FX_13
+  - first:
+      213: -3257560877989640046
+    second: Canine_White_Full_FX_14
+  - first:
+      213: 1522873182921645134
+    second: Canine_White_Full_FX_15
+  - first:
+      213: 2105982171615395367
+    second: Canine_White_Full_FX_16
+  - first:
+      213: 8369529754884940099
+    second: Canine_White_Full_FX_17
+  - first:
+      213: 5920141523868912507
+    second: Canine_White_Full_FX_18
+  - first:
+      213: -5672468431767599654
+    second: Canine_White_Full_FX_19
+  - first:
+      213: -570140365375725493
+    second: Canine_White_Full_FX_20
+  - first:
+      213: 7757841781622710012
+    second: Canine_White_Full_FX_21
+  - first:
+      213: 5033399192269929211
+    second: Canine_White_Full_FX_22
+  - first:
+      213: -4910750976403622421
+    second: Canine_White_Full_FX_23
+  - first:
+      213: 6359382831391028402
+    second: Canine_White_Full_FX_24
+  - first:
+      213: 4429677243405308076
+    second: Canine_White_Full_FX_25
+  - first:
+      213: -5054179892311316792
+    second: Canine_White_Full_FX_26
+  - first:
+      213: 7094820603755462882
+    second: Canine_White_Full_FX_27
+  - first:
+      213: 6570546520639268731
+    second: Canine_White_Full_FX_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 127
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962271f8f486ce800800000000000000
+      internalID: 643003537719501417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 127
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad1e03aca19a5000800000000000000
+      internalID: 25492918559972772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 127
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf88d6fe64ccfb30800000000000000
+      internalID: 4322545723235667912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 127
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d924cb30438aec0800000000000000
+      internalID: -3555534715160978147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 127
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99d59fd9ecf23a80800000000000000
+      internalID: -8488444266231244389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_5
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 127
+        width: 46
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98c23758fff6f6b0800000000000000
+      internalID: -5262737672455927651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 100
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7384e850f5d1750800000000000000
+      internalID: 6277277933090912191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 96
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d034a03fd626a1140800000000000000
+      internalID: 4691170186228286221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_8
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 95
+        width: 45
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecec3ed62e36df7c0800000000000000
+      internalID: -4035959866896691506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 95
+        width: 43
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604b9be6d084491d0800000000000000
+      internalID: -3344969400699997178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_10
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 95
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbaed9639d07a0bb0800000000000000
+      internalID: -4969035160623387971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_11
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 95
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9127e1d406632b0c0800000000000000
+      internalID: -4561523685334289895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 63
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a163b0213b8c22850800000000000000
+      internalID: 6350859095973246490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_13
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 63
+        width: 46
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306ddfe52160357d0800000000000000
+      internalID: -2930992256515189245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_14
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 63
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298c73904a1dac2d0800000000000000
+      internalID: -3257560877989640046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_15
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 65
+        width: 45
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c53026715522510800000000000000
+      internalID: 1522873182921645134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_16
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 64
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ef07a80a3f93d10800000000000000
+      internalID: 2105982171615395367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_17
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 63
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341aaf8e7fa862470800000000000000
+      internalID: 8369529754884940099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 31
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b0f368951982250800000000000000
+      internalID: 5920141523868912507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 31
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad500ece3085741b0800000000000000
+      internalID: -5672468431767599654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_20
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 31
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b402ba1cb547618f0800000000000000
+      internalID: -570140365375725493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_21
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 31
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe1e416ff369ab60800000000000000
+      internalID: 7757841781622710012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_22
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 31
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfabcf3b5e93ad540800000000000000
+      internalID: 5033399192269929211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_23
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 31
+        width: 44
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be53f07510289dbb0800000000000000
+      internalID: -4910750976403622421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 44
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4b7cfddf0114850800000000000000
+      internalID: 6359382831391028402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_25
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 45
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca01ec2cbff597d30800000000000000
+      internalID: 4429677243405308076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_26
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 45
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6acd78a22fbd9b0800000000000000
+      internalID: -5054179892311316792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_27
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 45
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e087f7cfbdd57260800000000000000
+      internalID: 7094820603755462882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_White_Full_FX_28
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 45
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77e1ee8f354f2b50800000000000000
+      internalID: 6570546520639268731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Canine_White_Full_FX_0: 643003537719501417
+      Canine_White_Full_FX_1: 25492918559972772
+      Canine_White_Full_FX_10: -4969035160623387971
+      Canine_White_Full_FX_11: -4561523685334289895
+      Canine_White_Full_FX_12: 6350859095973246490
+      Canine_White_Full_FX_13: -2930992256515189245
+      Canine_White_Full_FX_14: -3257560877989640046
+      Canine_White_Full_FX_15: 1522873182921645134
+      Canine_White_Full_FX_16: 2105982171615395367
+      Canine_White_Full_FX_17: 8369529754884940099
+      Canine_White_Full_FX_18: 5920141523868912507
+      Canine_White_Full_FX_19: -5672468431767599654
+      Canine_White_Full_FX_2: 4322545723235667912
+      Canine_White_Full_FX_20: -570140365375725493
+      Canine_White_Full_FX_21: 7757841781622710012
+      Canine_White_Full_FX_22: 5033399192269929211
+      Canine_White_Full_FX_23: -4910750976403622421
+      Canine_White_Full_FX_24: 6359382831391028402
+      Canine_White_Full_FX_25: 4429677243405308076
+      Canine_White_Full_FX_26: -5054179892311316792
+      Canine_White_Full_FX_27: 7094820603755462882
+      Canine_White_Full_FX_28: 6570546520639268731
+      Canine_White_Full_FX_3: -3555534715160978147
+      Canine_White_Full_FX_4: -8488444266231244389
+      Canine_White_Full_FX_5: -5262737672455927651
+      Canine_White_Full_FX_6: 6277277933090912191
+      Canine_White_Full_FX_7: 4691170186228286221
+      Canine_White_Full_FX_8: -4035959866896691506
+      Canine_White_Full_FX_9: -3344969400699997178
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

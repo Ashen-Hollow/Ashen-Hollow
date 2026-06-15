@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 712cccd0ab3909543bf4a7c45e4aab62
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3258025133099059105
+    second: Canine_Gray_Full_0
+  - first:
+      213: 3138032701926545419
+    second: Canine_Gray_Full_1
+  - first:
+      213: 4510900391904972287
+    second: Canine_Gray_Full_2
+  - first:
+      213: 8985662154452184894
+    second: Canine_Gray_Full_3
+  - first:
+      213: -2690799980757173158
+    second: Canine_Gray_Full_4
+  - first:
+      213: 1594920733658114105
+    second: Canine_Gray_Full_5
+  - first:
+      213: -363844935376482353
+    second: Canine_Gray_Full_6
+  - first:
+      213: -4156505680553707721
+    second: Canine_Gray_Full_7
+  - first:
+      213: 411990174905098551
+    second: Canine_Gray_Full_8
+  - first:
+      213: 7238111427988655130
+    second: Canine_Gray_Full_9
+  - first:
+      213: 2038898201241130847
+    second: Canine_Gray_Full_10
+  - first:
+      213: -5088117930668999930
+    second: Canine_Gray_Full_11
+  - first:
+      213: 5371452775556779710
+    second: Canine_Gray_Full_12
+  - first:
+      213: 3003610276652528972
+    second: Canine_Gray_Full_13
+  - first:
+      213: 8590780764358932640
+    second: Canine_Gray_Full_14
+  - first:
+      213: -7697194207670323315
+    second: Canine_Gray_Full_15
+  - first:
+      213: -6139081680230026293
+    second: Canine_Gray_Full_16
+  - first:
+      213: 5857976001406811368
+    second: Canine_Gray_Full_17
+  - first:
+      213: -267792224037211443
+    second: Canine_Gray_Full_18
+  - first:
+      213: -5954552628417459359
+    second: Canine_Gray_Full_19
+  - first:
+      213: 8048515636859149294
+    second: Canine_Gray_Full_20
+  - first:
+      213: 7153089829667138820
+    second: Canine_Gray_Full_21
+  - first:
+      213: -1185118358144721842
+    second: Canine_Gray_Full_22
+  - first:
+      213: 8983729224967563943
+    second: Canine_Gray_Full_23
+  - first:
+      213: 6642613302446466110
+    second: Canine_Gray_Full_24
+  - first:
+      213: -4219199186613552301
+    second: Canine_Gray_Full_25
+  - first:
+      213: -8018115117643973012
+    second: Canine_Gray_Full_26
+  - first:
+      213: 3477390973062895407
+    second: Canine_Gray_Full_27
+  - first:
+      213: -4587723463259648401
+    second: Canine_Gray_Full_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Canine_Gray_Full_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 127
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a70aa7c894d63d20800000000000000
+      internalID: 3258025133099059105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 127
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0814ebcd188c8b20800000000000000
+      internalID: 3138032701926545419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 127
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd8aa4b100f99e30800000000000000
+      internalID: 4510900391904972287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 127
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f2bc31f1c73bc70800000000000000
+      internalID: 8985662154452184894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 127
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c37598cab58aad0800000000000000
+      internalID: -2690799980757173158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_5
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 127
+        width: 46
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938e89ef4fb422610800000000000000
+      internalID: 1594920733658114105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 100
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf4f8185fc53faf0800000000000000
+      internalID: -363844935376482353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 96
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737f3bb0b102156c0800000000000000
+      internalID: -4156505680553707721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_8
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 95
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7316b2a91eea7b500800000000000000
+      internalID: 411990174905098551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 95
+        width: 43
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c85fd9effe27460800000000000000
+      internalID: 7238111427988655130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_10
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 95
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57192a8c1f9b4c10800000000000000
+      internalID: 2038898201241130847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_11
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 95
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60bbd2733bf5369b0800000000000000
+      internalID: -5088117930668999930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 63
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe09d617db3b8a40800000000000000
+      internalID: 5371452775556779710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_13
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 63
+        width: 46
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45369ff1a7fea920800000000000000
+      internalID: 3003610276652528972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_14
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 63
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a87fdad695983770800000000000000
+      internalID: 8590780764358932640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_15
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 65
+        width: 45
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87bd9c46a21e2590800000000000000
+      internalID: -7697194207670323315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_16
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 64
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3f7c2fcb99dcaa0800000000000000
+      internalID: -6139081680230026293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_17
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 63
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ecbd9ae226bb4150800000000000000
+      internalID: 5857976001406811368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 31
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc276ac146c984cf0800000000000000
+      internalID: -267792224037211443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 31
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b0fcadeed2d5da0800000000000000
+      internalID: -5954552628417459359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_20
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 31
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb9a20345212bf60800000000000000
+      internalID: 8048515636859149294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_21
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 31
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40de4c72d41e44360800000000000000
+      internalID: 7153089829667138820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_22
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 31
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c5dfdd12d9d8fe0800000000000000
+      internalID: -1185118358144721842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_23
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 31
+        width: 44
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aaac7cd12e9cac70800000000000000
+      internalID: 8983729224967563943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 44
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e342b90ca9d4f2c50800000000000000
+      internalID: 6642613302446466110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_25
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 45
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b384da1b46275c0800000000000000
+      internalID: -4219199186613552301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_26
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 45
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e34a448cee9b090800000000000000
+      internalID: -8018115117643973012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_27
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 45
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27509e7aac224030800000000000000
+      internalID: 3477390973062895407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canine_Gray_Full_28
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 45
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e0fa421d12550c0800000000000000
+      internalID: -4587723463259648401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Canine_Gray_Full_0: 3258025133099059105
+      Canine_Gray_Full_1: 3138032701926545419
+      Canine_Gray_Full_10: 2038898201241130847
+      Canine_Gray_Full_11: -5088117930668999930
+      Canine_Gray_Full_12: 5371452775556779710
+      Canine_Gray_Full_13: 3003610276652528972
+      Canine_Gray_Full_14: 8590780764358932640
+      Canine_Gray_Full_15: -7697194207670323315
+      Canine_Gray_Full_16: -6139081680230026293
+      Canine_Gray_Full_17: 5857976001406811368
+      Canine_Gray_Full_18: -267792224037211443
+      Canine_Gray_Full_19: -5954552628417459359
+      Canine_Gray_Full_2: 4510900391904972287
+      Canine_Gray_Full_20: 8048515636859149294
+      Canine_Gray_Full_21: 7153089829667138820
+      Canine_Gray_Full_22: -1185118358144721842
+      Canine_Gray_Full_23: 8983729224967563943
+      Canine_Gray_Full_24: 6642613302446466110
+      Canine_Gray_Full_25: -4219199186613552301
+      Canine_Gray_Full_26: -8018115117643973012
+      Canine_Gray_Full_27: 3477390973062895407
+      Canine_Gray_Full_28: -4587723463259648401
+      Canine_Gray_Full_3: 8985662154452184894
+      Canine_Gray_Full_4: -2690799980757173158
+      Canine_Gray_Full_5: 1594920733658114105
+      Canine_Gray_Full_6: -363844935376482353
+      Canine_Gray_Full_7: -4156505680553707721
+      Canine_Gray_Full_8: 411990174905098551
+      Canine_Gray_Full_9: 7238111427988655130
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
