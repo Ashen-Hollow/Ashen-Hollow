@@ -81,6 +81,7 @@ public class ProgressionManager : MonoBehaviour
         {
             playerScript.baseAttributes = baseAttributes.Clone();
             playerScript.availablePoints = availablePoints;
+            playerScript.playerHealth.maxHealth = playerScript.GetVidaMaximaAtual() + playerScript.baseAttributes.vitality;
 
         }
 
