@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UI.unity
     guid: aeb367d37dd8baa43bc803b99f6b89ea
+  - enabled: 1
+    path: Assets/Scenes/Floresta 1.unity
+    guid: 90e62bdd6aefec74fa46fca3f0cac717
+  - enabled: 1
+    path: Assets/Scenes/Floresta.unity
+    guid: 88a0c8f0e036e0141b5af29ce393d0a7
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 0fce31025e62e164db798919e63036bf, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

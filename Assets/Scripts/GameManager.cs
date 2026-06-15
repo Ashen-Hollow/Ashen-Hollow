@@ -29,6 +29,13 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// Fecha o jogo tanto no executável (Build) quanto no Editor da Unity.
     /// </summary>
+    public void RestartLastLevel()
+    {
+
+    string lastLevel = PlayerPrefs.GetString("LastLevel");
+    SceneManager.LoadScene(lastLevel);
+    
+    }
     public void QuitGame()
     {
         Debug.Log("Saindo do jogo...");
