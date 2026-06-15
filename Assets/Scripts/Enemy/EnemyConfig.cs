@@ -22,8 +22,19 @@ public class EnemyConfig : ScriptableObject
 
  [Header("Attack")]
  public float meleeRange = .8f;
- public int meleeDamage = 1;
+ public int meleeDamage = 30;
  public float meleeCoolDown = 1;
+
+[Header("Ranged Attack")]
+public float rangedRange = 5;
+public int rangedDamage = 1;
+public float rangedCooldown = 2;
+public GameObject projectilePrefab;
+public float projectileSpeed = 12;
+public float projectileLifeTime = 3;
+public float aimHeightOffset = 0.5f;
+
+
 
 
  [Header("Damaged")]

@@ -8,6 +8,11 @@ public class PatrolState : State
 
      public override void FixedUpdate()
     {
+        if(enemy.Config.patrolSpeed == 0)
+        {
+            stateMachine.ChangeState(new IdleState(enemy));
+            return;
+        }
         if (senses.GetChaseTarget())
         {
             stateMachine.ChangeState(new ChaseState(enemy));

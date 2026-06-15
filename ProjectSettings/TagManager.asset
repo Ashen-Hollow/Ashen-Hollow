@@ -3,20 +3,25 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Chest
+  - npc
+  - enemy
+  - burn_enemy
+  - Flying_Demon
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - background
   - Water
   - UI
   - ground
   - Enemy
   - Player
-  - 
-  - 
-  - 
+  - npc
+  - Hover
+  - Wolf
   - 
   - 
   - 
@@ -40,6 +45,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: enemy
+    uniqueID: 2521900679
     locked: 0
   m_RenderingLayers:
   - Default

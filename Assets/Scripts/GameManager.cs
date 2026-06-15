@@ -12,15 +12,8 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject); // Opcional: mantém o GameManager vivo entre as cenas
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+       Instance = this;
+       Time.timeScale = 1;
     }
 
     /// <summary>
@@ -28,12 +21,21 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void LoadScene(string sceneName)
     {
+        Debug.Log("Tentando carregar cena: " + sceneName);
+        Time.timeScale = 1f;
         SceneManager.LoadScene(sceneName);
     }
 
     /// <summary>
     /// Fecha o jogo tanto no executável (Build) quanto no Editor da Unity.
     /// </summary>
+    public void RestartLastLevel()
+    {
+
+    string lastLevel = PlayerPrefs.GetString("LastLevel");
+    SceneManager.LoadScene(lastLevel);
+    
+    }
     public void QuitGame()
     {
         Debug.Log("Saindo do jogo...");

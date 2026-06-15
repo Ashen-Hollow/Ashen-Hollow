@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class IdleState : State
 {
@@ -16,40 +16,46 @@ public class IdleState : State
 
     public override void FixedUpdate()
     {
-        //1. Check for a target
         target = senses.GetChaseTarget();
-
-        if (!target)
+        enemy.CurrentTarget = target;
+        
+        if (!target && enemy.Config.patrolSpeed != 0)
         {
             stateMachine.ChangeState(new PatrolState(enemy));
             return;
         }
 
+        if(enemy.Config.patrolSpeed == 0 && target)
+        {
+            return;
+        }
+
         enemy.FaceTarget(target);
 
-         //2. Check if we can attack
         if (senses.IsInMeleeRange(target) && combat.CanMeleeAttack())
         {
             stateMachine.ChangeState(new MeleeAttackState(enemy));
             return;
         }
 
-        //3. Check if we have reached out target
+        if (senses.IsInShootingRange(target) && combat.CanRangedAttack())
+        {
+            stateMachine.ChangeState(new RangedAttackState(enemy));
+            return;
+        }
+
         float distance = Mathf.Abs(target.position.x - enemy.transform.position.x);
-        if(distance <= config.turnThreshold)
+        if (distance <= config.turnThreshold)
+        {
+            // ← REMOVA o return aqui, deixa cair no passo 5
+        }
+
+        if (senses.isHittingWall() || senses.isAtCliff())
         {
             rb.linearVelocity = Vector2.zero;
             return;
         }
 
-        //4.Check for obstacles
-        if(senses.isHittingWall() || senses.isAtCliff())
-        {
-            rb.linearVelocity = Vector2.zero;
-            return;
-        }
-
-        //5. We HAVE a target, we have NOT reached it, there are NO obstacles
         stateMachine.ChangeState(new ChaseState(enemy));
     }
 

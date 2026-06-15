@@ -2,7 +2,6 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem; //import que permite usar o nome input system da unity
 
-
 public class Player : MonoBehaviour
 {
 
@@ -13,8 +12,10 @@ public class Player : MonoBehaviour
     public PlayerSlideState slideState;
     public PlayerAttackState attackState;
     public PlayerDamagedState damagedState;
+    public PlayerBlockState blockState;
+    public bool blockPressed;
     public GameObject pausePanel;
-
+    public GameObject pauseOverlay;
 
     public GameObject slashEffect;
     public Animator attackAnim;
@@ -29,6 +30,10 @@ public class Player : MonoBehaviour
     public Rigidbody2D rb;
     public Animator anim;
     public CapsuleCollider2D playerCollider;
+
+    [Header("Progression Data")]
+    public Attributes baseAttributes;
+    public int availablePoints;
 
 
 
@@ -83,7 +88,6 @@ public class Player : MonoBehaviour
     public Vector2 normalOffset;
 
     public bool isSliding;
-    
 
     private void Awake()
     {
@@ -93,6 +97,7 @@ public class Player : MonoBehaviour
         slideState = new PlayerSlideState(this);
         attackState = new PlayerAttackState(this);
         damagedState = new PlayerDamagedState(this);
+        blockState = new PlayerBlockState(this);
     }
 
     void Start()
@@ -113,6 +118,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        
         currentState.Update();
         if (!isSliding)
         {
@@ -201,6 +207,13 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void OnBlock(InputValue value)
+    {
+        blockPressed = value.isPressed;
+        if (blockPressed && isGrounded)
+            ChangeState(blockState);
+    }
+
     public void SetColliderNormal()
     {
         playerCollider.size = new Vector2(playerCollider.size.x,normalHeight);
@@ -242,10 +255,50 @@ public class Player : MonoBehaviour
     }
 
     public void OnPause()
+{
+    if (UnityEngine.SceneManagement.SceneManager.GetSceneByName("Scenes/UI").isLoaded)
+        return;
+
+    bool isPaused = !pausePanel.activeSelf;
+    pausePanel.SetActive(isPaused);
+    pauseOverlay.SetActive(isPaused);
+        
+    Time.timeScale = isPaused ? 0f : 1f;
+}
+
+    public int GetAtaqueAtual()
     {
-        bool isPaused = !pausePanel.activeSelf;
-        pausePanel.SetActive(isPaused);
-        Time.timeScale = isPaused ? 0f : 1f;
+        return Stats.AttackDamage(baseAttributes);
+    }
+    
+    public int GetVidaMaximaAtual()
+    {
+        return Stats.MaxHealth(baseAttributes);
+    }
+
+    public int GetDamageDefense()
+    {
+        return Stats.DamageDefense(baseAttributes);
+    }
+    public void ResumeGame()
+    {
+    pausePanel.SetActive(false);
+    pauseOverlay.SetActive(false);
+    Time.timeScale = 1f;
+    
+    }    
+    public void RestartScene()
+{
+    Time.timeScale = 1f;
+    UnityEngine.SceneManagement.SceneManager.LoadScene(
+    UnityEngine.SceneManagement.SceneManager.GetActiveScene().name
+    );
+}
+private void OnDestroy()
+    {
+        Time.timeScale = 1f; 
+        // Adicionado porque o método OnPause 
+        // estava travando a cena do menu 
     }
 
     

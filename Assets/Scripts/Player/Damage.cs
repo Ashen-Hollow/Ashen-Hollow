@@ -26,17 +26,29 @@ public class Damage : MonoBehaviour
 
     void HandleDamage(Vector2 sourcePosition)
     {
-        int knockbackDir = 0;
-        knockbackDir = transform.position.x > sourcePosition.x ? 1 : -1;
+        // Se estiver bloqueando, absorve o dano
+        if (player.currentState is PlayerBlockState)
+        {
+            Debug.Log("Block! Dano absorvido.");
+            uiController.GetComponent<HeartControl>().UpdateHearts(health.health);
+            return;
+        }
 
-
+        int knockbackDir = transform.position.x > sourcePosition.x ? 1 : -1;
         player.damagedState.SetParameters(knockbackDir);
         player.ChangeState(player.damagedState);
-        uiController.GetComponent<HeartControl>().UpdateHearts(health.health);
+        int hearts = Mathf.CeilToInt((float)health.health / health.maxHealth * 3);
+        uiController.GetComponent<HeartControl>().UpdateHearts(hearts);
     }
 
     void HandleDeath()
     {
-        SceneManager.LoadScene("GameOver");
+    string currentScene = SceneManager.GetActiveScene().name;
+
+    Debug.Log("Salvando fase: " + currentScene);
+
+    PlayerPrefs.SetString("LastLevel", currentScene);
+
+    SceneManager.LoadScene("GameOver");
     }
 }
