@@ -38,4 +38,4 @@ MonoBehaviour:
   projectileLifeTime: 0
   aimHeightOffset: 0
   knockbackDuration: 0.2
-  knockbackForce: 15
+  knockbackForce: 10
