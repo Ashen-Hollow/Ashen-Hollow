@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de976f5abdb4cc54a9b5cf4fd0b45ee6, type: 3}
+  m_Name: WindHashashinDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Apprentice
+    text: "Mestre! Voc\xEA est\xE1 indo em alguma miss\xE3o?!"
+  - name: Player
+    text: "J\xE1 falei que n\xE3o precisa me chamar de mestre... Mas eu estou indo
+      para o bar justamente para saber se tem algo de novo."
+  - name: Apprentice
+    text: "Que legal! Se tiver, posso ir com voc\xEA?!"
+  - name: Player
+    text: "Ainda n\xE3o, voc\xEA ainda n\xE3o est\xE1 maduro o suficiente para se
+      aventurar al\xE9m dessa vila."
+  - name: Apprentice
+    text: "Mas eu j\xE1 estou cansado de s\xF3 treinar aqui por dentro... Eu gostaria
+      de explorar o mundo a fora tamb\xE9m..."
+  - name: Player
+    text: "Voc\xEA vai, s\xF3 precisa confiar em mim e, quando for a hor\xE1 certa,
+      eu vou deixar voc\xEA me acompanhar."
+  - name: Apprentice
+    text: Ok... Boa sorte, mestre...
+  - name: Player
+    text: "J\xE1 falei que n\xE3o precisa me chamar de mestre, mas obrigado."
+  - name: Player
+    text: Tchau.
+  - name: Apprentice
+    text: Tchau...

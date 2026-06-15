@@ -14,8 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   talkScript:
   - name: Elder
-    text: Cuidado, jovem
+    text: Cuidado, jovem.
   - name: Player
     text: Com o que?
   - name: Elder
-    text: Sinto que algo de muito ruim vai acontecer
+    text: Sinto que algo de muito ruim vai acontecer.
+  - name: Player
+    text: Como assim?
+  - name: Elder
+    text: "S\xF3 cuidado."
+  - name: Player
+    text: Que cara estranho...
