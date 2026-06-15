@@ -19,7 +19,7 @@ public class TypeTextAnimation : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(TypeText());
+    
     }
 
     IEnumerator TypeText()

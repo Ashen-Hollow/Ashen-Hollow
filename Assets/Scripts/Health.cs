@@ -19,7 +19,7 @@ public class Health : MonoBehaviour
     {
         if (player != null)
         {
-            maxHealth = player.GetVidaMaximaAtual();
+            maxHealth = player.GetVidaMaximaAtual() + player.baseAttributes.vitality;
         }
 
         health = maxHealth;

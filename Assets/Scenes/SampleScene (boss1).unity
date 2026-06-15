@@ -1141,11 +1141,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8484545793831678571, guid: e5dd40e286244684abc271ed333e0d48, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.58
+      value: 24.73
       objectReference: {fileID: 0}
     - target: {fileID: 8484545793831678571, guid: e5dd40e286244684abc271ed333e0d48, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.93
+      value: 2.07
       objectReference: {fileID: 0}
     - target: {fileID: 8484545793831678571, guid: e5dd40e286244684abc271ed333e0d48, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1578,7 +1578,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92b3db77e2542144f93055f3f3688d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  Config: {fileID: 0}
 --- !u!1 &824146669
 GameObject:
   m_ObjectHideFlags: 0

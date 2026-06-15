@@ -4,10 +4,13 @@ using UnityEngine.InputSystem;
 
 public class NPC : MonoBehaviour
 {
-    [Header("Di·logo")]
+    [Header("Di√°logo")]
     public DialogueData dialogueData;  // arraste o ScriptableObject do NPC aqui
     public float interactionRange = 2.0f;
     public Transform player;
+
+    [Header("Indicador Visual")]
+    [SerializeField] private SpriteRenderer warningIndicator;
 
     private DialogueSystem dialogueSystem;
     private bool playerInRange = false;
@@ -19,7 +22,7 @@ public class NPC : MonoBehaviour
 
     void Start()
     {
-        Console.WriteLine("debug");
+        
     }
 
     void Update()
@@ -29,12 +32,14 @@ public class NPC : MonoBehaviour
         float dist = Mathf.Abs(transform.position.x - player.position.x);
         playerInRange = dist < interactionRange;
 
-        Console.WriteLine(playerInRange);
+        if (warningIndicator != null)
+        {
+            warningIndicator.enabled = playerInRange;
+        }
+        
         if (playerInRange && Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame)
         {
-            // Troca o dialogueData do sistema para o deste NPC e inicia
             dialogueSystem.StartDialogue(dialogueData);
-            Console.WriteLine("debug");
         }
     }
 
