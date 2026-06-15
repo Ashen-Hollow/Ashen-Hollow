@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 36
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -89,7 +89,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -131,12 +131,12 @@ TextureImporter:
       name: Canine_Black_Run_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 31
-        width: 43
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4
+        y: 32
+        width: 41
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -153,12 +153,12 @@ TextureImporter:
       name: Canine_Black_Run_1
       rect:
         serializedVersion: 2
-        x: 52
-        y: 31
-        width: 45
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 53
+        y: 32
+        width: 43
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -175,12 +175,12 @@ TextureImporter:
       name: Canine_Black_Run_2
       rect:
         serializedVersion: 2
-        x: 99
-        y: 31
-        width: 46
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 100
+        y: 32
+        width: 44
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: Canine_Black_Run_3
       rect:
         serializedVersion: 2
-        x: 146
-        y: 31
-        width: 46
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 147
+        y: 32
+        width: 44
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -219,12 +219,12 @@ TextureImporter:
       name: Canine_Black_Run_4
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1
-        width: 45
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3
+        y: 2
+        width: 43
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -241,12 +241,12 @@ TextureImporter:
       name: Canine_Black_Run_5
       rect:
         serializedVersion: 2
-        x: 50
-        y: 0
-        width: 43
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 51
+        y: 1
+        width: 41
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -263,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b8a9791e5e275224cbccff1c85abe449
     internalID: 0
     vertices: []
     indices: 
@@ -271,7 +271,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Canine_Black_Run_0: 1971212405752195802
       Canine_Black_Run_1: -4098943213307495525
