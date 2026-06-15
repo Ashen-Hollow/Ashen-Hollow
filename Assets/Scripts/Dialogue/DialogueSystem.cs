@@ -91,4 +91,17 @@ public class DialogueSystem : MonoBehaviour
             state = STATE.WAITING;
         }
     }
+
+    public void StartDialogue(DialogueData data)
+    {
+        if (state != STATE.DISABLE)
+        {
+            return;
+        } 
+        dialogueData = data;
+        currentText = 0;
+        finished = false;
+        
+        Next();
+    }
 }
