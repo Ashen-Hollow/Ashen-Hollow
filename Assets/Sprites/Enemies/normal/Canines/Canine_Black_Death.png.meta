@@ -137,12 +137,12 @@ TextureImporter:
       name: Canine_Black_Death_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 31
-        width: 42
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4
+        y: 32
+        width: 40
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,12 +159,12 @@ TextureImporter:
       name: Canine_Black_Death_1
       rect:
         serializedVersion: 2
-        x: 51
-        y: 31
-        width: 41
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 52
+        y: 32
+        width: 39
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -181,12 +181,12 @@ TextureImporter:
       name: Canine_Black_Death_2
       rect:
         serializedVersion: 2
-        x: 99
-        y: 31
-        width: 44
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 100
+        y: 32
+        width: 42
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,12 +203,12 @@ TextureImporter:
       name: Canine_Black_Death_3
       rect:
         serializedVersion: 2
-        x: 148
-        y: 31
-        width: 44
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 149
+        y: 32
+        width: 42
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -225,12 +225,12 @@ TextureImporter:
       name: Canine_Black_Death_4
       rect:
         serializedVersion: 2
-        x: 4
+        x: 5
         y: 0
-        width: 45
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 43
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: Canine_Black_Death_5
       rect:
         serializedVersion: 2
-        x: 52
+        x: 53
         y: 0
-        width: 45
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 43
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -269,12 +269,12 @@ TextureImporter:
       name: Canine_Black_Death_6
       rect:
         serializedVersion: 2
-        x: 100
+        x: 101
         y: 0
-        width: 45
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 43
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -291,12 +291,12 @@ TextureImporter:
       name: Canine_Black_Death_7
       rect:
         serializedVersion: 2
-        x: 148
+        x: 149
         y: 0
-        width: 44
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 43
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8b06715908599d64caebf851654aa392
     internalID: 0
     vertices: []
     indices: 
@@ -321,7 +321,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Canine_Black_Death_0: 4473573282585055275
       Canine_Black_Death_1: -5781996482860883280
