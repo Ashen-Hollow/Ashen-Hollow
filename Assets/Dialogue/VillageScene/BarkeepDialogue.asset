@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de976f5abdb4cc54a9b5cf4fd0b45ee6, type: 3}
+  m_Name: BarkeepDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Barkeep
+    text: "Olha s\xF3 quem veio nos agraciar com a sua ilustre presen\xE7a!"
+  - name: Player
+    text: "Ol\xE1, amigo. Desculpa n\xE3o aparecer mais vezes, estou muito ocupado
+      com essas miss\xF5es."
+  - name: Barkeep
+    text: "Imagina! N\xE3o precisa se desculpar! O seu trabalho \xE9 de extrema import\xE2ncia
+      para manter o queil\xEDbrio aqui na vila!"
+  - name: Player
+    text: "N\xE3o \xE9 pra tanto..."
+  - name: Barkeep
+    text: "Claro que \xE9! A maior parte dos moardores daqui s\xE3o s\xF3 simples
+      alde\xF5es e, se n\xE3o fosse voc\xEA fazendo o trabalho dific\xEDl, a nossa
+      vida aqui n\xE3o seria t\xE3o pac\xEDfica. "
+  - name: Player
+    text: "Por falar em trabalho dif\xEDcil, apareceu alguma outra miss\xE3o que
+      eu possa pegar?"
+  - name: Barkeep
+    text: "Assim, como voc\xEA pode ver, eu estou ocupado aqui colhendo algumas frutas
+      para preparar as coisas para o bar, ent\xE3o eu n\xE3o sei dizer."
+  - name: Player
+    text: Ok...
+  - name: Barkeep
+    text: "Mas voc\xEA deveria passar l\xE1 no bar pra ver se n\xE3o entregaram nada
+      novo l\xE1."
+  - name: Player
+    text: Ok, vou fazer isso, obrigado.
+  - name: Barkeep
+    text: "Imagina, eu que agrade\xE7o! E boa sorte!"
+  - name: Player
+    text: Tchau.
+  - name: Barkeep
+    text: Tchau!

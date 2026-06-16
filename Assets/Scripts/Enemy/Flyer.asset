@@ -31,10 +31,11 @@ MonoBehaviour:
   meleeDamage: 0
   meleeCoolDown: 0
   rangedRange: 5
-  rangedDamage: 1
+  rangedDamage: 10
   rangedCooldown: 2
   projectilePrefab: {fileID: 589464443237344141, guid: 53783c0a99014114696ab1d750574d8b, type: 3}
   projectileSpeed: 6
   projectileLifeTime: 6
+  aimHeightOffset: 0.5
   knockbackDuration: 0.2
   knockbackForce: 10

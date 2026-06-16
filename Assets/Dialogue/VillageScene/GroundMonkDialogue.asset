@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de976f5abdb4cc54a9b5cf4fd0b45ee6, type: 3}
+  m_Name: GroundMonkDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Ground Monk
+    text: "A terra hoje est\xE1 diferente..."
+  - name: Player
+    text: Como assim?
+  - name: Ground Monk
+    text: "Sinto energias n\xE3o muito boas chegando..."
+  - name: Player
+    text: "N\xE3o estou entendendo nada..."
+  - name: Ground Monk
+    text: "Nem eu, s\xF3 cuidado com o que voc\xEA for fazer..."
+  - name: Player
+    text: "Voc\xEA \xE9 a segunda pessoa hoje que me manda ter cuidado hoje. "
+  - name: Ground Monk
+    text: ...
+  - name: Ground Monk
+    text: "Quem falou isso para voc\xEA?"
+  - name: Player
+    text: "Aquele velho que fica mais pro centro da vila, ele s\xF3 me disse que
+      algo de ruim iria acontecer."
+  - name: Ground Monk
+    text: "O que eu senti foi, durante a minha medita\xE7\xE3o, um leve dist\xFArbio
+      na paz do ambiente."
+  - name: Ground Monk
+    text: "Eu estava pensando que talvez fosse s\xF3 algum evento metereol\xF3gico
+      muito forte, mas isso est\xE1 me gerando d\xFAvidas... "
+  - name: Ground Monk
+    text: Vou conversar com ele pra saber o que ele sentiu.
+  - name: Player
+    text: "Boa sorte, n\xE3o acho que voc\xEA v\xE1 conseguir muita coisa dele, mas
+      vale a pena tentar."
+  - name: Ground Monk
+    text: "Ok, tchau e boa sorte no que voc\xEA for fazer em seguida..."
+  - name: Player
+    text: Tchau.

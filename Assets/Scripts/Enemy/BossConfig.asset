@@ -28,7 +28,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   meleeRange: 2
-  meleeDamage: 100
+  meleeDamage: 10
   meleeCoolDown: 1.5
   rangedRange: 0
   rangedDamage: 0
@@ -38,4 +38,4 @@ MonoBehaviour:
   projectileLifeTime: 0
   aimHeightOffset: 0
   knockbackDuration: 0.2
-  knockbackForce: 15
+  knockbackForce: 10

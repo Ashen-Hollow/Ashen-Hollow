@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de976f5abdb4cc54a9b5cf4fd0b45ee6, type: 3}
+  m_Name: FarmerDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Farmer
+    text: Dias de luta, meu camarada!
+  - name: Player
+    text: "Est\xE1 precisando de alguma ajuda?"
+  - name: Farmer
+    text: "N\xE3o se preocupe com isso, por mais que esse meu trabalho seja cansativo,
+      eu gosto disso."
+  - name: Player
+    text: "Onde voc\xEA consegue achar toda essa motiva\xE7\xE3o para fazer um trabalho
+      que demanda tanto?"
+  - name: Farmer
+    text: "Bom, por mais que eu fique todo dolorido depois, o orgulho que eu sinto
+      em ver essas terras todas verdes \xE9 motiva\xE7\xE3o suficiente para que eu
+      fa\xE7a isso."
+  - name: Player
+    text: "Parece ser bom, ter uma motiva\xE7\xE3o por tr\xE1s das suas a\xE7\xF5es..."
+  - name: Farmer
+    text: "E voc\xEA, meu camarada? Qual \xE9 a sua para ser um aventureiro, o que
+      te faz acordar todos os dias e decidir pegar alguma miss\xE3o? "
+  - name: Player
+    text: ...
+  - name: Player
+    text: ...
+  - name: Player
+    text: "... Eu n\xE3o sei..."
+  - name: Player
+    text: "Acho que mais a obriga\xE7\xE3o que eu sinto em servir todos daqui da
+      vila."
+  - name: Farmer
+    text: "\xC9... Essa resposta n\xE3o \xE9 das melhores, mas eu acho que voc\xEA
+      precisa refletir sobre o que voc\xEA quer para a sua vida."
+  - name: Player
+    text: "A minha vida sempre foi servir os outros, antes, quando eu era cavaleiro,
+      eu tinha que sempre estar a disposi\xE7\xE3o para qualquer coisa..."
+  - name: Player
+    text: Depois que eu me aposentei, acho que eu ainda tenho essa mentalidade...
+  - name: Farmer
+    text: "Pelo menos, j\xE1 temos um come\xE7o... Sinto que, em algum momento, voc\xEA
+      vai achar uma motiva\xE7\xE3o melhor do que a sua agora."
+  - name: Farmer
+    text: "Pense um pouco em voc\xEA, amigo! Voc\xEA merece!"
+  - name: Player
+    text: ... Ok, obrigado pelos conselhos.
+  - name: Farmer
+    text: "\xC9 sempre bom conversar! Estou aqui pra bater um papo a qualquer momento!"
+  - name: Player
+    text: Obrigado, tchau.
+  - name: Farmer
+    text: Tchau!
