@@ -173,7 +173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8074230247248004257, guid: 3dcf1ed53f5d1a749b722b8101699b62, type: 3}
       propertyPath: maxHealth
-      value: 40
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -234,7 +234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8074230247248004257, guid: 3dcf1ed53f5d1a749b722b8101699b62, type: 3}
       propertyPath: maxHealth
-      value: 40
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -618,7 +618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8074230247248004257, guid: 3dcf1ed53f5d1a749b722b8101699b62, type: 3}
       propertyPath: maxHealth
-      value: 40
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -782,6 +782,7 @@ RectTransform:
   - {fileID: 1084046827}
   - {fileID: 1884065036}
   - {fileID: 1799375639}
+  - {fileID: 304134628}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1396,19 +1397,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 304134624}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 132093436}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 193603548}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 960, y: 540}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &304134629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1736,7 +1737,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8074230247248004257, guid: 3dcf1ed53f5d1a749b722b8101699b62, type: 3}
       propertyPath: maxHealth
-      value: 40
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2030,6 +2031,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507558637}
   m_CullTransparentMesh: 1
+--- !u!1001 &547663682
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3167057600090201347, guid: 13b2a10f34bfd9d4a92ffd5342718f6f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 49.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 3167057600090201347, guid: 13b2a10f34bfd9d4a92ffd5342718f6f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 3167057600090201347, guid: 13b2a10f34bfd9d4a92ffd5342718f6f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3167057600090201347, guid: 13b2a10f34bfd9d4a92ffd5342718f6f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3167057600090201347, guid: 13b2a10f34bfd9d4a92ffd5342718f6f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3167057600090201347, guid: 13b2a10f34bfd9d4a92ffd5342718f6f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3167057600090201347, guid: 13b2a10f34bfd9d4a92ffd5342718f6f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3167057600090201347, guid: 13b2a10f34bfd9d4a92ffd5342718f6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3167057600090201347, guid: 13b2a10f34bfd9d4a92ffd5342718f6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3167057600090201347, guid: 13b2a10f34bfd9d4a92ffd5342718f6f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5530785492364658946, guid: 13b2a10f34bfd9d4a92ffd5342718f6f, type: 3}
+      propertyPath: m_Name
+      value: Chest (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 13b2a10f34bfd9d4a92ffd5342718f6f, type: 3}
 --- !u!1001 &560012796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22583,13 +22641,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1798415281853135289, guid: 8f8b4b351e10cf447817dd3098759b36, type: 3}
+      propertyPath: maxHealth
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 3133167154759066961, guid: 8f8b4b351e10cf447817dd3098759b36, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.06
       objectReference: {fileID: 0}
     - target: {fileID: 3133167154759066961, guid: 8f8b4b351e10cf447817dd3098759b36, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.26
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: 3133167154759066961, guid: 8f8b4b351e10cf447817dd3098759b36, type: 3}
       propertyPath: m_LocalPosition.z
@@ -24165,7 +24227,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8074230247248004257, guid: 3dcf1ed53f5d1a749b722b8101699b62, type: 3}
       propertyPath: maxHealth
-      value: 40
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24359,7 +24421,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8074230247248004257, guid: 3dcf1ed53f5d1a749b722b8101699b62, type: 3}
       propertyPath: maxHealth
-      value: 40
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24420,7 +24482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8074230247248004257, guid: 3dcf1ed53f5d1a749b722b8101699b62, type: 3}
       propertyPath: maxHealth
-      value: 40
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24435,6 +24497,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1798415281853135289, guid: 8f8b4b351e10cf447817dd3098759b36, type: 3}
+      propertyPath: maxHealth
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 3133167154759066961, guid: 8f8b4b351e10cf447817dd3098759b36, type: 3}
       propertyPath: m_LocalPosition.x
       value: 140.62
@@ -25338,6 +25404,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1798415281853135289, guid: 8f8b4b351e10cf447817dd3098759b36, type: 3}
+      propertyPath: maxHealth
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 3133167154759066961, guid: 8f8b4b351e10cf447817dd3098759b36, type: 3}
       propertyPath: m_LocalPosition.x
       value: 125.93
@@ -25498,7 +25568,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8074230247248004257, guid: 3dcf1ed53f5d1a749b722b8101699b62, type: 3}
       propertyPath: maxHealth
-      value: 40
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25687,7 +25757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8074230247248004257, guid: 3dcf1ed53f5d1a749b722b8101699b62, type: 3}
       propertyPath: maxHealth
-      value: 40
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25702,6 +25772,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1798415281853135289, guid: 8f8b4b351e10cf447817dd3098759b36, type: 3}
+      propertyPath: maxHealth
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 3133167154759066961, guid: 8f8b4b351e10cf447817dd3098759b36, type: 3}
       propertyPath: m_LocalPosition.x
       value: 129.88
@@ -25919,7 +25993,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8074230247248004257, guid: 3dcf1ed53f5d1a749b722b8101699b62, type: 3}
       propertyPath: maxHealth
-      value: 40
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26422,7 +26496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8074230247248004257, guid: 3dcf1ed53f5d1a749b722b8101699b62, type: 3}
       propertyPath: maxHealth
-      value: 40
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27032,7 +27106,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8074230247248004257, guid: 3dcf1ed53f5d1a749b722b8101699b62, type: 3}
       propertyPath: maxHealth
-      value: 40
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27093,7 +27167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8074230247248004257, guid: 3dcf1ed53f5d1a749b722b8101699b62, type: 3}
       propertyPath: maxHealth
-      value: 40
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27348,7 +27422,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8074230247248004257, guid: 3dcf1ed53f5d1a749b722b8101699b62, type: 3}
       propertyPath: maxHealth
-      value: 40
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27513,7 +27587,6 @@ SceneRoots:
   - {fileID: 497357555}
   - {fileID: 641693804}
   - {fileID: 1250396886}
-  - {fileID: 304134628}
   - {fileID: 1309882392071836178}
   - {fileID: 47249073}
   - {fileID: 100041521391465884}
@@ -27542,6 +27615,7 @@ SceneRoots:
   - {fileID: 1632564228}
   - {fileID: 1183776800}
   - {fileID: 1292091807}
+  - {fileID: 547663682}
   - {fileID: 148791366}
   - {fileID: 1336661540}
   - {fileID: 861421195}

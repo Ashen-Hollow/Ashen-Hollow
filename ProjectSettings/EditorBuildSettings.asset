@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Main_Menu.unity
     guid: 0a8054e4f85d0344ea9854a631bff570
   - enabled: 1
-    path: Assets/Scenes/Vila2.0.unity
+    path: Assets/Scenes/Vila2.03.unity
     guid: bc4a3b4a598be1846ae24e5add5fa6f3
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Floresta.unity
     guid: 88a0c8f0e036e0141b5af29ce393d0a7
+  - enabled: 1
+    path: Assets/Scenes/Vila2.0.unity
+    guid: 9f41f262a2650f34e8b02c10315ef3bf
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 0fce31025e62e164db798919e63036bf, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
