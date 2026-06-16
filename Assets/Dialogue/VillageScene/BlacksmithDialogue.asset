@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de976f5abdb4cc54a9b5cf4fd0b45ee6, type: 3}
+  m_Name: BlacksmithDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Blacksmith
+    text: "Ol\xE1, amigo! Quanto tempo!"
+  - name: Player
+    text: "Ol\xE1, estive muito ocupado com algumas miss\xF5es que eu recebi."
+  - name: Blacksmith
+    text: "Imagino que sim, afinal de contas, voc\xEA \xE9 o melhor ca\xE7ador daqui."
+  - name: Player
+    text: "Agrade\xE7o os elogios, mas existem outras pessoas muito bem capacitadas
+      aqui na vila."
+  - name: Blacksmith
+    text: "Mas nenhuma delas foi um cavaleiro t\xE3o importante quanto voc\xEA antes
+      de se aposentar. "
+  - name: Player
+    text: "Exato, eu j\xE1 me aposentei, os jovens de hoje em dia ainda tem muito
+      mais motivi\xE7\xE3o do que eu."
+  - name: Blacksmith
+    text: "Bom, voc\xEA precisa aumentar mais a sua auto-estima, meu amigo. Por exemplo,
+      eu tenho muito orgulho dessas ferramentas que eu fiz para voc\xEA."
+  - name: Player
+    text: "Preciso concordar que elas s\xE3o, realmente, excelentes, est\xE3o me
+      ajudando bastante em minhas miss\xF5es."
+  - name: Blacksmith
+    text: "Fico contente que voc\xEA esteja fazendo bom uso delas, nada mais justo
+      do que o melhor material para o nosso melhor aventureiro."
+  - name: Player
+    text: "Bom, a conversa est\xE1 boa, mas eu preciso ver se n\xE3o est\xE3o precisando
+      de mim em algum lugar. Tchau."
+  - name: Blacksmith
+    text: Tchau, amigo! E boa sorte!

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de976f5abdb4cc54a9b5cf4fd0b45ee6, type: 3}
+  m_Name: BarmaidDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  talkScript:
+  - name: Barmaid
+    text: Oi, aventureiro! O que te traz aqui hoje?
+  - name: Player
+    text: "Ol\xE1, ser\xE1 que tem alguma miss\xE3o dispon\xEDvel para mim? "
+  - name: Barmaid
+    text: "Vou olhar aqui se algu\xE9m fez algum pedido, s\xF3 um segundo..."
+  - name: Barmaid
+    text: ...
+  - name: Barmaid
+    text: "Bom, algu\xE9m fez um pedido para ca\xE7ar alguns lobos mais a dentro
+      na floresta, tudo bem por voc\xEA?"
+  - name: Player
+    text: "Est\xE1 sim, esse \xE9 um trabalho bem mais f\xE1cil do que eu j\xE1 estou
+      acostumado."
+  - name: Barmaid
+    text: "Ent\xE3o \xF3timo! E, mesmo que pare\xE7a ser um trabalho simples, a recompensa
+      est\xE1 muito boa!"
+  - name: Player
+    text: "(estranho, normalmente, as pessoas pagam muito pouco por isso) Quem foi
+      que colocou essa miss\xE3o?"
+  - name: Barmaid
+    text: "Aqui n\xE3o tem dizendo... Acho que esqueceram de colocar o nome no formul\xE1rio... "
+  - name: Player
+    text: "Ok, mesmo assim eu vou aceitar essa miss\xE3o."
+  - name: Barmaid
+    text: "Perfeito! Boa sorte nessa jornada! N\xE3o sei o que seria dessa nossa
+      vila se n\xE3o fosse por voc\xEA! Tchau e volte sempre!"
+  - name: Player
+    text: Obrigado e tchau.
